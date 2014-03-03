@@ -1,0 +1,31 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+group = "io.github.carlomicieli.java8"
+version = "1.0.0-SNAPSHOT"
+description = "Java 8 for really impatient"
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.11'
+    testCompile 'org.hamcrest:hamcrest-core:1.3'
+}
+
+task wrapper(type: Wrapper, 
+             group: 'Gradle wrapper', 
+             description: 'Gradle will be automatically downloaded and used to run the build.') {
+    gradleVersion = '1.10'
+}
+
+test {
+    testLogging {
+        exceptionFormat = 'full'
+        events 'skipped', 'failed'
+    }
+}
