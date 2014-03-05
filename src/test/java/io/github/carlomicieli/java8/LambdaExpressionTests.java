@@ -24,7 +24,7 @@ import static org.junit.Assert.assertThat;
 /**
  * @author Carlo Micieli
  */
-public class FunctionalInterfaceTests {
+public class LambdaExpressionTests {
 
     @Test
     public void shouldDefinePredicateAsInterfaces() {
@@ -39,6 +39,23 @@ public class FunctionalInterfaceTests {
         assertThat(TestClass.applyFunction(f, "abc", "def"), is(equalTo(6)));
     }
 
+    @Test
+    public void lambdaExpressions_Are_Closures() {
+        int a = 10;
+        MyFunction<Integer, Integer, Integer> op = (n1, n2) -> a + (n1 * n2);
+
+        //! a = 10;
+        //local variables referenced from a lambda expression must be final or effectively final
+
+        assertThat(op.apply(2, 3), is(equalTo(16)));
+    }
+
+    @Test
+    public void functionalInterfaces_Can_Be_Replaced_With_MethodReferences() {
+        assertThat(TestClass.applyPredicate(TestClass::method, "abc"), is(true));
+    }
+
+
     @FunctionalInterface
     private static interface MyPredicate<T> {
         boolean apply(T t);
@@ -50,12 +67,16 @@ public class FunctionalInterfaceTests {
     }
 
     private static class TestClass {
-        public static <T> boolean applyPredicate(MyPredicate<T> p, T t) {
+        static <T> boolean applyPredicate(MyPredicate<T> p, T t) {
             return p.apply(t);
         }
 
-        public static int applyFunction(MyFunction<String, String, Integer> fun, String a, String b) {
+        static int applyFunction(MyFunction<String, String, Integer> fun, String a, String b) {
             return fun.apply(a, b);
+        }
+
+        static boolean method(String s) {
+            return true;
         }
     }
 }
