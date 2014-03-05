@@ -15,28 +15,20 @@
  */
 package io.github.carlomicieli.java8;
 
+import org.junit.Test;
+
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
+
 /**
  * @author Carlo Micieli
  */
-public enum PlayingSurface {
-    GRASS("Grass"), 
-    BERMUDA_GRASS("419 Tifway Bermuda Grass"), 
-    FIELD_TURF("FieldTurf"),
-    UBU_INTENSITY_SERIES("UBU-Intensity Series- S5-M Synthetic Turf"),
-    A_TURF_TITAN("A-Turf Titan"),
-    DESSO_GRASSMASTER("Desso GrassMaster"),
-    KENTUCKY_BLUEGRASS("Kentucky Bluegrass"),
-    MATRIX_REALGRASS_TURF("Matrix RealGrass artificial turf"),
-    SPORTEXE_MOMENTUM_TURF("Sportexe Momentum Turf"),
-    ASTROTURF_GAMEDAY_GRASS("AstroTurf GameDay Grass 3D");
+public class PlayingSurfaceTests {
 
-    private final String desc;
-    private PlayingSurface(String desc) {
-    	this.desc = desc;
+    @Test
+    public void shouldProduceStringRepresentationsForSurface() {
+        assertThat(PlayingSurface.A_TURF_TITAN.toString(), is(equalTo("A-Turf Titan")));
     }
 
-    @Override
-    public String toString() {
-        return this.desc;
-    }
 }
