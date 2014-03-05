@@ -41,7 +41,6 @@ public class StreamTests {
         assertThat(s.toArray(Integer[]::new), is(new Integer[]{1, 2, 3, 4}));
     }
 
-    @Test
     @Ignore
     public void shouldGenerateInfiniteStreams() {
         Stream<Integer> s = Stream.iterate(0, n -> n + 1);
