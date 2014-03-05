@@ -15,22 +15,19 @@
  */
 package io.github.carlomicieli.java8;
 
+import org.junit.Test;
+
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
+
 /**
  * @author Carlo Micieli
  */
-public enum RoofType {
+public class RoofTypeTests {
 
-    RETRACTABLE("Retractable"), 
-    DOMED("Domed"), 
-    OPEN("Open");
-
-    private final String desc;
-    private RoofType(String desc) {
-    	this.desc = desc;
-    }
-
-    @Override
-    public String toString() {
-        return desc;
+    @Test
+    public void shouldProduceStringRepresentationsForRoofTypes() {
+        assertThat(RoofType.DOMED.toString(), is(equalTo("Domed")));
     }
 }
