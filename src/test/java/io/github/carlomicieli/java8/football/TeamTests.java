@@ -20,6 +20,8 @@ import org.junit.Test;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.greaterThan;
+import static org.hamcrest.Matchers.lessThan;
 
 /**
  * @author Carlo Micieli
@@ -39,6 +41,22 @@ public class TeamTests {
         assertThat(team.foundedAt(), is(equalTo(1900)));
         assertThat(team.getConference(), is(equalTo("NFC")));
         assertThat(team.getDivision(), is(equalTo("East")));
+    }
+
+    @Test
+    public void shouldImplementsComparableForTeams() {
+        Team a = Team.getBuilder().name("AAAAAA").build();
+        Team b = Team.getBuilder().name("ZZZZZZ").build();
+
+        assertThat(a.compareTo(a), is(0));
+        assertThat(a.compareTo(b), is(lessThan(0)));
+        assertThat(b.compareTo(a), is(greaterThan(0)));
+    }
+
+    @Test(expected = NullPointerException.class)
+    public void shouldThrow_NullPointerException_IfTheSpecifiedTeamIsNull() {
+        Team a = Team.getBuilder().name("AAAAAA").build();
+        a.compareTo(null);
     }
 
 }
