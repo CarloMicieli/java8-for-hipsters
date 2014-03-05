@@ -20,16 +20,17 @@ import java.util.Set;
 import java.util.TreeSet;
 
 /**
+ * It represents a football stadium.
  * @author Carlo Micieli
  */
-public final class Stadium {
+public final class Stadium implements Comparable<Stadium> {
     private final String name;
     private final int capacity;
     private final String location;
     private final String state;
     private final PlayingSurface surface;
     private final RoofType roofType;
-    private final Set<Team> teams;
+    private final Set<String> teamNames;
     private final int openedYear;
 
     private Stadium(Builder b) {
@@ -39,7 +40,7 @@ public final class Stadium {
         this.state = b.state;
         this.surface = b.surface;
         this.roofType = b.roofType;
-        this.teams = b.teams;
+        this.teamNames = b.teamNames;
         this.openedYear = b.openedYear;
     }
 
@@ -54,15 +55,15 @@ public final class Stadium {
         private String state;
         private PlayingSurface surface;
         private RoofType roofType;
-        private Set<Team> teams = new TreeSet<>();
+        private Set<String> teamNames = new TreeSet<>();
         private int openedYear;
 
-        public Builder name(String n) {
+        public Builder withName(String n) {
             name = n;
             return this;
         }
 
-        public Builder capacity(int c) {
+        public Builder withCapacity(int c) {
             capacity = c;
             return this;
         }
@@ -77,23 +78,75 @@ public final class Stadium {
             return this;
         }
 
-        public Builder surface(PlayingSurface s) {
+        public Builder team(String t) {
+            teamNames.add(t);
+            return this;
+        }
+
+        public Builder openedIn(int y) {
+            openedYear = y;
+            return this;
+        }
+
+        public Builder withGrass() {
+            return surface(PlayingSurface.GRASS);
+        }
+
+        public Builder withBermudaGrass() {
+            return surface(PlayingSurface.BERMUDA_GRASS);
+        }
+
+        public Builder withUBUIntensitySeries() {
+            return surface(PlayingSurface.UBU_INTENSITY_SERIES);
+        }
+
+        public Builder withDessoGrassMaster() {
+            return surface(PlayingSurface.DESSO_GRASSMASTER);
+        }
+
+        public Builder withAstroTurfGameDayGrass()  {
+            return surface(PlayingSurface.ASTROTURF_GAMEDAY_GRASS);
+        }
+
+        public Builder withKentuckyBluegrass() {
+            return surface(PlayingSurface.KENTUCKY_BLUEGRASS);
+        }        
+
+        public Builder withMatrixRealGrassArtificialTurf() {
+            return surface(PlayingSurface.MATRIX_REALGRASS_TURF);
+        }
+
+        public Builder withATurfTitan() {
+            return surface(PlayingSurface.A_TURF_TITAN);
+        }
+
+        public Builder withFieldTurf() {
+            return surface(PlayingSurface.FIELD_TURF);
+        }
+
+        public Builder withSportexeMomentumTurf() {
+            return surface(PlayingSurface.SPORTEXE_MOMENTUM_TURF);
+        }
+
+        public Builder withDomedRoof() {
+            return roofType(RoofType.DOMED);
+        }
+
+        public Builder withRetractableRoof() {
+            return roofType(RoofType.RETRACTABLE);
+        }
+
+        public Builder withOpenRoof() {
+            return roofType(RoofType.OPEN);
+        }
+
+        private Builder surface(PlayingSurface s) {
             surface = s;
             return this;
         }
 
-        public Builder roofType(RoofType r) {
+        private Builder roofType(RoofType r) {
             roofType = r;
-            return this;
-        }
-
-        public Builder team(Team t) {
-            teams.add(t);
-            return this;
-        }
-
-        public Builder openedYear(int r) {
-            openedYear = r;
             return this;
         }
 
@@ -126,8 +179,8 @@ public final class Stadium {
         return roofType;
     }
 
-    public Set<Team> getTeams() {
-        return teams;
+    public Set<String> getTeamNames() {
+        return teamNames;
     }
 
     public int getOpenedYear() {
@@ -135,11 +188,12 @@ public final class Stadium {
     }
 
     @Override
-    public String toString() {
-        return name;
+    public int compareTo(Stadium that) {
+        return this.getName().compareTo(that.getName());
     }
 
-    public static List<Stadium> getStadiums() {
-        return Stadiums.initStadiums();
+    @Override
+    public String toString() {
+        return name;
     }
 }

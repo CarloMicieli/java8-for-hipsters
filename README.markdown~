@@ -3,7 +3,7 @@ Java8 for hipsters
 
 [![Build Status](https://drone.io/github.com/CarloMicieli/java8-for-hipsters/status.png)](https://drone.io/github.com/CarloMicieli/java8-for-hipsters/latest)
 
-The project includes `Gradle` build script. As `JDK 1.8.0` is not the default `JDK`, it is needed to pass the installation path to `Gradle`.
+The project includes `Gradle` build script. As `Jdk 1.8.0` is not the default `Jdk`, it is needed to pass the installation path to `Gradle`.
 
 To run the tests on Linux:
 

@@ -19,5 +19,13 @@ package io.github.carlomicieli.java8;
  * @author Carlo Micieli
  */
 public enum RoofType {
-    RETRACTABLE, DOMED, OPEN
+
+    RETRACTABLE("Retractable"), 
+    DOMED("Domed"), 
+    OPEN("Open");
+
+    private final String desc;
+    private RoofType(String desc) {
+    	this.desc = desc;
+    }
 }
