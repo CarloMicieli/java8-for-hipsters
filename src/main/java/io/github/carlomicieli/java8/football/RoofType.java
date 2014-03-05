@@ -13,22 +13,25 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.github.carlomicieli.java8;
-
-import org.junit.Test;
-
-import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertThat;
+package io.github.carlomicieli.java8.football;
 
 /**
  * @author Carlo Micieli
  */
-public class PlayingSurfaceTests {
+public enum RoofType {
 
-    @Test
-    public void shouldProduceStringRepresentationsForSurface() {
-        assertThat(PlayingSurface.A_TURF_TITAN.toString(), is(equalTo("A-Turf Titan")));
+    RETRACTABLE("Retractable"),
+    DOMED("Domed"),
+    OPEN("Open");
+
+    private final String desc;
+
+    private RoofType(String desc) {
+        this.desc = desc;
     }
 
+    @Override
+    public String toString() {
+        return desc;
+    }
 }

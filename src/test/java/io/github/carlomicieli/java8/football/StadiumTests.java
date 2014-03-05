@@ -13,11 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.github.carlomicieli.java8;
+package io.github.carlomicieli.java8.football;
 
 import org.junit.Test;
-
-import java.util.List;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.hasItem;
@@ -50,10 +48,10 @@ public class StadiumTests {
     @Test
     public void shouldAddMoreHomeTeamsForAStadium() {
         Stadium s = Stadium.getBuilder()
-            .team("Team1")
-            .team("Team2")
-            .team("Team3")
-            .build();
+                .team("Team1")
+                .team("Team2")
+                .team("Team3")
+                .build();
 
         assertThat(s.getTeamNames(), hasItem("Team1"));
         assertThat(s.getTeamNames(), hasItem("Team2"));
@@ -107,13 +105,13 @@ public class StadiumTests {
         Stadium s = Stadium.getBuilder().withDessoGrassMaster().build();
         assertThat(s.getSurface(), is(equalTo(PlayingSurface.DESSO_GRASSMASTER)));
     }
-        
+
     @Test
     public void shouldSet_KentuckyBluegrass_AsPlayingSurface() {
         Stadium s = Stadium.getBuilder().withKentuckyBluegrass().build();
         assertThat(s.getSurface(), is(equalTo(PlayingSurface.KENTUCKY_BLUEGRASS)));
     }
-        
+
     @Test
     public void shouldSet_MatrixRealGrassArtificialTurf_AsPlayingSurface() {
         Stadium s = Stadium.getBuilder().withMatrixRealGrassArtificialTurf().build();
@@ -130,7 +128,7 @@ public class StadiumTests {
     public void shouldSet_AstroTurfGameDayGrass_AsPlayingSurface() {
         Stadium s = Stadium.getBuilder().withAstroTurfGameDayGrass().build();
         assertThat(s.getSurface(), is(equalTo(PlayingSurface.ASTROTURF_GAMEDAY_GRASS)));
-    }    
+    }
 
     @Test
     public void shouldProduceStringRepresentationForTeams() {

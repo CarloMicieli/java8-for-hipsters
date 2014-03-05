@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.github.carlomicieli.java8;
+package io.github.carlomicieli.java8.football;
 
 /**
  * @author Carlo Micieli
@@ -45,11 +45,11 @@ public final class Team implements Comparable<Team> {
     public int foundedAt() {
         return foundedAt;
     }
-        
+
     public String getConference() {
         return conference;
     }
-        
+
     public String getDivision() {
         return division;
     }
@@ -89,7 +89,7 @@ public final class Team implements Comparable<Team> {
             this.foundedAt = year;
             return this;
         }
-        
+
         public Team build() {
             return new Team(this);
         }

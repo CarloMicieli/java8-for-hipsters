@@ -13,24 +13,31 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.github.carlomicieli.java8;
+package io.github.carlomicieli.java8.football;
 
 /**
  * @author Carlo Micieli
  */
-public enum RoofType {
-
-    RETRACTABLE("Retractable"), 
-    DOMED("Domed"), 
-    OPEN("Open");
+public enum PlayingSurface {
+    GRASS("Grass"),
+    BERMUDA_GRASS("419 Tifway Bermuda Grass"),
+    FIELD_TURF("FieldTurf"),
+    UBU_INTENSITY_SERIES("UBU-Intensity Series- S5-M Synthetic Turf"),
+    A_TURF_TITAN("A-Turf Titan"),
+    DESSO_GRASSMASTER("Desso GrassMaster"),
+    KENTUCKY_BLUEGRASS("Kentucky Bluegrass"),
+    MATRIX_REALGRASS_TURF("Matrix RealGrass artificial turf"),
+    SPORTEXE_MOMENTUM_TURF("Sportexe Momentum Turf"),
+    ASTROTURF_GAMEDAY_GRASS("AstroTurf GameDay Grass 3D");
 
     private final String desc;
-    private RoofType(String desc) {
-    	this.desc = desc;
+
+    private PlayingSurface(String desc) {
+        this.desc = desc;
     }
 
     @Override
     public String toString() {
-        return desc;
+        return this.desc;
     }
 }

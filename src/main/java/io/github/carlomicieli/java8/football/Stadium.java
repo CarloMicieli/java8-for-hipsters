@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.github.carlomicieli.java8;
+package io.github.carlomicieli.java8.football;
 
-import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
 /**
  * It represents a football stadium.
+ *
  * @author Carlo Micieli
  */
 public final class Stadium implements Comparable<Stadium> {
@@ -104,13 +104,13 @@ public final class Stadium implements Comparable<Stadium> {
             return surface(PlayingSurface.DESSO_GRASSMASTER);
         }
 
-        public Builder withAstroTurfGameDayGrass()  {
+        public Builder withAstroTurfGameDayGrass() {
             return surface(PlayingSurface.ASTROTURF_GAMEDAY_GRASS);
         }
 
         public Builder withKentuckyBluegrass() {
             return surface(PlayingSurface.KENTUCKY_BLUEGRASS);
-        }        
+        }
 
         public Builder withMatrixRealGrassArtificialTurf() {
             return surface(PlayingSurface.MATRIX_REALGRASS_TURF);
