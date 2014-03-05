@@ -17,6 +17,7 @@ package io.github.carlomicieli.java8.football;
 
 import org.junit.Test;
 
+import static io.github.carlomicieli.java8.football.Stadium.newStadium;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.hasItem;
 import static org.hamcrest.CoreMatchers.is;
@@ -31,12 +32,11 @@ public class StadiumTests {
 
     @Test
     public void shouldCreateNewStadiums() {
-        Stadium s = Stadium.getBuilder()
-                .withName("Levi's Stadium")
-                .withCapacity(68_000)
+        Stadium s = newStadium("Levi's Stadium")
+                .capacity(68_000)
                 .location("Santa Clara").state("CA")
                 .openedIn(2014)
-                .team("SF")
+                .homeTeam("SF")
                 .build();
 
         assertThat(s.getName(), is(equalTo("Levi's Stadium")));
@@ -49,10 +49,10 @@ public class StadiumTests {
 
     @Test
     public void shouldAddMoreHomeTeamsForAStadium() {
-        Stadium s = Stadium.getBuilder()
-                .team("Team1")
-                .team("Team2")
-                .team("Team3")
+        Stadium s = newStadium("Stadium's Name")
+                .homeTeam("Team1")
+                .homeTeam("Team2")
+                .homeTeam("Team3")
                 .build();
 
         assertThat(s.getTeamNames(), hasItem("Team1"));
@@ -62,88 +62,87 @@ public class StadiumTests {
 
     @Test
     public void shouldSet_Open_AsRoofType() {
-        Stadium s = Stadium.getBuilder().withOpenRoof().build();
+        Stadium s = newStadium("Stadium's Name").openRoof().build();
         assertThat(s.getRoofType(), is(equalTo(RoofType.OPEN)));
     }
 
     @Test
     public void shouldSet_Domed_AsRoofType() {
-        Stadium s = Stadium.getBuilder().withDomedRoof().build();
+        Stadium s = newStadium("Stadium's Name").domedRoof().build();
         assertThat(s.getRoofType(), is(equalTo(RoofType.DOMED)));
     }
 
     @Test
     public void shouldSet_RetractableRoof_AsRoofType() {
-        Stadium s = Stadium.getBuilder().withRetractableRoof().build();
+        Stadium s = newStadium("Stadium's Name").retractableRoof().build();
         assertThat(s.getRoofType(), is(equalTo(RoofType.RETRACTABLE)));
     }
 
     @Test
     public void shouldSet_Grass_AsPlayingSurface() {
-        Stadium s = Stadium.getBuilder().withGrass().build();
+        Stadium s = newStadium("Stadium's Name").grassSurface().build();
         assertThat(s.getSurface(), is(equalTo(PlayingSurface.GRASS)));
     }
 
     @Test
     public void shouldSet_BermudaGrass_AsPlayingSurface() {
-        Stadium s = Stadium.getBuilder().withBermudaGrass().build();
+        Stadium s = newStadium("Stadium's Name").bermudaGrassSurface().build();
         assertThat(s.getSurface(), is(equalTo(PlayingSurface.BERMUDA_GRASS)));
     }
 
     @Test
     public void shouldSet_UBUIntensitySeries_AsPlayingSurface() {
-        Stadium s = Stadium.getBuilder().withUBUIntensitySeries().build();
+        Stadium s = newStadium("Stadium's Name").UBUIntensitySeriesSurface().build();
         assertThat(s.getSurface(), is(equalTo(PlayingSurface.UBU_INTENSITY_SERIES)));
     }
 
     @Test
     public void shouldSet_TurfTitan_AsPlayingSurface() {
-        Stadium s = Stadium.getBuilder().withATurfTitan().build();
+        Stadium s = newStadium("Stadium's Name").aTurfTitanSurface().build();
         assertThat(s.getSurface(), is(equalTo(PlayingSurface.A_TURF_TITAN)));
     }
 
     @Test
     public void shouldSet_DessoGrassMaster_AsPlayingSurface() {
-        Stadium s = Stadium.getBuilder().withDessoGrassMaster().build();
+        Stadium s = newStadium("Stadium's Name").dessoGrassMasterSurface().build();
         assertThat(s.getSurface(), is(equalTo(PlayingSurface.DESSO_GRASSMASTER)));
     }
 
     @Test
     public void shouldSet_KentuckyBluegrass_AsPlayingSurface() {
-        Stadium s = Stadium.getBuilder().withKentuckyBluegrass().build();
+        Stadium s = newStadium("Stadium's Name").kentuckyBluegrassSurface().build();
         assertThat(s.getSurface(), is(equalTo(PlayingSurface.KENTUCKY_BLUEGRASS)));
     }
 
     @Test
     public void shouldSet_MatrixRealGrassArtificialTurf_AsPlayingSurface() {
-        Stadium s = Stadium.getBuilder().withMatrixRealGrassArtificialTurf().build();
+        Stadium s = newStadium("Stadium's Name").matrixRealGrassArtificialTurfSurface().build();
         assertThat(s.getSurface(), is(equalTo(PlayingSurface.MATRIX_REALGRASS_TURF)));
     }
 
     @Test
     public void shouldSet_SportexeMomentumTurf_AsPlayingSurface() {
-        Stadium s = Stadium.getBuilder().withSportexeMomentumTurf().build();
+        Stadium s = newStadium("Stadium's Name").sportexeMomentumTurfSurface().build();
         assertThat(s.getSurface(), is(equalTo(PlayingSurface.SPORTEXE_MOMENTUM_TURF)));
     }
 
     @Test
     public void shouldSet_AstroTurfGameDayGrass_AsPlayingSurface() {
-        Stadium s = Stadium.getBuilder().withAstroTurfGameDayGrass().build();
+        Stadium s = newStadium("Stadium's Name").astroTurfGameDayGrassSurface().build();
         assertThat(s.getSurface(), is(equalTo(PlayingSurface.ASTROTURF_GAMEDAY_GRASS)));
     }
 
     @Test
     public void shouldProduceStringRepresentationForTeams() {
-        Stadium s = Stadium.getBuilder()
-                .withName("Levi's Stadium")
+        Stadium s = newStadium("Levi's Stadium")
                 .build();
         assertThat(s.toString(), is(equalTo("Levi's Stadium")));
     }
 
     @Test
     public void shouldImplementsComparableForStadiums() {
-        Stadium a = Stadium.getBuilder().withName("AAAAAA").build();
-        Stadium b = Stadium.getBuilder().withName("ZZZZZZ").build();
+        Stadium a = newStadium("AAAAAA").build();
+        Stadium b = newStadium("ZZZZZZ").build();
 
         assertThat(a.compareTo(a), is(0));
         assertThat(a.compareTo(b), is(lessThan(0)));
@@ -152,7 +151,7 @@ public class StadiumTests {
 
     @Test(expected = NullPointerException.class)
     public void shouldThrow_NullPointerException_IfTheSpecifiedStadiumIsNull() {
-        Stadium a = Stadium.getBuilder().withName("AAAAAAA").build();
+        Stadium a = newStadium("AAAAAAA").build();
         a.compareTo(null);
     }
 }

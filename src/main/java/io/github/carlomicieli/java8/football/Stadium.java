@@ -44,12 +44,12 @@ public final class Stadium implements Comparable<Stadium> {
         this.openedYear = b.openedYear;
     }
 
-    protected static Builder getBuilder() {
-        return new Builder();
+    public static Builder newStadium(String name) {
+        return new Builder(name);
     }
 
-    protected static class Builder {
-        private String name;
+    public static class Builder {
+        private final String name;
         private int capacity;
         private String location;
         private String state;
@@ -58,12 +58,19 @@ public final class Stadium implements Comparable<Stadium> {
         private Set<String> teamNames = new TreeSet<>();
         private int openedYear;
 
-        public Builder withName(String n) {
-            name = n;
+        public Builder(String name) {
+            this.name = name;
+        }
+
+        public Builder with() {
             return this;
         }
 
-        public Builder withCapacity(int c) {
+        public Builder and() {
+            return this;
+        }
+
+        public Builder capacity(int c) {
             capacity = c;
             return this;
         }
@@ -78,7 +85,7 @@ public final class Stadium implements Comparable<Stadium> {
             return this;
         }
 
-        public Builder team(String t) {
+        public Builder homeTeam(String t) {
             teamNames.add(t);
             return this;
         }
@@ -88,55 +95,55 @@ public final class Stadium implements Comparable<Stadium> {
             return this;
         }
 
-        public Builder withGrass() {
+        public Builder grassSurface() {
             return surface(PlayingSurface.GRASS);
         }
 
-        public Builder withBermudaGrass() {
+        public Builder bermudaGrassSurface() {
             return surface(PlayingSurface.BERMUDA_GRASS);
         }
 
-        public Builder withUBUIntensitySeries() {
+        public Builder UBUIntensitySeriesSurface() {
             return surface(PlayingSurface.UBU_INTENSITY_SERIES);
         }
 
-        public Builder withDessoGrassMaster() {
+        public Builder dessoGrassMasterSurface() {
             return surface(PlayingSurface.DESSO_GRASSMASTER);
         }
 
-        public Builder withAstroTurfGameDayGrass() {
+        public Builder astroTurfGameDayGrassSurface() {
             return surface(PlayingSurface.ASTROTURF_GAMEDAY_GRASS);
         }
 
-        public Builder withKentuckyBluegrass() {
+        public Builder kentuckyBluegrassSurface() {
             return surface(PlayingSurface.KENTUCKY_BLUEGRASS);
         }
 
-        public Builder withMatrixRealGrassArtificialTurf() {
+        public Builder matrixRealGrassArtificialTurfSurface() {
             return surface(PlayingSurface.MATRIX_REALGRASS_TURF);
         }
 
-        public Builder withATurfTitan() {
+        public Builder aTurfTitanSurface() {
             return surface(PlayingSurface.A_TURF_TITAN);
         }
 
-        public Builder withFieldTurf() {
+        public Builder fieldTurfSurface() {
             return surface(PlayingSurface.FIELD_TURF);
         }
 
-        public Builder withSportexeMomentumTurf() {
+        public Builder sportexeMomentumTurfSurface() {
             return surface(PlayingSurface.SPORTEXE_MOMENTUM_TURF);
         }
 
-        public Builder withDomedRoof() {
+        public Builder domedRoof() {
             return roofType(RoofType.DOMED);
         }
 
-        public Builder withRetractableRoof() {
+        public Builder retractableRoof() {
             return roofType(RoofType.RETRACTABLE);
         }
 
-        public Builder withOpenRoof() {
+        public Builder openRoof() {
             return roofType(RoofType.OPEN);
         }
 
