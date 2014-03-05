@@ -21,6 +21,8 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.hasItem;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.greaterThan;
+import static org.hamcrest.Matchers.lessThan;
 
 /**
  * @author Carlo Micieli
@@ -136,5 +138,21 @@ public class StadiumTests {
                 .withName("Levi's Stadium")
                 .build();
         assertThat(s.toString(), is(equalTo("Levi's Stadium")));
+    }
+
+    @Test
+    public void shouldImplementsComparableForStadiums() {
+        Stadium a = Stadium.getBuilder().withName("AAAAAA").build();
+        Stadium b = Stadium.getBuilder().withName("ZZZZZZ").build();
+
+        assertThat(a.compareTo(a), is(0));
+        assertThat(a.compareTo(b), is(lessThan(0)));
+        assertThat(b.compareTo(a), is(greaterThan(0)));
+    }
+
+    @Test(expected = NullPointerException.class)
+    public void shouldThrow_NullPointerException_IfTheSpecifiedStadiumIsNull() {
+        Stadium a = Stadium.getBuilder().withName("AAAAAAA").build();
+        a.compareTo(null);
     }
 }
