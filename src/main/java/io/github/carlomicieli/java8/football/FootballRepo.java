@@ -16,6 +16,7 @@
 package io.github.carlomicieli.java8.football;
 
 import java.util.Set;
+import java.util.stream.Stream;
 
 /**
  * It represents a stadiums/teams repository.
@@ -27,11 +28,11 @@ public final class FootballRepo {
     private final static Set<Stadium> _stadiums = Stadiums.initStadiums();
     private final static Set<Team> _teams = Teams.initTeams();
 
-    public static Set<Stadium> stadiums() {
-        return _stadiums;
+    public static Stream<Stadium> stadiums() {
+        return _stadiums.stream();
     }
 
-    public static Set<Team> teams() {
-        return _teams;
+    public static Stream<Team> teams() {
+        return _teams.stream();
     }
 }
