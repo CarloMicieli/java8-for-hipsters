@@ -18,7 +18,10 @@ package io.github.carlomicieli.java8.football;
 import org.junit.Test;
 
 import java.util.Set;
+import java.util.stream.Stream;
 
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.collection.IsCollectionWithSize.hasSize;
 import static org.hamcrest.MatcherAssert.assertThat;
 
@@ -29,13 +32,13 @@ public class FootballRepoTests {
 
     @Test
     public void shouldProduceTheTeamsList() {
-        Set<Team> teams = FootballRepo.teams();
-        assertThat(teams, hasSize(32));
+        Stream<Team> teams = FootballRepo.teams();
+        assertThat(teams.count(), is(equalTo(32L)));
     }
 
     @Test
     public void shouldProduceTheStadiumsList() {
-        Set<Stadium> stadiums = FootballRepo.stadiums();
-        assertThat(stadiums, hasSize(31));
+        Stream<Stadium> stadiums = FootballRepo.stadiums();
+        assertThat(stadiums.count(), is(equalTo(31L)));
     }
 }
