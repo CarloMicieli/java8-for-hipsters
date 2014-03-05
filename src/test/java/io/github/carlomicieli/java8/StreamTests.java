@@ -15,6 +15,7 @@
  */
 package io.github.carlomicieli.java8;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.Optional;
@@ -41,6 +42,7 @@ public class StreamTests {
     }
 
     @Test
+    @Ignore
     public void shouldGenerateInfiniteStreams() {
         Stream<Integer> s = Stream.iterate(0, n -> n + 1);
         Optional<Integer> val = s.skip(100).limit(1).findFirst();
