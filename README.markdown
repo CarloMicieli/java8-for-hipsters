@@ -23,26 +23,25 @@ The samples are built against `JDK 1.8.0 rc1`.
 
 ## Functional programming
 
-It's finally time for monads in Java (those are crazy time, indeed). Entering the container `Optional<T>`, that can wrap a `null` value or otherwise.
+It's finally time for monads in Java (those are crazy times, indeed). Entering the container `Optional<T>`, that can wrap a `null` value or otherwise.
 
     Optional<String> some = Optional.of("value");
     some.get(); // returns "value"
     some.isPresent(); // returns true
 
-Even with this container class, it is still not safe to pass `null` around using the `get()` method:
+Even with this container class, it is still not safe to pass `null` around using `Optional` objects:
 
     Optional<String> none = Optional.ofNullable(null); // Optional.of(null) throws a NPE
     none.get(); // throws NoSuchElementException
 
-Monads? We don't need monads where we're going!! I'm no category theory guru, but with `Optional` value is yet possible
-to get rid of all ugly `null` checks in the code.
+Monads? We don't need monads where we're going!! I'm no category theory guru, but thanks to the brand new `Optional` class is yet possible to get rid of all those ugly `null` checks in the code.
 It looks something like this:
 
     Optional<Integer> someLen = Optional.of(1000L)
             .flatMap(id -> Optional.ofNullable(fakeNameLookup(id)))
             .flatMap(name -> Optional.ofNullable(name.length()));
 
-Unless one of the function called by `flatMap` returns a `null` we will be fine.
+Unless one of the function called by `flatMap` returns a `null` we are totally safe.
 
 ### References
 * __Cay S. Horstmann__ (2014); `Java SE 8 for the Really Impatient`; Addison-Wesley Professional; 1st edition
