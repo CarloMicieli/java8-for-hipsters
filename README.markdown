@@ -1,7 +1,7 @@
 Java8 for hipsters
 ==================
 
-[![Build Status](https://drone.io/github.com/CarloMicieli/java8-for-hipsters/status.png)](https://drone.io/github.com/CarloMicieli/java8-for-hipsters/latest)
+[![Build Status](https://travis-ci.org/CarloMicieli/java8-for-hipsters.png?branch=master)](https://travis-ci.org/CarloMicieli/java8-for-hipsters)
 
 The project includes `Gradle` build script. As `JDK 1.8.0` is not the default `JDK`, it is needed to pass the installation path to `Gradle`.
 
