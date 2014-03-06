@@ -1,5 +1,4 @@
-Java8 for hipsters
-==================
+#Java8 for hipsters
 
 [![Build Status](https://travis-ci.org/CarloMicieli/java8-for-hipsters.png?branch=master)](https://travis-ci.org/CarloMicieli/java8-for-hipsters)
 
@@ -17,4 +16,11 @@ To run the tests on Windows:
 
 The samples are built against `JDK 1.8.0 rc1`.
 
+    $ java -version
+    java version "1.8.0"
+    Java(TM) SE Runtime Environment (build 1.8.0-b128)
+    Java HotSpot(TM) 64-Bit Server VM (build 25.0-b69, mixed mode)
 
+## References
+* Cay S. Horstmann; `Java SE 8 for the Really Impatient`; Addison-Wesley Professional; 1st edition, 2014;
+* Raoul-Gabriel Urma, Mario Fusco, and Alan Mycroft; `Java 8 in Action`; Manning Pubblishing; MEAP, 2014.
