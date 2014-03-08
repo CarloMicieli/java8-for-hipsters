@@ -24,7 +24,7 @@ import java.util.stream.Stream;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.core.IsCollectionContaining.hasItems;
+import static org.hamcrest.collection.IsIterableContainingInOrder.contains;
 import static org.junit.Assert.assertThat;
 
 /**
@@ -70,7 +70,7 @@ public class StreamTests {
         Stream<Integer> s = Stream.of(1, 2, 3, 4);
         List<Integer> elems = s.collect(Collectors.toList());
 
-        assertThat(elems, hasItems(1, 2, 3, 4));
+        assertThat(elems, contains(1, 2, 3, 4));
     }
 
     @Test

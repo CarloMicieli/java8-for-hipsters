@@ -23,10 +23,14 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import static java.util.stream.Collectors.groupingBy;
+import static java.util.stream.Collectors.mapping;
+import static java.util.stream.Collectors.toList;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.collection.IsIterableContainingInOrder.contains;
 import static org.hamcrest.number.IsCloseTo.closeTo;
 
 /**
@@ -48,10 +52,23 @@ public class FootballRepoTests {
 
     @Test
     public void shouldReturnTheFirstTwoTeamsSortedByName() {
-        List<Team> teams = teams().sorted().limit(2).collect(Collectors.toList());
+        List<Team> teams = teams().sorted().limit(2).collect(toList());
         assertThat(teams.size(), is(equalTo(2)));
         assertThat(teams.get(0).getName(), is(equalTo("Arizona Cardinals")));
         assertThat(teams.get(1).getName(), is(equalTo("Atlanta Falcons")));
+    }
+
+    @Test
+    public void shouldReturnTeamNamesListByDivision() {
+        Map<String, List<String>> divisions = teams()
+                .sorted()
+                .collect(groupingBy(Team::getFullDivisionName,
+                         mapping(Team::getName, toList())));
+        assertThat(divisions.size(), is(equalTo(8)));
+        assertThat(divisions.get("NFC West"),
+                contains("Arizona Cardinals", "San Francisco 49ers", "Seattle Seahawks", "St. Louis Rams"));
+        assertThat(divisions.get("NFC East"),
+                contains("Dallas Cowboys", "New York Giants", "Philadelphia Eagles", "Washington Redskins"));
     }
 
     @Test
@@ -78,7 +95,7 @@ public class FootballRepoTests {
         List<Stadium> oldest = stadiums()
                 .sorted((x, y) -> Integer.compare(x.getOpenedYear(), y.getOpenedYear()))
                 .limit(2)
-                .collect(Collectors.toList());
+                .collect(toList());
         assertThat(oldest.size(), is(equalTo(2)));
         assertThat(oldest.get(0).getName(), is(equalTo("Soldier Field")));
         assertThat(oldest.get(0).getOpenedYear(), is(equalTo(1924)));
@@ -108,7 +125,7 @@ public class FootballRepoTests {
                 .filter(s -> s.getRoofType() == RoofType.OPEN)
                 .filter(s -> s.getSurface() == PlayingSurface.GRASS)
                 .distinct()
-                .collect(Collectors.toList());
+                .collect(toList());
 
         assertThat(openAndGrassStadiums, is(notNullValue()));
         assertThat(openAndGrassStadiums.size(), is(equalTo(7)));
