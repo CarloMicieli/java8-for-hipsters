@@ -18,6 +18,7 @@ package io.github.carlomicieli.java8.football;
 import org.junit.Test;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -51,6 +52,25 @@ public class FootballRepoTests {
         assertThat(teams.size(), is(equalTo(2)));
         assertThat(teams.get(0).getName(), is(equalTo("Arizona Cardinals")));
         assertThat(teams.get(1).getName(), is(equalTo("Atlanta Falcons")));
+    }
+
+    @Test
+    public void shouldReturnTheNamesListForNFCWest() {
+        String teamsList = teams()
+                .filter(t -> t.getConference().equals("NFC") && t.getDivision().equals("West"))
+                .sorted()
+                .map(Team::getName)
+                .collect(Collectors.joining(", "));
+        assertThat(teamsList, is(equalTo("Arizona Cardinals, San Francisco 49ers, Seattle Seahawks, St. Louis Rams")));
+    }
+
+    @Test
+    public void shouldPartitionTeamsByConference() {
+        Map<Boolean, List<Team>> nfcPart = teams()
+                .collect(Collectors.partitioningBy(t -> t.getConference().equals("NFC")));
+        assertThat(nfcPart.size(), is(equalTo(2)));
+        assertThat(nfcPart.get(true).size(), is(equalTo(16)));
+        assertThat(nfcPart.get(false).size(), is(equalTo(16)));
     }
 
     @Test
