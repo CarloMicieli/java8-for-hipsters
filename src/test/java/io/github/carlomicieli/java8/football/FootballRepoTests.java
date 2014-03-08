@@ -25,7 +25,6 @@ import java.util.stream.Stream;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
-import static org.hamcrest.collection.IsCollectionWithSize.hasSize;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.number.IsCloseTo.closeTo;
 
@@ -93,6 +92,23 @@ public class FootballRepoTests {
 
         assertThat(openAndGrassStadiums, is(notNullValue()));
         assertThat(openAndGrassStadiums.size(), is(equalTo(7)));
+    }
+
+    @Test
+    public void shouldReturnTheTotalCapacityForAllTheStadiums() {
+        long totalCapacity = stadiums()
+                .mapToLong(Stadium::getCapacity)
+                .sum();
+        assertThat(totalCapacity, is(equalTo(2_278_014L)));
+    }
+
+    @Test
+    public void shouldReturnTheNamesListForTheDomedStadiums() {
+        String stadiumsStr = stadiums()
+                .filter(s -> s.getRoofType() == RoofType.DOMED)
+                .map(Stadium::getName)
+                .reduce("", (acc, name) -> acc + name + ", ");
+        assertThat(stadiumsStr, is(equalTo("Ford Field, Mercedes-Benz Superdome, Georgia Dome, Edward Jones Dome, ")));
     }
 
     private Stream<Stadium> stadiums() {
