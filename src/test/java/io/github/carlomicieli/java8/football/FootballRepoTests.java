@@ -127,8 +127,9 @@ public class FootballRepoTests {
         String stadiumsStr = stadiums()
                 .filter(s -> s.getRoofType() == RoofType.DOMED)
                 .map(Stadium::getName)
+                .sorted()
                 .reduce("", (acc, name) -> acc + name + ", ");
-        assertThat(stadiumsStr, is(equalTo("Ford Field, Mercedes-Benz Superdome, Georgia Dome, Edward Jones Dome, ")));
+        assertThat(stadiumsStr, is(equalTo("Edward Jones Dome, Ford Field, Georgia Dome, Mercedes-Benz Superdome, ")));
     }
 
     private Stream<Stadium> stadiums() {
