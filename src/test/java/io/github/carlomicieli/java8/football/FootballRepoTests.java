@@ -17,13 +17,17 @@ package io.github.carlomicieli.java8.football;
 
 import org.junit.Test;
 
-import java.util.Set;
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.hamcrest.collection.IsCollectionWithSize.hasSize;
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.number.IsCloseTo.closeTo;
 
 /**
  * @author Carlo Micieli
@@ -32,13 +36,71 @@ public class FootballRepoTests {
 
     @Test
     public void shouldProduceTheTeamsList() {
-        Stream<Team> teams = FootballRepo.teams();
+        Stream<Team> teams = teams();
         assertThat(teams.count(), is(equalTo(32L)));
     }
 
     @Test
     public void shouldProduceTheStadiumsList() {
-        Stream<Stadium> stadiums = FootballRepo.stadiums();
+        Stream<Stadium> stadiums = stadiums();
         assertThat(stadiums.count(), is(equalTo(31L)));
     }
+
+    @Test
+    public void shouldReturnTheFirstTwoTeamsSortedByName() {
+        List<Team> teams = teams().sorted().limit(2).collect(Collectors.toList());
+        assertThat(teams.size(), is(equalTo(2)));
+        assertThat(teams.get(0).getName(), is(equalTo("Arizona Cardinals")));
+        assertThat(teams.get(1).getName(), is(equalTo("Atlanta Falcons")));
+    }
+
+    @Test
+    public void shouldReturnTheFirstTwoStadiumByOpenedYear() {
+        List<Stadium> oldest = stadiums()
+                .sorted((x, y) -> Integer.compare(x.getOpenedYear(), y.getOpenedYear()))
+                .limit(2)
+                .collect(Collectors.toList());
+        assertThat(oldest.size(), is(equalTo(2)));
+        assertThat(oldest.get(0).getName(), is(equalTo("Soldier Field")));
+        assertThat(oldest.get(0).getOpenedYear(), is(equalTo(1924)));
+        assertThat(oldest.get(1).getName(), is(equalTo("Lambeau Field")));
+        assertThat(oldest.get(1).getOpenedYear(), is(equalTo(1957)));
+    }
+
+    @Test
+    public void shouldGetTheStadiumWithTheMaxCapacity() {
+        Optional<Stadium> biggest = stadiums().max(Stadium::compareByCapacity);
+        assertThat(biggest.isPresent(), is(true));
+        assertThat(biggest.get().getCapacity(), is(equalTo(105_121)));
+    }
+
+    @Test
+    public void shouldGetTheAverageCapacityForStadiums() {
+        double average = stadiums()
+                .mapToInt(Stadium::getCapacity)
+                .average()
+                .getAsDouble();
+        assertThat(average, is(closeTo(73484.32, 0.01)));
+    }
+
+    @Test
+    public void shouldReturnTheOpenedStadiumsWithGrassField() {
+        List<Stadium> openAndGrassStadiums = stadiums()
+                .filter(s -> s.getRoofType() == RoofType.OPEN)
+                .filter(s -> s.getSurface() == PlayingSurface.GRASS)
+                .distinct()
+                .collect(Collectors.toList());
+
+        assertThat(openAndGrassStadiums, is(notNullValue()));
+        assertThat(openAndGrassStadiums.size(), is(equalTo(7)));
+    }
+
+    private Stream<Stadium> stadiums() {
+        return FootballRepo.stadiums();
+    }
+
+    private Stream<Team> teams() {
+        return FootballRepo.teams();
+    }
+
 }

@@ -154,4 +154,14 @@ public class StadiumTests {
         Stadium a = newStadium("AAAAAAA").build();
         a.compareTo(null);
     }
+
+    @Test
+    public void shouldCompareStadiumsCapacity() {
+        Stadium a = newStadium("AAAAAA").capacity(1000).build();
+        Stadium b = newStadium("BBBBBB").capacity(500).build();
+
+        assertThat(Stadium.compareByCapacity(a, a), is(equalTo(0)));
+        assertThat(Stadium.compareByCapacity(a, b), is(greaterThan(0)));
+        assertThat(Stadium.compareByCapacity(b, a), is(lessThan(0)));
+    }
 }

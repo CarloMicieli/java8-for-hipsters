@@ -69,5 +69,4 @@ public class TeamTests {
 
         assertThat(team.getFullDivisionName(), is(equalTo("NFC East")));
     }
-
 }

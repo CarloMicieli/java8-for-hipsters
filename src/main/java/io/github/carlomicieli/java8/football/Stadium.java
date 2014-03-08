@@ -48,6 +48,10 @@ public final class Stadium implements Comparable<Stadium> {
         return new Builder(name);
     }
 
+    public static int compareByCapacity(Stadium x, Stadium y) {
+        return Integer.compare(x.getCapacity(), y.getCapacity());
+    }
+
     public static class Builder {
         private final String name;
         private int capacity;
