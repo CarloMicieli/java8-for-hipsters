@@ -115,6 +115,12 @@ public class FunctionalInterfaceTests {
         assertThat(l, hasItem("hello"));
     }
 
+    @Test
+    public void shouldUseLambdaExpressionsForCustomInterfaces() {
+        Function2<Integer, Integer, Long> sum = (a, b) -> 0L + a + b;
+        assertThat(sum.apply(1, 2), is(equalTo(3L)));
+    }
+
     static class TestClass {
         static <T> List<T> init(int num, Supplier<T> sup) {
             List<T> l = new ArrayList<>(num);
@@ -123,6 +129,17 @@ public class FunctionalInterfaceTests {
             }
             return l;
         }
+    }
+
+    @FunctionalInterface
+    interface Function2<T, U, R> {
+        R apply(T t, U u);
+
+        // java: Unexpected @FunctionalInterface annotation
+        // io.github.carlomicieli.java8.FunctionalInterfaceTests.Function2 is not a functional interface
+        //        multiple non-overriding abstract methods found in interface
+        //        io.github.carlomicieli.java8.FunctionalInterfaceTests.Function2
+        //! void foo();
     }
 
 }
