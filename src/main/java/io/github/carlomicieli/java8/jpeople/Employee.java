@@ -15,6 +15,8 @@
  */
 package io.github.carlomicieli.java8.jpeople;
 
+import java.time.LocalDate;
+
 /**
  * @author Carlo Micieli
  */
@@ -24,12 +26,14 @@ public class Employee implements Person {
     private final String firstName;
     private final String lastName;
     private final int salary;
+    private final LocalDate hiringDate;
 
-    public Employee(long id, String firstName, String lastName, int salary) {
+    public Employee(long id, String firstName, String lastName, int salary, LocalDate hiringDate) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.salary = salary;
+        this.hiringDate = hiringDate;
     }
 
     @Override
@@ -47,5 +51,9 @@ public class Employee implements Person {
 
     public int getSalary() {
         return salary;
+    }
+
+    public LocalDate getHiringDate() {
+        return hiringDate;
     }
 }

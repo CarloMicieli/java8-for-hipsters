@@ -17,6 +17,7 @@ package io.github.carlomicieli.java8.jpeople;
 
 import org.junit.Test;
 
+import java.time.LocalDate;
 import java.util.stream.Stream;
 
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -30,11 +31,14 @@ public class EmployeeTests {
 
     @Test
     public void shouldCreateNewEmployees() {
-        Employee emp = new Employee(1, "John", "Doe", 23_456);
+        LocalDate now = LocalDate.now();
+
+        Employee emp = new Employee(1, "John", "Doe", 23_456, now);
         assertThat(emp.getId(), is(equalTo(1L)));
         assertThat(emp.getFirstName(), is(equalTo("John")));
         assertThat(emp.getLastName(), is(equalTo("Doe")));
         assertThat(emp.getSalary(), is(equalTo(23_456)));
+        assertThat(emp.getHiringDate(), is(equalTo(now)));
     }
 
     @Test

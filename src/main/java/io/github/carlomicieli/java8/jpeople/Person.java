@@ -15,6 +15,7 @@
  */
 package io.github.carlomicieli.java8.jpeople;
 
+import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
@@ -39,10 +40,11 @@ public interface Person {
     }
 
     public static Stream<Employee> employees() {
+        LocalDate now = LocalDate.now();
         List<Employee> emp = Arrays.asList(
-                new Employee(1, "John", "Doe", 20_000),
-                new Employee(2, "Jane", "Doe", 32_000),
-                new Employee(3, "Ryan", "Smith", 32_200)
+                new Employee(1, "John", "Doe", 20_000, now),
+                new Employee(2, "Jane", "Doe", 32_000, now),
+                new Employee(3, "Ryan", "Smith", 32_200, now)
         );
         return emp.stream();
     }

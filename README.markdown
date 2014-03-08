@@ -68,6 +68,18 @@ After function we have `Predicate<T>', they perform a test that produces a boole
     Predicate<String> longString = s -> s.length() > 10;
     assert(longString.test("hello") == false);
 
-### References
+### Father time
+
+Creating dates is finally a easy task. No more gregorian calendars and 0-based months...
+
+    LocalDate now = LocalDate.now();
+
+
+
+## References
 * __Cay S. Horstmann__ (2014); `Java SE 8 for the Really Impatient`; Addison-Wesley Professional; 1st edition
 * __Raoul-Gabriel Urma, Mario Fusco, and Alan Mycroft__ (2014); `Java 8 in Action`; Manning Pubblishing; MEAP
+
+Inspired by the following blog posts:
+
+* __Michael Scharhag__ [A deeper look into the Java 8 Date and Time API](http://www.mscharhag.com/2014/02/java-8-datetime-api.html "A deeper look into the Java 8 Date and Time API")
