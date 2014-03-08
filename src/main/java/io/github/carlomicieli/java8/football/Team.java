@@ -58,6 +58,10 @@ public final class Team implements Comparable<Team> {
         return new Builder();
     }
 
+    public String getFullDivisionName() {
+        return String.join(" ", getConference(), getDivision());
+    }
+
     public static class Builder {
         private String name;
         private String shortName;

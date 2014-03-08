@@ -17,17 +17,48 @@ package io.github.carlomicieli.java8;
 
 import org.junit.Test;
 
+import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.core.IsCollectionContaining.hasItems;
 import static org.junit.Assert.assertThat;
 
 /**
  * @author Carlo Micieli
  */
 public class StreamTests {
+
+    private Stream<Integer> numbers() {
+        return Stream.of(1, 45, 23, 22, 55, 66, 80);
+    }
+
+    @Test
+    public void shouldCheckWhetherAllElementsMatchThePredicate() {
+        assertThat(numbers().allMatch(n -> n < 100), is(equalTo(true)));
+        assertThat(numbers().allMatch(n -> n % 2 == 0), is(equalTo(false)));
+    }
+
+    @Test
+    public void shouldCheckWhetherAnyElementMatchesThePredicate() {
+        assertThat(numbers().anyMatch(n -> n > 100), is(equalTo(false)));
+        assertThat(numbers().anyMatch(n -> n % 2 == 0), is(equalTo(true)));
+    }
+
+    @Test
+    public void shouldConcatTwoStreams() {
+        Stream<Integer> s1 = Stream.of(1, 2, 3, 4);
+        Stream<Integer> s2 = Stream.of(5, 6, 7, 8);
+
+        Stream<Integer> s = Stream.concat(s1, s2);
+
+        List<Integer> l = s.collect(Collectors.toList());
+        assertThat(l.size(), is(equalTo(8)));
+    }
+
     @Test
     public void shouldCreateStreamsWithOnlyOneElement() {
         Stream<Integer> s = Stream.of(1);
@@ -37,7 +68,15 @@ public class StreamTests {
     @Test
     public void shouldCreateStreamsWithTheSpecifiedElements() {
         Stream<Integer> s = Stream.of(1, 2, 3, 4);
-        assertThat(s.toArray(Integer[]::new), is(new Integer[]{1, 2, 3, 4}));
+        List<Integer> elems = s.collect(Collectors.toList());
+
+        assertThat(elems, hasItems(1, 2, 3, 4));
+    }
+
+    @Test
+    public void shouldCreateArraysWithStreamElements() {
+        Integer[] arr = Stream.of(1, 2, 3, 4).toArray(Integer[]::new);
+        assertThat(arr, is(new Integer[]{1, 2, 3, 4}));
     }
 
     @Test
@@ -54,6 +93,15 @@ public class StreamTests {
         Stream<String> s2 = s.map(String::toUpperCase);
 
         assertThat(s2.toArray(String[]::new), is(new String[]{"HOME", "SWEET", "HOME"}));
+    }
+
+    @Test(expected = IllegalStateException.class)
+    public void shouldThrowsExceptionConsumingStreamsAfterATerminalOperation() {
+        Stream<Integer> s = Stream.of(1, 4, 43, 56, 59);
+        s.count();
+
+        // throws java.lang.IllegalStateException("stream has already been operated upon or closed")
+        s.distinct();
     }
 
 }

@@ -59,4 +59,15 @@ public class TeamTests {
         a.compareTo(null);
     }
 
+    @Test
+    public void shouldReturnTheFullDivisionName() {
+        Team team = Team.getBuilder()
+                .name("Washington Redskins").shortName("WAS")
+                .foundedAt(1900)
+                .conference("NFC").division("East")
+                .build();
+
+        assertThat(team.getFullDivisionName(), is(equalTo("NFC East")));
+    }
+
 }

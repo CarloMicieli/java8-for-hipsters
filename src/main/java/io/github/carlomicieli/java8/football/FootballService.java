@@ -15,7 +15,10 @@
  */
 package io.github.carlomicieli.java8.football;
 
+import java.util.List;
+import java.util.Map;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import static io.github.carlomicieli.java8.football.FootballRepo.stadiums;
 import static io.github.carlomicieli.java8.football.FootballRepo.teams;
@@ -35,6 +38,10 @@ public class FootballService {
         return stadiums()
                 .filter(s -> s.getName().equals(stadiumName))
                 .findFirst();
+    }
+
+    public Map<String, List<Team>> teamsByDivision() {
+        return teams().collect(Collectors.groupingBy(Team::getFullDivisionName));
     }
 
 }

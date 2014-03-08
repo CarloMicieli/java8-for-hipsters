@@ -17,10 +17,13 @@ package io.github.carlomicieli.java8.football;
 
 import org.junit.Test;
 
+import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.junit.Assert.assertThat;
 
 /**
@@ -54,6 +57,13 @@ public class FootballServiceTests {
         Optional<Stadium> sf = service.findStadium("FedEx Field");
         assertThat(sf.isPresent(), is(true));
         assertThat(sf.get().getName(), is(equalTo("FedEx Field")));
+    }
+
+    @Test
+    public void shouldGroupTeamsByTheirDivisions() {
+        Map<String, List<Team>> divisions = service.teamsByDivision();
+        assertThat(divisions.get("NFC West"), is(notNullValue()));
+        assertThat(divisions.get("NFC West").size(), is(equalTo(4)));
     }
 
 }
