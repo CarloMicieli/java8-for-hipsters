@@ -121,6 +121,16 @@ public class FunctionalInterfaceTests {
         assertThat(sum.apply(1, 2), is(equalTo(3L)));
     }
 
+    @Test
+    public void shouldReturnAFunctionFromMethods() {
+        Function2<String, String, Integer> f = getFunction();
+        assertThat(f.apply("hello", "world"), is(equalTo(10)));
+    }
+
+    static Function2<String, String, Integer> getFunction() {
+        return (s1, s2) -> s1.length() + s2.length();
+    }
+
     static class TestClass {
         static <T> List<T> init(int num, Supplier<T> sup) {
             List<T> l = new ArrayList<>(num);
