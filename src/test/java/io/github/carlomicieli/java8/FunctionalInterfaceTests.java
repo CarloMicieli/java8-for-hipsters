@@ -34,6 +34,13 @@ import static org.junit.Assert.assertThat;
 public class FunctionalInterfaceTests {
 
     @Test
+    public void shouldCreateAnIdentityUnaryOperator() {
+        UnaryOperator<Integer> op = UnaryOperator.identity();
+        assertThat(op.apply(1), is(equalTo(1)));
+        assertThat(op.apply(99), is(equalTo(99)));
+    }
+
+    @Test
     public void shouldCreateFunctionsWithOneArgument() {
         Function<String, String> upperFun = String::toUpperCase;
         assertThat(upperFun.apply("home"), is(equalTo("HOME")));
@@ -61,11 +68,24 @@ public class FunctionalInterfaceTests {
     }
 
     @Test
-    public void shouldComposeFunctions() {
+    public void shouldComposeFunctions_with_andThen() {
         Function<String, Integer> charsNum = s -> s.replace(" ", "").length();
         Function<Integer, Integer> doubled = n -> n * 2;
 
+        // first applies this function to its input (charsNum),
+        // and then applies the after function to the result (doubled)
         Function<String, Integer> composed = charsNum.andThen(doubled);
+        assertThat(composed.apply("hello world"), is(equalTo(20)));
+    }
+
+    @Test
+    public void shouldComposeFunctions_with_compose() {
+        Function<String, Integer> charsNum = s -> s.replace(" ", "").length();
+        Function<Integer, Integer> doubled = n -> n * 2;
+
+        // first applies the before function to its input (charsNum),
+        // and then applies this function to the result (doubled)
+        Function<String, Integer> composed = doubled.compose(charsNum);
         assertThat(composed.apply("hello world"), is(equalTo(20)));
     }
 
