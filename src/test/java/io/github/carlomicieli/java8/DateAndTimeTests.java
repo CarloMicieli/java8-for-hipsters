@@ -17,9 +17,7 @@ package io.github.carlomicieli.java8;
 
 import org.junit.Test;
 
-import java.time.LocalDate;
-import java.time.LocalTime;
-import java.time.Month;
+import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
@@ -75,6 +73,13 @@ public class DateAndTimeTests {
     @Test
     public void shouldObtainLocalTimeFromSecondOfDay() {
         LocalTime time = LocalTime.ofSecondOfDay(12_345);
-        assertThat(time, is(LocalTime.of(03, 25, 45)));
+        assertThat(time, is(LocalTime.of(3, 25, 45)));
+    }
+
+    @Test
+    public void shouldCreateLocalDateTime_FromLocalTime() {
+        LocalDateTime ldt = LocalTime.NOON.atDate(LocalDate.of(1981, 9, 9));
+        assertThat(ldt.toLocalDate(), is(equalTo(SEPTEMBER_9TH)));
+        assertThat(ldt.toLocalTime(), is(equalTo(LocalTime.NOON)));
     }
 }
