@@ -19,6 +19,7 @@ import org.junit.Test;
 
 import java.time.*;
 import java.time.format.DateTimeFormatter;
+import java.time.format.TextStyle;
 import java.util.Locale;
 
 import static java.time.format.DateTimeFormatter.ofPattern;
@@ -29,7 +30,7 @@ import static org.junit.Assert.assertThat;
 /**
  * @author Carlo Micieli
  */
-public class DateAndTimeTests {
+public class LocalDateTimeTests {
 
     private final LocalDate SEPTEMBER_9TH = LocalDate.of(1981, 9, 9);
 
@@ -46,6 +47,19 @@ public class DateAndTimeTests {
         LocalDate september9th = LocalDate.ofYearDay(1981, 252);
         assertThat(september9th, is(equalTo(SEPTEMBER_9TH)));
         assertThat(september9th.getDayOfYear(), is(equalTo(252)));
+    }
+
+    @Test
+    public void shouldObtainInformationAboutYears() {
+        LocalDate leapYear = LocalDate.of(2012, 2, 1);
+        LocalDate notLeapYear = LocalDate.of(2013, 2, 1);
+
+        assertThat(leapYear.getYear(), is(equalTo(2012)));
+        assertThat(leapYear.isLeapYear(), is(true));
+        assertThat(leapYear.lengthOfYear(), is(equalTo(366)));
+
+        assertThat(notLeapYear.isLeapYear(), is(false));
+        assertThat(notLeapYear.lengthOfYear(), is(equalTo(365)));
     }
 
     @Test
