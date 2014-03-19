@@ -2,24 +2,23 @@
 
 [![Build Status](https://travis-ci.org/CarloMicieli/java8-for-hipsters.png?branch=master)](https://travis-ci.org/CarloMicieli/java8-for-hipsters)
 
-The project includes `Gradle` build script. As `JDK 1.8.0` is not the default `JDK`, it is needed to pass the installation path to `Gradle`.
+The project includes `Gradle` build script.
 
-To run the tests on Linux:
+To run the test suite:
 
-    $ export JDK8_HOME=/usr/lib/jvm/java-8-rc1-oraclejdk-amd64
-    $ ./gradlew -Dorg.gradle.java.home=$JDK8_HOME check
+    $ git clone https://github.com/CarloMicieli/java8-for-hipsters.git
+    $ ./gradlew check
 
-To run the tests on Windows:
+To import the project into `Intellij IDEA`:
+    
+    $ ./gradlew idea
 
-    $ set JDK8_HOME="C:\Program Files\Java\jdk1.8.0"
-    $ gradlew -Dorg.gradle.java.home=%JDK8_HOME% check
-
-The samples are built against `JDK 1.8.0 rc1`.
+The samples are built against `JDK 1.8.0`.
 
     $ java -version
     java version "1.8.0"
-    Java(TM) SE Runtime Environment (build 1.8.0-b128)
-    Java HotSpot(TM) 64-Bit Server VM (build 25.0-b69, mixed mode)
+    Java(TM) SE Runtime Environment (build 1.8.0-b132)
+    Java HotSpot(TM) 64-Bit Server VM (build 25.0-b70, mixed mode)
 
 ## Functional programming
 
@@ -39,8 +38,8 @@ Monads? We don't need monads where we're going!! I'm no category theory guru, bu
 It looks something like this:
 
     Optional<Integer> someLen = Optional.of(1000L)
-            .flatMap(id -> Optional.ofNullable(fakeNameLookup(id)))
-            .flatMap(name -> Optional.ofNullable(name.length()));
+            .flatMap(id -> fakeNameLookup(id))
+            .map(name -> name.length());
 
 Unless one of the function called by `flatMap` returns a `null` we are totally safe.
 
@@ -70,7 +69,7 @@ After function we have `Predicate<T>', they perform a test that produces a boole
 
 ### Father time
 
-Creating dates is finally a easy task. No more gregorian calendars and 0-based months...
+Time and data api has just got big time changes.
 
     LocalDate now = LocalDate.now();
 
