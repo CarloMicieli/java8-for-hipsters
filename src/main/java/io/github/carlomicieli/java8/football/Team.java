@@ -19,7 +19,7 @@ package io.github.carlomicieli.java8.football;
  * @author Carlo Micieli
  */
 public final class Team implements Comparable<Team> {
-
+    private final int id;
     private final String name;
     private final String shortName;
     private final String conference;
@@ -27,11 +27,16 @@ public final class Team implements Comparable<Team> {
     private final int foundedAt;
 
     private Team(Builder b) {
+        this.id = b.id;
         this.name = b.name;
         this.shortName = b.shortName;
         this.conference = b.conference;
         this.division = b.division;
         this.foundedAt = b.foundedAt;
+    }
+
+    public int getId() {
+        return id;
     }
 
     public String getName() {
@@ -63,11 +68,17 @@ public final class Team implements Comparable<Team> {
     }
 
     public static class Builder {
+        private int id;
         private String name;
         private String shortName;
         private String conference;
         private String division;
         private int foundedAt;
+
+        public Builder id(int id) {
+            this.id = id;
+            return this;
+        }
 
         public Builder name(String n) {
             this.name = n;

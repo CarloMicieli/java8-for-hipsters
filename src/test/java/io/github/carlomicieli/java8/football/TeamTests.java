@@ -31,11 +31,13 @@ public class TeamTests {
     @Test
     public void shouldCreateNewTeams() {
         Team team = Team.getBuilder()
+                .id(1)
                 .name("Washington Redskins").shortName("WAS")
                 .foundedAt(1900)
                 .conference("NFC").division("East")
                 .build();
 
+        assertThat(team.getId(), is(equalTo(1)));
         assertThat(team.getName(), is(equalTo("Washington Redskins")));
         assertThat(team.getShortName(), is(equalTo("WAS")));
         assertThat(team.foundedAt(), is(equalTo(1900)));

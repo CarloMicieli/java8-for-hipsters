@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "name": "Detroit Lions",
         "shortName": "DET",
         "conference": "NFC",
@@ -7,6 +8,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 2,
         "name": "Tennessee Titans",
         "shortName": "TEN",
         "conference": "AFC",
@@ -14,6 +16,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 3,
         "name": "St. Louis Rams",
         "shortName": "STL",
         "conference": "NFC",
@@ -21,6 +24,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 4,
         "name": "San Francisco 49ers",
         "shortName": "SF",
         "conference": "NFC",
@@ -28,6 +32,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 5,
         "name": "Miami Dolphins",
         "shortName": "MIA",
         "conference": "AFC",
@@ -35,6 +40,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 6,
         "name": "New England Patriots",
         "shortName": "PAT",
         "conference": "AFC",
@@ -42,6 +48,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 7,
         "name": "New York Jets",
         "shortName": "NYJ",
         "conference": "AFC",
@@ -49,6 +56,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 8,
         "name": "New York Giants",
         "shortName": "NYG",
         "conference": "NFC",
@@ -56,6 +64,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 9,
         "name": "Seattle Seahawks",
         "shortName": "SEA",
         "conference": "NFC",
@@ -63,6 +72,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 10,
         "name": "Denver Broncos",
         "shortName": "DEN",
         "conference": "AFC",
@@ -70,6 +80,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 11,
         "name": "Atlanta Falcons",
         "shortName": "ATL",
         "conference": "NFC",
@@ -77,6 +88,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 12,
         "name": "San Diego Chargers",
         "shortName": "SD",
         "conference": "AFC",
@@ -84,6 +96,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 13,
         "name": "Cincinnati Bengals",
         "shortName": "CIN",
         "conference": "AFC",
@@ -91,6 +104,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 14,
         "name": "Carolina Panthers",
         "shortName": "CAR",
         "conference": "NFC",
@@ -98,6 +112,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 15,
         "name": "Philadelphia Eagles",
         "shortName": "PHI",
         "conference": "NFC",
@@ -105,6 +120,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 16,
         "name": "Jacksonville Jaguars",
         "shortName": "JAG",
         "conference": "AFC",
@@ -112,6 +128,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 17,
         "name": "Arizona Cardinals",
         "shortName": "ARI",
         "conference": "NFC",
@@ -119,6 +136,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 18,
         "name": "Buffalo Bills",
         "shortName": "BUF",
         "conference": "AFC",
@@ -126,6 +144,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 19,
         "name": "Green Bay Packers",
         "shortName": "GB",
         "conference": "NFC",
@@ -133,6 +152,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 20,
         "name": "Washington Redskins",
         "shortName": "WAS",
         "conference": "NFC",
@@ -140,6 +160,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 21,
         "name": "Houston Texans",
         "shortName": "HOU",
         "conference": "AFC",
@@ -147,6 +168,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 22,
         "name": "New Orleans Saints",
         "shortName": "NO",
         "conference": "NFC",
@@ -154,6 +176,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 23,
         "name": "Chicago Bears",
         "shortName": "CHI",
         "conference": "NFC",
@@ -161,6 +184,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 24,
         "name": "Baltimore Ravens",
         "shortName": "BAL",
         "conference": "AFC",
@@ -168,6 +192,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 25,
         "name": "Tampa Bay Buccaneers",
         "shortName": "TB",
         "conference": "NFC",
@@ -175,6 +200,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 26,
         "name": "Minnesota Vikings",
         "shortName": "MIN",
         "conference": "NFC",
@@ -182,6 +208,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 27,
         "name": "Dallas Cowboys",
         "shortName": "DAL",
         "conference": "NFC",
@@ -189,6 +216,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 28,
         "name": "Pittsburgh Steelers",
         "shortName": "PIT",
         "conference": "AFC",
@@ -196,6 +224,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 29,
         "name": "Oakland Raiders",
         "shortName": "OAK",
         "conference": "AFC",
@@ -203,6 +232,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 30,
         "name": "Kansas City Chiefs",
         "shortName": "KC",
         "conference": "AFC",
@@ -210,6 +240,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 31,
         "name": "Cleveland Browns",
         "shortName": "CLE",
         "conference": "AFC",
@@ -217,6 +248,7 @@
         "foundedAt": 1900
     },
     {
+        "id": 32,
         "name": "Indianapolis Colts",
         "shortName": "IND",
         "conference": "AFC",
