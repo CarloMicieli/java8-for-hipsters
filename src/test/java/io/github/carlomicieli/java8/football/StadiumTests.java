@@ -33,12 +33,14 @@ public class StadiumTests {
     @Test
     public void shouldCreateNewStadiums() {
         Stadium s = newStadium("Levi's Stadium")
+                .id(1)
                 .capacity(68_000)
                 .location("Santa Clara").state("CA")
                 .openedIn(2014)
                 .homeTeam("SF")
                 .build();
 
+        assertThat(s.getId(), is(equalTo(1)));
         assertThat(s.getName(), is(equalTo("Levi's Stadium")));
         assertThat(s.getCapacity(), is(equalTo(68_000)));
         assertThat(s.getLocation(), is(equalTo("Santa Clara")));
@@ -106,6 +108,12 @@ public class StadiumTests {
     public void shouldSet_DessoGrassMaster_AsPlayingSurface() {
         Stadium s = newStadium("Stadium's Name").dessoGrassMasterSurface().build();
         assertThat(s.getSurface(), is(equalTo(PlayingSurface.DESSO_GRASSMASTER)));
+    }
+
+    @Test
+    public void shouldSet_FieldTurfSurface_AsPlayingSurface() {
+        Stadium s = newStadium("Stadium's Name").fieldTurfSurface().build();
+        assertThat(s.getSurface(), is(equalTo(PlayingSurface.FIELD_TURF)));
     }
 
     @Test

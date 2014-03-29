@@ -40,26 +40,6 @@ public class FootballServiceTests {
     }
 
     @Test
-    public void shouldFindATeam() {
-        Optional<Team> sf = service.findTeam("San Francisco 49ers");
-        assertThat(sf.isPresent(), is(true));
-        assertThat(sf.get().getName(), is(equalTo("San Francisco 49ers")));
-    }
-
-    @Test
-    public void shouldReturnEmptyValueIfStadiumIsNotFound() {
-        Optional<Stadium> empty = service.findStadium("Not found");
-        assertThat(empty.isPresent(), is(false));
-    }
-
-    @Test
-    public void shouldFindAStadium() {
-        Optional<Stadium> sf = service.findStadium("FedEx Field");
-        assertThat(sf.isPresent(), is(true));
-        assertThat(sf.get().getName(), is(equalTo("FedEx Field")));
-    }
-
-    @Test
     public void shouldGroupTeamsByTheirDivisions() {
         Map<String, List<Team>> divisions = service.teamsByDivision();
         assertThat(divisions.get("NFC West"), is(notNullValue()));

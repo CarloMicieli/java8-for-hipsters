@@ -15,7 +15,10 @@
  */
 package io.github.carlomicieli.java8.football;
 
+import org.hamcrest.CoreMatchers;
 import org.junit.Test;
+
+import java.util.Optional;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
@@ -44,4 +47,18 @@ public class StadiumsTests {
         assertThat(levis.getRoofType(), is(equalTo(RoofType.OPEN)));
         assertThat(levis.getSurface(), is(equalTo(PlayingSurface.BERMUDA_GRASS)));
     }
+
+    @Test
+    public void shouldReturnEmptyValueIfStadiumIsNotFound() {
+        Optional<Stadium> empty = Stadiums.findByName("Not found");
+        assertThat(empty.isPresent(), is(false));
+    }
+
+    @Test
+    public void shouldFindAStadium() {
+        Optional<Stadium> sf = Stadiums.findByName("FedEx Field");
+        assertThat(sf.isPresent(), is(true));
+        assertThat(sf.get().getName(), is(equalTo("FedEx Field")));
+    }
+
 }

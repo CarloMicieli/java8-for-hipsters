@@ -34,12 +34,6 @@ public class FootballService {
                 .findFirst();
     }
 
-    public Optional<Stadium> findStadium(String stadiumName) {
-        return stadiums()
-                .filter(s -> s.getName().equals(stadiumName))
-                .findFirst();
-    }
-
     public Map<String, List<Team>> teamsByDivision() {
         return teams().collect(Collectors.groupingBy(Team::getFullDivisionName));
     }

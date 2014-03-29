@@ -1,45 +1,6 @@
 [
     {
-        "name": "CenturyLink Field",
-        "capacity": 72000,
-        "location": "Seattle",
-        "state": "Washington",
-        "surface": "FieldTurf",
-        "roofType": "Open",
-        "teamNames": ["Seattle Seahawks"],
-        "openedYear": 2002
-    },
-    {
-        "name": "Paul Brown Stadium",
-        "capacity": 65535,
-        "location": "Cincinnati",
-        "state": "Ohio",
-        "surface": "UBU-Intensity Series- S5-M Synthetic Turf",
-        "roofType": "Open",
-        "teamNames": ["Cincinnati Bengals"],
-        "openedYear": 2000
-    },
-    {
-        "name": "MetLife Stadium",
-        "capacity": 82566,
-        "location": "East Rutherford",
-        "state": "New Jersey",
-        "surface": "UBU-Intensity Series- S5-M Synthetic Turf",
-        "roofType": "Open",
-        "teamNames": ["New York Giants", "New York Jets"],
-        "openedYear": 2010
-    },
-    {
-        "name": "FirstEnergy Stadium",
-        "capacity": 73200,
-        "location": "Cleveland",
-        "state": "Ohio",
-        "surface": "Kentucky Bluegrass",
-        "roofType": "Open",
-        "teamNames": ["Cleveland Browns"],
-        "openedYear": 1999
-    },
-    {
+        "id": 1,
         "name": "Levis Stadium",
         "capacity": 75000,
         "location": "Santa Clara",
@@ -50,6 +11,40 @@
         "openedYear": 2014
     },
     {
+        "id": 2,
+        "name": "Paul Brown Stadium",
+        "capacity": 65535,
+        "location": "Cincinnati",
+        "state": "Ohio",
+        "surface": "UBU-Intensity Series- S5-M Synthetic Turf",
+        "roofType": "Open",
+        "teamNames": ["Cincinnati Bengals"],
+        "openedYear": 2000
+    },
+    {
+        "id": 3,
+        "name": "MetLife Stadium",
+        "capacity": 82566,
+        "location": "East Rutherford",
+        "state": "New Jersey",
+        "surface": "UBU-Intensity Series- S5-M Synthetic Turf",
+        "roofType": "Open",
+        "teamNames": ["New York Giants", "New York Jets"],
+        "openedYear": 2010
+    },
+    {
+        "id": 4,
+        "name": "FirstEnergy Stadium",
+        "capacity": 73200,
+        "location": "Cleveland",
+        "state": "Ohio",
+        "surface": "Kentucky Bluegrass",
+        "roofType": "Open",
+        "teamNames": ["Cleveland Browns"],
+        "openedYear": 1999
+    },
+    {
+        "id": 5,
         "name": "Reliant Stadium",
         "capacity": 71738,
         "location": "Houston",
@@ -60,6 +55,7 @@
         "openedYear": 2002
     },
     {
+        "id": 6,
         "name": "Qualcomm Stadium",
         "capacity": 70561,
         "location": "San Diego",
@@ -70,6 +66,7 @@
         "openedYear": 1967
     },
     {
+        "id": 7,
         "name": "Gillette Stadium",
         "capacity": 68756,
         "location": "Foxborough",
@@ -80,6 +77,7 @@
         "openedYear": 2002
     },
     {
+        "id": 8,
         "name": "Heinz Field",
         "capacity": 66662,
         "location": "Pittsburgh",
@@ -90,6 +88,7 @@
         "openedYear": 2001
     },
     {
+        "id": 9,
         "name": "FedEx Field",
         "capacity": 85000,
         "location": "Landover",
@@ -100,6 +99,7 @@
         "openedYear": 1997
     },
     {
+        "id": 10,
         "name": "Raymond James Stadium",
         "capacity": 75000,
         "location": "Tampa",
@@ -110,6 +110,7 @@
         "openedYear": 1998
     },
     {
+        "id": 11,
         "name": "Lambeau Field",
         "capacity": 80750,
         "location": "Green Bay",
@@ -120,6 +121,7 @@
         "openedYear": 1957
     },
     {
+        "id": 12,
         "name": "Mercedes-Benz Superdome",
         "capacity": 76468,
         "location": "New Orleans",
@@ -130,6 +132,7 @@
         "openedYear": 1975
     },
     {
+        "id": 13,
         "name": "Ford Field",
         "capacity": 70000,
         "location": "Detroit",
@@ -140,6 +143,7 @@
         "openedYear": 2002
     },
     {
+        "id": 14,
         "name": "Lucas Oil Stadium",
         "capacity": 70000,
         "location": "Indianapolis",
@@ -150,6 +154,7 @@
         "openedYear": 2008
     },
     {
+        "id": 15,
         "name": "Bank of America Stadium",
         "capacity": 74113,
         "location": "Charlotte",
@@ -160,6 +165,7 @@
         "openedYear": 1996
     },
     {
+        "id": 16,
         "name": "EverBank Field",
         "capacity": 76867,
         "location": "Jacksonville",
@@ -170,6 +176,7 @@
         "openedYear": 1995
     },
     {
+        "id": 17,
         "name": "AT&T Stadium",
         "capacity": 105121,
         "location": "Arlington",
@@ -180,6 +187,7 @@
         "openedYear": 2009
     },
     {
+        "id": 18,
         "name": "O.co Coliseum",
         "capacity": 64200,
         "location": "Oakland",
@@ -190,6 +198,7 @@
         "openedYear": 1966
     },
     {
+        "id": 19,
         "name": "Sun Life Stadium",
         "capacity": 80120,
         "location": "Miami Gardens",
@@ -200,6 +209,7 @@
         "openedYear": 1987
     },
     {
+        "id": 20,
         "name": "Arrowhead Stadium",
         "capacity": 76416,
         "location": "Kansas City",
@@ -210,6 +220,7 @@
         "openedYear": 1972
     },
     {
+        "id": 21,
         "name": "Lincoln Financial Field",
         "capacity": 69144,
         "location": "Philadelphia",
@@ -220,6 +231,7 @@
         "openedYear": 2003
     },
     {
+        "id": 22,
         "name": "TCF Bank Stadium",
         "capacity": 52000,
         "location": "Minneapolis",
@@ -230,6 +242,7 @@
         "openedYear": 2009
     },
     {
+        "id": 23,
         "name": "Sports Authority Field at Mile High",
         "capacity": 77160,
         "location": "Denver",
@@ -240,6 +253,7 @@
         "openedYear": 2001
     },
     {
+        "id": 24,
         "name": "Georgia Dome",
         "capacity": 75624,
         "location": "Atlanta",
@@ -250,6 +264,7 @@
         "openedYear": 1992
     },
     {
+        "id": 25,
         "name": "Edward Jones Dome",
         "capacity": 66000,
         "location": "St. Louis",
@@ -260,6 +275,7 @@
         "openedYear": 1995
     },
     {
+        "id": 26,
         "name": "Ralph Wilson Stadium",
         "capacity": 73079,
         "location": "Orchard Park",
@@ -270,6 +286,7 @@
         "openedYear": 1973
     },
     {
+        "id": 27,
         "name": "University of Phoenix Stadium",
         "capacity": 78600,
         "location": "Glendale",
@@ -280,6 +297,7 @@
         "openedYear": 2006
     },
     {
+        "id": 28,
         "name": "M&T Bank Stadium",
         "capacity": 74320,
         "location": "Baltimore",
@@ -290,6 +308,7 @@
         "openedYear": 1998
     },
     {
+        "id": 29,
         "name": "Soldier Field",
         "capacity": 62871,
         "location": "Chicago",
@@ -300,6 +319,7 @@
         "openedYear": 1924
     },
     {
+        "id": 30,
         "name": "LP Field",
         "capacity": 69143,
         "location": "Nashville",
@@ -308,5 +328,16 @@
         "roofType": "Open",
         "teamNames": ["Tennessee Titans"],
         "openedYear": 1999
+    },
+    {
+        "id": 31,
+        "name": "CenturyLink Field",
+        "capacity": 72000,
+        "location": "Seattle",
+        "state": "Washington",
+        "surface": "FieldTurf",
+        "roofType": "Open",
+        "teamNames": ["Seattle Seahawks"],
+        "openedYear": 2002
     }
 ]

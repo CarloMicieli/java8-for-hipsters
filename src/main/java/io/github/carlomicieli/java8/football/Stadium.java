@@ -24,6 +24,7 @@ import java.util.TreeSet;
  * @author Carlo Micieli
  */
 public final class Stadium implements Comparable<Stadium> {
+    private final int id;
     private final String name;
     private final int capacity;
     private final String location;
@@ -34,6 +35,7 @@ public final class Stadium implements Comparable<Stadium> {
     private final int openedYear;
 
     private Stadium(Builder b) {
+        this.id = b.id;
         this.name = b.name;
         this.capacity = b.capacity;
         this.location = b.location;
@@ -44,15 +46,16 @@ public final class Stadium implements Comparable<Stadium> {
         this.openedYear = b.openedYear;
     }
 
-    public static Builder newStadium(String name) {
-        return new Builder(name);
-    }
-
     public static int compareByCapacity(Stadium x, Stadium y) {
         return Integer.compare(x.getCapacity(), y.getCapacity());
     }
 
+    public static Builder newStadium(String name) {
+        return new Builder(name);
+    }
+
     public static class Builder {
+        private int id;
         private final String name;
         private int capacity;
         private String location;
@@ -71,6 +74,11 @@ public final class Stadium implements Comparable<Stadium> {
         }
 
         public Builder and() {
+            return this;
+        }
+
+        public Builder id(int c) {
+            id = c;
             return this;
         }
 
@@ -164,6 +172,10 @@ public final class Stadium implements Comparable<Stadium> {
         public Stadium build() {
             return new Stadium(this);
         }
+    }
+
+    public int getId() {
+        return id;
     }
 
     public String getName() {

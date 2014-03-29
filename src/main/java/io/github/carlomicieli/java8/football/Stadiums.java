@@ -19,6 +19,7 @@ import com.google.gson.reflect.TypeToken;
 import io.github.carlomicieli.java8.utils.Loader;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Stream;
 
 /**
@@ -36,5 +37,11 @@ public final class Stadiums {
     private static List<Stadium> stadiumList() {
         Loader l = new Loader(STADIUMS_DATA_JSON);
         return l.load(new TypeToken<List<Stadium>>() {}.getType());
+    }
+
+    public static Optional<Stadium> findByName(String stadiumName) {
+        return stream()
+                .filter(s -> s.getName().equals(stadiumName))
+                .findFirst();
     }
 }
