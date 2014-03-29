@@ -16,13 +16,17 @@
 package io.github.carlomicieli.java8.football;
 
 import org.hamcrest.CoreMatchers;
+import org.hamcrest.MatcherAssert;
 import org.junit.Test;
 
+import java.util.List;
 import java.util.Optional;
 
+import static java.util.stream.Collectors.toList;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.notNullValue;
+import static org.hamcrest.number.IsCloseTo.closeTo;
 import static org.junit.Assert.assertThat;
 
 /**
@@ -59,6 +63,67 @@ public class StadiumsTests {
         Optional<Stadium> sf = Stadiums.findByName("FedEx Field");
         assertThat(sf.isPresent(), is(true));
         assertThat(sf.get().getName(), is(equalTo("FedEx Field")));
+    }
+
+
+    @Test
+    public void shouldReturnTheFirstTwoStadiumByOpenedYear() {
+        List<Stadium> oldest = Stadiums.stream()
+                .sorted((x, y) -> Integer.compare(x.getOpenedYear(), y.getOpenedYear()))
+                .limit(2)
+                .collect(toList());
+
+        assertThat(oldest.size(), is(CoreMatchers.equalTo(2)));
+        assertThat(oldest.get(0).getName(), is(equalTo("Soldier Field")));
+        assertThat(oldest.get(0).getOpenedYear(), is(equalTo(1924)));
+        assertThat(oldest.get(1).getName(), is(equalTo("Lambeau Field")));
+        assertThat(oldest.get(1).getOpenedYear(), is(equalTo(1957)));
+    }
+
+    @Test
+    public void shouldGetTheStadiumWithTheMaxCapacity() {
+        Optional<Stadium> biggest = Stadiums.stream().max(Stadium::compareByCapacity);
+        assertThat(biggest.isPresent(), is(true));
+        assertThat(biggest.get().getCapacity(), is(equalTo(105_121)));
+    }
+
+    @Test
+    public void shouldGetTheAverageCapacityForStadiums() {
+        double average = Stadiums.stream()
+                .mapToInt(Stadium::getCapacity)
+                .average()
+                .getAsDouble();
+        assertThat(average, is(closeTo(73484.32, 0.01)));
+    }
+
+    @Test
+    public void shouldReturnTheOpenedStadiumsWithGrassField() {
+        List<Stadium> openAndGrassStadiums = Stadiums.stream()
+                .filter(s -> s.getRoofType() == RoofType.OPEN)
+                .filter(s -> s.getSurface() == PlayingSurface.GRASS)
+                .distinct()
+                .collect(toList());
+
+        assertThat(openAndGrassStadiums, is(notNullValue()));
+        assertThat(openAndGrassStadiums.size(), is(equalTo(7)));
+    }
+
+    @Test
+    public void shouldReturnTheTotalCapacityForAllTheStadiums() {
+        long totalCapacity = Stadiums.stream()
+                .mapToLong(Stadium::getCapacity)
+                .sum();
+        assertThat(totalCapacity, is(equalTo(2_278_014L)));
+    }
+
+    @Test
+    public void shouldReturnTheNamesListForTheDomedStadiums() {
+        String stadiumsStr = Stadiums.stream()
+                .filter(s -> s.getRoofType() == RoofType.DOMED)
+                .map(Stadium::getName)
+                .sorted()
+                .reduce("", (acc, name) -> acc + name + ", ");
+        assertThat(stadiumsStr, is(equalTo("Edward Jones Dome, Ford Field, Georgia Dome, Mercedes-Benz Superdome, ")));
     }
 
 }

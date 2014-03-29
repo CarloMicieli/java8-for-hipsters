@@ -17,13 +17,16 @@ package io.github.carlomicieli.java8.football;
 
 import org.junit.Test;
 
+import java.util.List;
+import java.util.Optional;
+
 import static io.github.carlomicieli.java8.football.Stadium.newStadium;
-import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.CoreMatchers.hasItem;
-import static org.hamcrest.CoreMatchers.is;
+import static java.util.stream.Collectors.toList;
+import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.greaterThan;
 import static org.hamcrest.Matchers.lessThan;
+import static org.hamcrest.number.IsCloseTo.closeTo;
 
 /**
  * @author Carlo Micieli
@@ -172,4 +175,5 @@ public class StadiumTests {
         assertThat(Stadium.compareByCapacity(a, b), is(greaterThan(0)));
         assertThat(Stadium.compareByCapacity(b, a), is(lessThan(0)));
     }
+
 }
