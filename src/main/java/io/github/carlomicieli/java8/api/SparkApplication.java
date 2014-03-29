@@ -26,6 +26,8 @@ import spark.*;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
+import static io.github.carlomicieli.java8.api.StreamsHelper.paginate;
+
 /**
  * @author Carlo Micieli
  */
@@ -35,25 +37,17 @@ public class SparkApplication {
 
     public static void start() {
         get("/", (req, resp) -> "Welcome to #Java8");
-        get("/teams", (req, resp) -> {
-            Paginate paging = Paginate.of(req);
-            return Teams.stream()
-                    .skip(paging.skip)
-                    .limit(paging.limit)
-                    .collect(Collectors.toList());
-        });
+        get("/teams", (req, resp) ->
+            paginate(Teams.stream(), req).collect(Collectors.toList())
+        );
         get("/teams/:id", (req, resp) -> {
             int teamId = Integer.parseInt(req.params(":id"));
             Supplier<Team> notFound = () -> { resp.status(404); return null; };
             return Teams.findById(teamId).orElseGet(notFound);
         });
-        get("/stadiums", (req, resp) -> {
-            Paginate paging = Paginate.of(req);
-            return Stadiums.stream()
-                    .skip(paging.skip)
-                    .limit(paging.limit)
-                    .collect(Collectors.toList());
-        });
+        get("/stadiums", (req, resp) ->
+            paginate(Stadiums.stream(), req).collect(Collectors.toList())
+        );
         get("/stadiums/:id", (req, resp) -> {
             int stadiumId = Integer.parseInt(req.params(":id"));
             Supplier<Stadium> notFound = () -> { resp.status(404); return null; };
@@ -75,27 +69,5 @@ public class SparkApplication {
     @FunctionalInterface
     static interface RequestHandler {
         Object apply(Request request, Response response);
-    }
-
-    static class Paginate {
-        final int skip;
-        final int limit;
-
-        private Paginate(int page, int pageSize) {
-            skip = (page - 1) * pageSize;
-            limit = pageSize;
-        }
-
-        static Paginate of(Request req) {
-            int page = param(req, "page", 1);
-            int size = param(req, "size", 10);
-            return new Paginate(page, size);
-        }
-
-        private static int param(Request req, String name, int defaultValue) {
-            String val = req.queryParams(name);
-            if (val == null || val.equals("")) return defaultValue;
-            return Integer.parseInt(val);
-        }
     }
 }
