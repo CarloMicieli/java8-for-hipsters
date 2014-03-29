@@ -36,9 +36,10 @@ The data are used through Java `stream`s:
     States.stream();    // yield a Stream<State>..... USA states 
 
 The project depends on the following packages:
-    * `Google GSON`
-    * `Spark micro web framework`
-    * `JUnit` and `Hamcrest` for testing
+
+* `Google GSON`
+* `Spark micro web framework`
+* `JUnit` and `Hamcrest` for testing
 
 ## Everything is an API nowadays
 
