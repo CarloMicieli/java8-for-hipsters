@@ -15,6 +15,9 @@
  */
 package io.github.carlomicieli.java8.states;
 
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
+
 import java.time.LocalDate;
 
 /**
@@ -65,6 +68,27 @@ public class State {
 
     public int getArea() {
         return area;
+    }
+
+    @Override
+    public int hashCode() {
+        return new HashCodeBuilder(37, 7)
+                .append(this.abbreviation)
+                .append(this.name)
+                .hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this) return true;
+        if (!(obj instanceof State)) return false;
+
+        State that = (State) obj;
+
+        return new EqualsBuilder()
+                .append(this.abbreviation, that.abbreviation)
+                .append(this.name, that.name)
+                .isEquals();
     }
 
     @Override
