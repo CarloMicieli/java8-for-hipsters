@@ -15,6 +15,9 @@
  */
 package io.github.carlomicieli.java8.football;
 
+import java.util.Optional;
+import java.util.stream.Stream;
+
 /**
  * @author Carlo Micieli
  */
@@ -33,5 +36,11 @@ public enum RoofType {
     @Override
     public String toString() {
         return desc;
+    }
+
+    public static Optional<RoofType> parse(String d) {
+        return Stream.of(RoofType.values())
+            .filter(rt -> rt.desc.equals(d))
+            .findFirst();
     }
 }

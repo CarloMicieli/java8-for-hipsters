@@ -17,6 +17,8 @@ package io.github.carlomicieli.java8.football;
 
 import org.junit.Test;
 
+import java.util.Optional;
+
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
@@ -29,6 +31,18 @@ public class PlayingSurfaceTests {
     @Test
     public void shouldProduceStringRepresentationsForSurface() {
         assertThat(PlayingSurface.A_TURF_TITAN.toString(), is(equalTo("A-Turf Titan")));
+    }
+
+    @Test
+    public void shouldParseDescriptionStringToPlayingSurface() {
+        Optional<PlayingSurface> ubu = PlayingSurface.parse("UBU-Intensity Series- S5-M Synthetic Turf");
+        assertThat(ubu.get(), is(equalTo(PlayingSurface.UBU_INTENSITY_SERIES)));
+    }
+
+    @Test
+    public void shouldReturnNoneForInvalidDescriptionParsingPlayingSurfaces() {
+        Optional<PlayingSurface> notFound = PlayingSurface.parse("not found");
+        assertThat(notFound.isPresent(), is(false));
     }
 
 }

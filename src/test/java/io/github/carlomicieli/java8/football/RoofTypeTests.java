@@ -17,6 +17,8 @@ package io.github.carlomicieli.java8.football;
 
 import org.junit.Test;
 
+import java.util.Optional;
+
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
@@ -29,5 +31,17 @@ public class RoofTypeTests {
     @Test
     public void shouldProduceStringRepresentationsForRoofTypes() {
         assertThat(RoofType.DOMED.toString(), is(equalTo("Domed")));
+    }
+
+    @Test
+    public void shouldParseDescriptionStringToRoofTypes() {
+        Optional<RoofType> doomed = RoofType.parse("Domed");
+        assertThat(doomed.get(), is(equalTo(RoofType.DOMED)));
+    }
+
+    @Test
+    public void shouldReturnNoneForInvalidDescriptionParsingRoofTypes() {
+        Optional<RoofType> notFound = RoofType.parse("not found");
+        assertThat(notFound.isPresent(), is(false));
     }
 }

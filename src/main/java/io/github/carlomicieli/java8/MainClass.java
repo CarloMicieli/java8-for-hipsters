@@ -20,9 +20,6 @@ package io.github.carlomicieli.java8;
  */
 public class MainClass {
     public static void main(String[] args) throws Exception {
-        new MainClass();
-    }
-
-    public MainClass() throws Exception {
+        throw new RuntimeException("Run: ./gradlew check --- everything is in the tests!");
     }
 }

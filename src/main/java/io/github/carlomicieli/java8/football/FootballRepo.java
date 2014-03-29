@@ -16,6 +16,7 @@
 package io.github.carlomicieli.java8.football;
 
 import java.util.Set;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
@@ -25,7 +26,7 @@ import java.util.stream.Stream;
  */
 public final class FootballRepo {
 
-    private final static Set<Stadium> _stadiums = Stadiums.initStadiums();
+    private final static Set<Stadium> _stadiums = Stadiums.stream().collect(Collectors.toSet());
     private final static Set<Team> _teams = Teams.initTeams();
 
     public static Stream<Stadium> stadiums() {

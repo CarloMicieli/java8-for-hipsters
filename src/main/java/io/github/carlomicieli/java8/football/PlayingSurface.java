@@ -15,6 +15,9 @@
  */
 package io.github.carlomicieli.java8.football;
 
+import java.util.Optional;
+import java.util.stream.Stream;
+
 /**
  * @author Carlo Micieli
  */
@@ -39,5 +42,11 @@ public enum PlayingSurface {
     @Override
     public String toString() {
         return this.desc;
+    }
+
+    public static Optional<PlayingSurface> parse(String d) {
+        return Stream.of(PlayingSurface.values())
+                .filter(s -> s.desc.equals(d))
+                .findFirst();
     }
 }

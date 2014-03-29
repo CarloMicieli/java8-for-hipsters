@@ -16,6 +16,8 @@
 package io.github.carlomicieli.java8.utils;
 
 import com.google.gson.*;
+import io.github.carlomicieli.java8.football.PlayingSurface;
+import io.github.carlomicieli.java8.football.RoofType;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -38,6 +40,8 @@ public class Loader {
     public <T> T load(Type type) {
         Gson gson = new GsonBuilder()
                 .registerTypeAdapter(LocalDate.class, localDateDeserializer())
+                .registerTypeAdapter(PlayingSurface.class, surfaceDeserializer())
+                .registerTypeAdapter(RoofType.class, roofDeserializer())
                 .create();
         InputStream is = getClass().getResourceAsStream(filename);
         try (BufferedReader in = new BufferedReader(new InputStreamReader(is))) {
@@ -55,6 +59,24 @@ public class Loader {
                 return null;
             else
                 return LocalDate.parse(json.getAsString(), fmt);
+        };
+    }
+
+    private JsonDeserializer<PlayingSurface> surfaceDeserializer() {
+        return (json, typeOf, context) -> {
+            if (json == null)
+                return null;
+            else
+                return PlayingSurface.parse(json.getAsString()).orElse(null);
+        };
+    }
+
+    private  JsonDeserializer<RoofType> roofDeserializer() {
+        return (json, typeOf, context) -> {
+            if (json == null)
+                return null;
+            else
+                return RoofType.parse(json.getAsString()).orElse(null);
         };
     }
 
