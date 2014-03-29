@@ -42,7 +42,7 @@ The project depends on the following packages:
 
 ## Everything is an API nowadays
 
-* `GET /stadiums`: the NFL stadiums list:
+### `GET /stadiums`: the NFL stadiums list:
 
     [carlo:~] $ http http://localhost:4567/stadiums
     HTTP/1.1 200 OK
@@ -67,7 +67,7 @@ The project depends on the following packages:
         ....
     ]
 
-* `GET /stadiums/:stadiumId`: the information about the stadium with the `stadiumId`:
+### `GET /stadiums/:stadiumId`: the information about the stadium with the `stadiumId`:
 
     [carlo:~] $ http http://localhost:4567/stadiums/1
     HTTP/1.1 200 OK
@@ -89,7 +89,7 @@ The project depends on the following packages:
         ]
     }
 
-* `GET /teams/`: the NFL teams list:
+### `GET /teams/`: the NFL teams list:
 
     [carlo:~] $ http http://localhost:4567/teams
     HTTP/1.1 200 OK
@@ -118,7 +118,7 @@ The project depends on the following packages:
     ]
 
 
-* `GET /teams/:teamId`: the information about the team with the `stadiumId`:
+### `GET /teams/:teamId`: the information about the team with the `stadiumId`:
 
     [carlo:~] $ http http://localhost:4567/teams/1
     HTTP/1.1 200 OK
