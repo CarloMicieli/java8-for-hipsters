@@ -21,6 +21,7 @@ import org.junit.Test;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.function.Predicate;
 
 import static java.util.stream.Collectors.toList;
 import static org.hamcrest.Matchers.equalTo;
@@ -59,12 +60,18 @@ public class StadiumsTests {
     }
 
     @Test
-    public void shouldFindAStadium() {
+    public void shouldFindAStadiumByName() {
         Optional<Stadium> sf = Stadiums.findByName("FedEx Field");
         assertThat(sf.isPresent(), is(true));
         assertThat(sf.get().getName(), is(equalTo("FedEx Field")));
     }
 
+    @Test
+    public void shouldFindAStadiumById() {
+        Optional<Stadium> sf = Stadiums.findById(1);
+        assertThat(sf.isPresent(), is(true));
+        assertThat(sf.get().getName(), is(equalTo("Levis Stadium")));
+    }
 
     @Test
     public void shouldReturnTheFirstTwoStadiumByOpenedYear() {
@@ -114,6 +121,16 @@ public class StadiumsTests {
                 .mapToLong(Stadium::getCapacity)
                 .sum();
         assertThat(totalCapacity, is(equalTo(2_278_014L)));
+    }
+
+    @Test
+    public void shouldCalculateTotalCapacityForStadiumsInCalifornia() {
+        Predicate<Stadium> inCalifornia = s -> s.getState().equals("California");
+        int total = Stadiums.stream()
+                .filter(inCalifornia)
+                .mapToInt(Stadium::getCapacity)
+                .reduce(0, Math::addExact);
+        assertThat(total, is(equalTo(209_761)));
     }
 
     @Test

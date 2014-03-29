@@ -39,6 +39,12 @@ public final class Stadiums {
         return l.load(new TypeToken<List<Stadium>>() {}.getType());
     }
 
+    public static Optional<Stadium> findById(int id) {
+        return stream()
+                .filter(s -> s.getId() == id)
+                .findFirst();
+    }
+
     public static Optional<Stadium> findByName(String stadiumName) {
         return stream()
                 .filter(s -> s.getName().equals(stadiumName))

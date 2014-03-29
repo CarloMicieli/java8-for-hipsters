@@ -15,11 +15,13 @@
  */
 package io.github.carlomicieli.java8;
 
+import io.github.carlomicieli.java8.api.SparkApplication;
+
 /**
  * @author Carlo Micieli
  */
 public class MainClass {
     public static void main(String[] args) throws Exception {
-        throw new RuntimeException("Run: ./gradlew check --- everything is in the tests!");
+        SparkApplication.start();
     }
 }

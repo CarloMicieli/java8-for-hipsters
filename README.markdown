@@ -2,23 +2,139 @@
 
 [![Build Status](https://travis-ci.org/CarloMicieli/java8-for-hipsters.png?branch=master)](https://travis-ci.org/CarloMicieli/java8-for-hipsters)
 
-The project includes `Gradle` build script.
+The project includes a `Gradle` build script.
+Let's start cloning the repo:
 
-To run the test suite:
+    [carlo:~] $ git clone https://github.com/CarloMicieli/java8-for-hipsters.git
 
-    $ git clone https://github.com/CarloMicieli/java8-for-hipsters.git
-    $ ./gradlew check
-
-To import the project into `Intellij IDEA`:
+To run the sample web application:
     
-    $ ./gradlew idea
+    [carlo:~] $ ./gradlew run
 
-The samples are built against `JDK 1.8.0`.
+The web server is listening at `http://localhost:4567`.
 
-    $ java -version
+To run the unit tests suite:
+
+    [carlo:~] $ ./gradlew check
+
+To generate the project files for `Intellij IDEA`:
+
+    [carlo:~] $ ./gradlew idea
+
+The samples are built against the latest `JDK 1.8.0`.
+
+    [carlo:~] $ java -version
     java version "1.8.0"
     Java(TM) SE Runtime Environment (build 1.8.0-b132)
     Java HotSpot(TM) 64-Bit Server VM (build 25.0-b70, mixed mode)
+
+The project includes few sample data sets, they are loading the data from `JSON` files under `/src/resources/data`.
+The data are used through Java `stream`s:
+
+    Teams.stream();     // yield a Stream<Team>...... NFL teams
+    Stadiums.stream();  // yield a Stream<Stadium>... NFL stadiums
+    States.stream();    // yield a Stream<State>..... USA states 
+
+The project depends on the following packages:
+    * `Google GSON`
+    * `Spark micro web framework`
+    * `JUnit` and `Hamcrest` for testing
+
+## Everything is an API nowadays
+
+* `GET /stadiums`: the NFL stadiums list:
+
+    [carlo:~] $ http http://localhost:4567/stadiums
+    HTTP/1.1 200 OK
+    Content-Length: 2020
+    Content-Type: application/json
+    Server: Jetty(9.0.2.v20130417)
+
+    [
+        {
+            "capacity": 75000, 
+            "id": 1, 
+            "location": "Santa Clara", 
+            "name": "Levis Stadium", 
+            "openedYear": 2014, 
+            "roofType": "Open", 
+            "state": "California", 
+            "surface": "419 Tifway Bermuda Grass", 
+            "teamNames": [
+                "San Francisco 49ers"
+            ]
+        }, 
+        ....
+    ]
+
+* `GET /stadiums/:stadiumId`: the information about the stadium with the `stadiumId`:
+
+    [carlo:~] $ http http://localhost:4567/stadiums/1
+    HTTP/1.1 200 OK
+    Content-Length: 203
+    Content-Type: application/json
+    Server: Jetty(9.0.2.v20130417)
+
+    {
+        "capacity": 75000, 
+        "id": 1, 
+        "location": "Santa Clara", 
+        "name": "Levis Stadium", 
+        "openedYear": 2014, 
+        "roofType": "Open", 
+        "state": "California", 
+        "surface": "419 Tifway Bermuda Grass", 
+        "teamNames": [
+            "San Francisco 49ers"
+        ]
+    }
+
+* `GET /teams/`: the NFL teams list:
+
+    [carlo:~] $ http http://localhost:4567/teams
+    HTTP/1.1 200 OK
+    Content-Length: 1067
+    Content-Type: application/json
+    Server: Jetty(9.0.2.v20130417)
+
+    [
+        {
+            "conference": "NFC", 
+            "division": "North", 
+            "foundedAt": 1900, 
+            "id": 1, 
+            "name": "Detroit Lions", 
+            "shortName": "DET"
+        }, 
+        {
+            "conference": "AFC", 
+            "division": "South", 
+            "foundedAt": 1900, 
+            "id": 2, 
+            "name": "Tennessee Titans", 
+            "shortName": "TEN"
+        }, 
+        ....
+    ]
+
+
+* `GET /teams/:teamId`: the information about the team with the `stadiumId`:
+
+    [carlo:~] $ http http://localhost:4567/teams/1
+    HTTP/1.1 200 OK
+    Content-Length: 104
+    Content-Type: application/json
+    Server: Jetty(9.0.2.v20130417)
+
+    {
+        "conference": "NFC", 
+        "division": "North", 
+        "foundedAt": 1900, 
+        "id": 1, 
+        "name": "Detroit Lions", 
+        "shortName": "DET"
+    }
+
 
 ## Functional programming
 
@@ -74,7 +190,6 @@ Time and data api has just got big time changes.
     LocalDate now = LocalDate.now();
 
 
-
 ## References
 * __Cay S. Horstmann__ (2014); `Java SE 8 for the Really Impatient`; Addison-Wesley Professional; 1st edition
 * __Raoul-Gabriel Urma, Mario Fusco, and Alan Mycroft__ (2014); `Java 8 in Action`; Manning Pubblishing; MEAP
@@ -82,4 +197,4 @@ Time and data api has just got big time changes.
 Inspired by the following blog posts:
 
 * __Michael Scharhag__ [A deeper look into the Java 8 Date and Time API](http://www.mscharhag.com/2014/02/java-8-datetime-api.html "A deeper look into the Java 8 Date and Time API")
-* __Benjamin Winterberg__ [Java 8 tutorial](http://winterbe.com/posts/2014/03/16/java-8-tutorial)
+* __Benjamin Winterberg__ [Java 8 tutorial](http://winterbe.com/posts/2014/03/16/java-8-tutorial "Java 8 tutorial")

@@ -44,6 +44,12 @@ public class TeamsTests {
     }
 
     @Test
+    public void shouldGetTeamsList() {
+        int count = Teams.list().size();
+        assertThat(count, is(equalTo(32)));
+    }
+
+    @Test
     public void shouldReturnEmptyValueIfTeamIsNotFound() {
         Optional<Team> empty = Teams.findByName("Not found");
         assertThat(empty.isPresent(), is(false));
@@ -54,6 +60,13 @@ public class TeamsTests {
         Map<String, List<Team>> divisions = Teams.teamsByDivision();
         assertThat(divisions.get("NFC West"), is(notNullValue()));
         assertThat(divisions.get("NFC West").size(), is(equalTo(4)));
+    }
+
+    @Test
+    public void shouldFindTeamsById() {
+        Optional<Team> sf = Teams.findById(4);
+        assertThat(sf.isPresent(), is(true));
+        assertThat(sf.get().getName(), is(equalTo("San Francisco 49ers")));
     }
 
     @Test

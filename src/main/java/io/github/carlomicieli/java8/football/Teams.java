@@ -34,6 +34,10 @@ public class Teams {
         return data.stream();
     }
 
+    public static List<Team> list() {
+        return data;
+    }
+
     public static Optional<Team> findByName(String teamName) {
         return stream()
                 .filter(t -> t.getName().equals(teamName))
@@ -47,6 +51,10 @@ public class Teams {
     private static List<Team> teamsList() {
         Loader l = new Loader(TEAMS_DATA_JSON);
         return l.load(new TypeToken<List<Team>>() {}.getType());
+    }
+
+    public static Optional<Team> findById(int id) {
+        return stream().filter(t -> t.getId() == id).findFirst();
     }
 }
 
