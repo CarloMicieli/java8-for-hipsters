@@ -13,16 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.github.carlomicieli.java8;
+package io.github.carlomicieli.java8.states;
+
+import org.junit.Test;
+
+import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.is;
+import static org.junit.Assert.assertThat;
 
 /**
  * @author Carlo Micieli
  */
-public class MainClass {
-    public static void main(String[] args) throws Exception {
-        new MainClass();
+public class StatesTests {
+
+    @Test
+    public void shouldLoadStatesList() {
+        assertThat(States.stream().count(), is(equalTo(50L)));
     }
 
-    public MainClass() throws Exception {
-    }
 }

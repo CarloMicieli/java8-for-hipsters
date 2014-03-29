@@ -13,16 +13,28 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.github.carlomicieli.java8;
+package io.github.carlomicieli.java8.states;
+
+import com.google.gson.reflect.TypeToken;
+import io.github.carlomicieli.java8.utils.Loader;
+
+import java.util.List;
+import java.util.stream.Stream;
 
 /**
  * @author Carlo Micieli
  */
-public class MainClass {
-    public static void main(String[] args) throws Exception {
-        new MainClass();
+public class States {
+    private static final String DATA_STATES_JSON = "/data/states.json";
+    private static final List<State> data = statesList();
+
+    public static Stream<State> stream() {
+        return data.stream();
     }
 
-    public MainClass() throws Exception {
+    private static List<State> statesList() {
+        Loader l = new Loader(DATA_STATES_JSON);
+        return l.load(new TypeToken<List<State>>() {}.getType());
     }
+
 }
