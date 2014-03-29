@@ -82,4 +82,4 @@ Time and data api has just got big time changes.
 Inspired by the following blog posts:
 
 * __Michael Scharhag__ [A deeper look into the Java 8 Date and Time API](http://www.mscharhag.com/2014/02/java-8-datetime-api.html "A deeper look into the Java 8 Date and Time API")
-* [Java 8 tutorial] (http://winterbe.com/posts/2014/03/16/java-8-tutorial)
+* __Benjamin Winterberg__ [Java 8 tutorial](http://winterbe.com/posts/2014/03/16/java-8-tutorial)
