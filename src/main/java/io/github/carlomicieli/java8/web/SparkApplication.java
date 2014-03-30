@@ -35,8 +35,7 @@ public class SparkApplication {
 
     public static void start() {
         get("/", (req, resp) -> "Welcome to #Java8");
-        get("/teams", (req, resp) -> paginate(Teams.stream(), req).collect(Collectors.toList())
-        );
+        get("/teams", (req, resp) -> paginate(Teams.stream(), req).collect(Collectors.toList()));
         get("/teams/:id", (req, resp) -> {
             int teamId = Integer.parseInt(req.params(":id"));
             Supplier<Team> notFound = () -> {
@@ -45,8 +44,7 @@ public class SparkApplication {
             };
             return Teams.findById(teamId).orElseGet(notFound);
         });
-        get("/stadiums", (req, resp) -> paginate(Stadiums.stream(), req).collect(Collectors.toList())
-        );
+        get("/stadiums", (req, resp) -> paginate(Stadiums.stream(), req).collect(Collectors.toList()));
         get("/stadiums/:id", (req, resp) -> {
             int stadiumId = Integer.parseInt(req.params(":id"));
             Supplier<Stadium> notFound = () -> {
@@ -60,5 +58,4 @@ public class SparkApplication {
     private static void get(String path, BiFunction<Request, Response, Object> handler) {
         Spark.get(newRoute(path, handler));
     }
-
 }
