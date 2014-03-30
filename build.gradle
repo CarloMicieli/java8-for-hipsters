@@ -36,7 +36,7 @@ dependencies {
 task wrapper(type: Wrapper, 
              group: 'Gradle wrapper', 
              description: 'Gradle will be automatically downloaded and used to run the build.') {
-    gradleVersion = '1.10'
+    gradleVersion = '1.11'
 }
 
 test {

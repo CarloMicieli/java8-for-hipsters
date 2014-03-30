@@ -15,7 +15,7 @@
  */
 package io.github.carlomicieli.java8;
 
-import io.github.carlomicieli.java8.api.SparkApplication;
+import io.github.carlomicieli.java8.web.SparkApplication;
 
 /**
  * @author Carlo Micieli
