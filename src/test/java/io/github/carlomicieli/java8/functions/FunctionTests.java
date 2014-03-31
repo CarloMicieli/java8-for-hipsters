@@ -15,9 +15,11 @@
  */
 package io.github.carlomicieli.java8.functions;
 
+import io.github.carlomicieli.java8.Book;
 import org.junit.Test;
 
 import java.util.function.Function;
+import java.util.function.ToIntBiFunction;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
@@ -27,6 +29,14 @@ import static org.junit.Assert.assertThat;
  * @author Carlo Micieli
  */
 public class FunctionTests {
+
+    @Test
+    public void toIntBiFunction_shouldAcceptTwoOperands_AndProduces_AnIntResult() {
+        ToIntBiFunction<Book, Book> pagesF = (a, b) -> a.getPagesCount() + b.getPagesCount();
+        int totalPages = pagesF.applyAsInt(Book.longBook(), Book.shortBook());
+        assertThat(totalPages, is(equalTo(1268)));
+    }
+
     @Test
     public void shouldComposeFunctions_with_andThen() {
         Function<String, Integer> charsNum = s -> s.replace(" ", "").length();
