@@ -18,8 +18,6 @@ package io.github.carlomicieli.java8.functions;
 import io.github.carlomicieli.java8.Book;
 import org.junit.Test;
 
-import java.util.function.BiFunction;
-
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
@@ -64,7 +62,6 @@ public class LambdaExpressionTests {
     public void functionalInterfaces_Can_Be_Replaced_With_MethodReferences() {
         assertThat(TestClass.applyPredicate(TestClass::method, "abc"), is(true));
     }
-
 
     @FunctionalInterface
     private static interface MyPredicate<T> {
