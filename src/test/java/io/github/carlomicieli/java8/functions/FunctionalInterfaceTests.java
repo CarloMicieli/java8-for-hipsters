@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.github.carlomicieli.java8;
+package io.github.carlomicieli.java8.functions;
 
 import io.github.carlomicieli.java8.football.Stadium;
 import org.junit.Test;
@@ -65,28 +65,6 @@ public class FunctionalInterfaceTests {
     public void shouldCreateFunctionsWithTwoArguments() {
         BiFunction<Integer, Integer, Integer> sumFun = (a, b) -> a + b;
         assertThat(sumFun.apply(1, 2), is(equalTo(3)));
-    }
-
-    @Test
-    public void shouldComposeFunctions_with_andThen() {
-        Function<String, Integer> charsNum = s -> s.replace(" ", "").length();
-        Function<Integer, Integer> doubled = n -> n * 2;
-
-        // first applies this function to its input (charsNum),
-        // and then applies the after function to the result (doubled)
-        Function<String, Integer> composed = charsNum.andThen(doubled);
-        assertThat(composed.apply("hello world"), is(equalTo(20)));
-    }
-
-    @Test
-    public void shouldComposeFunctions_with_compose() {
-        Function<String, Integer> charsNum = s -> s.replace(" ", "").length();
-        Function<Integer, Integer> doubled = n -> n * 2;
-
-        // first applies the before function to its input (charsNum),
-        // and then applies this function to the result (doubled)
-        Function<String, Integer> composed = doubled.compose(charsNum);
-        assertThat(composed.apply("hello world"), is(equalTo(20)));
     }
 
     @Test
@@ -166,9 +144,9 @@ public class FunctionalInterfaceTests {
         R apply(T t, U u);
 
         // java: Unexpected @FunctionalInterface annotation
-        // io.github.carlomicieli.java8.FunctionalInterfaceTests.Function2 is not a functional interface
+        // io.github.carlomicieli.java8.functions.FunctionalInterfaceTests.Function2 is not a functional interface
         //        multiple non-overriding abstract methods found in interface
-        //        io.github.carlomicieli.java8.FunctionalInterfaceTests.Function2
+        //        io.github.carlomicieli.java8.functions.FunctionalInterfaceTests.Function2
         //! void foo();
     }
 
