@@ -13,9 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.github.carlomicieli.java8;
+package io.github.carlomicieli.java8.functions;
 
+import io.github.carlomicieli.java8.Book;
 import org.junit.Test;
+
+import java.util.function.BiFunction;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.core.Is.is;
@@ -37,6 +40,13 @@ public class LambdaExpressionTests {
     public void shouldDefineFunctionsAsInterfaces() {
         MyFunction<String, String, Integer> f = (s1, s2) -> s1.length() + s2.length();
         assertThat(TestClass.applyFunction(f, "abc", "def"), is(equalTo(6)));
+    }
+
+    @Test
+    public void constructorReferences_areBeLambdas() {
+        Function3<String, String, Integer, Book> f3 = Book::new;
+        Book b1 = f3.apply("JRR Tolkien", "The lord of the rings", 1034);
+        assertThat(b1, is(equalTo(Book.longBook())));
     }
 
     @Test
@@ -64,6 +74,11 @@ public class LambdaExpressionTests {
     @FunctionalInterface
     private static interface MyFunction<A, B, R> {
         R apply(A a, B b);
+    }
+
+    @FunctionalInterface
+    private static interface Function3<A, B, C, R> {
+        R apply(A a, B b, C c);
     }
 
     private static class TestClass {
