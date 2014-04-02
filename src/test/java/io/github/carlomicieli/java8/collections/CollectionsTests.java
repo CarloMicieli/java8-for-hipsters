@@ -105,5 +105,4 @@ public class CollectionsTests {
         map.put(2, "two");
         return map;
     }
-
 }
