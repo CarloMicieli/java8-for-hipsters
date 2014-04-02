@@ -33,6 +33,13 @@ import static org.junit.Assert.assertThat;
  */
 public class IntStreamTests {
 
+    @Test(expected = IllegalStateException.class)
+    public void terminalOperations_shouldCloseIntStreams_anyFurtherOperationShouldThrowException() {
+        IntStream intStream = IntStream.of(1);
+        intStream.count();
+        intStream.max();    // <-- stream has been closed by count()
+    }
+
     @Test
     public void builder_shouldBuildNewIntStreams() {
         IntStream intStream = IntStream.builder().add(1).add(2).add(3).build();
@@ -57,7 +64,6 @@ public class IntStreamTests {
         assertThat(values, hasSize(9));
         assertThat(values, hasItems(1, 2, 3, 4, 5, 6, 7, 8, 9));
     }
-
 
     @Test
     public void concat_shouldConcatTwoIntStreams() {
@@ -107,7 +113,6 @@ public class IntStreamTests {
     public void of_shouldGenerateIntStreams_withTheProvidedValues() {
         IntStream streamOf2and5 = IntStream.of(2, 5);
         assertThat(streamOf2and5.count(), is(equalTo(2L)));
-        assertThat(streamOf2and5.sum(), is(equalTo(7)));
     }
 
     @Test
