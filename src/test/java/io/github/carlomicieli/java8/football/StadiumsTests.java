@@ -16,7 +16,6 @@
 package io.github.carlomicieli.java8.football;
 
 import org.hamcrest.CoreMatchers;
-import org.hamcrest.MatcherAssert;
 import org.junit.Test;
 
 import java.util.List;
@@ -135,12 +134,13 @@ public class StadiumsTests {
 
     @Test
     public void shouldReturnTheNamesListForTheDomedStadiums() {
-        String stadiumsStr = Stadiums.stream()
+        Optional<String> stadiumsStr = Stadiums.stream()
                 .filter(s -> s.getRoofType() == RoofType.DOMED)
                 .map(Stadium::getName)
                 .sorted()
-                .reduce("", (acc, name) -> acc + name + ", ");
-        assertThat(stadiumsStr, is(equalTo("Edward Jones Dome, Ford Field, Georgia Dome, Mercedes-Benz Superdome, ")));
+                .reduce((a, b) -> a + ", " + b);
+        assertThat(stadiumsStr.orElse(null),
+                is(equalTo("Edward Jones Dome, Ford Field, Georgia Dome, Mercedes-Benz Superdome")));
     }
 
 }
