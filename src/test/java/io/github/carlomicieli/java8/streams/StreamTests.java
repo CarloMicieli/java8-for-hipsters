@@ -17,7 +17,9 @@ package io.github.carlomicieli.java8.streams;
 
 import org.junit.Test;
 
+import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -104,4 +106,23 @@ public class StreamTests {
         s.distinct();
     }
 
+    @Test
+    public void shouldFilterOutNullValuesFromStreams() {
+        List<String> names = Arrays.asList("one", null, null, "four", "five");
+        long nullCount = names.stream()
+                .filter(Objects::isNull)
+                .count();
+        assertThat(nullCount, is(equalTo(2L)));
+    }
+
+    @Test
+    public void shouldFilterOutNonNullValuesFromStreams() {
+        List<String> names = Arrays.asList("one", null, null, "four", "five");
+
+        long nonNullCount = names.stream()
+                .filter(Objects::nonNull)
+                .count();
+
+        assertThat(nonNullCount, is(equalTo(3L)));
+    }
 }
