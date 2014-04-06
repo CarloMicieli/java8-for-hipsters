@@ -19,7 +19,14 @@ import com.google.gson.reflect.TypeToken;
 import io.github.carlomicieli.java8.utils.Loader;
 
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Stream;
+
+import static java.util.Comparator.comparing;
+import static java.util.stream.Collectors.counting;
+import static java.util.stream.Collectors.groupingBy;
+import static java.util.stream.Collectors.toList;
+import static java.util.stream.IntStream.rangeClosed;
 
 /**
  * @author Carlo Micieli
@@ -32,8 +39,50 @@ public class DraftPicks {
         return data.stream();
     }
 
+    public static List<DraftPick> draftRoundPicks(int year, int round) {
+        validateRound(round);
+        return draftRounds(year).get(round);
+    }
+
+    private static void validateRound(int round) {
+        if (rangeClosed(1, 8).noneMatch(r -> r == round)) {
+            throw new IllegalArgumentException("Round number " + round + " is invalid.");
+        }
+    }
+
+    public static Map<Integer, List<DraftPick>> draftRounds(int year) {
+        return filterByYear(stream(), year)
+                .sorted(comparing(DraftPick::getOverall))
+                .collect(groupingBy(DraftPick::getRound));
+    }
+
+    public static Map<String, Long> picksByPosition(int year) {
+        return filterByYear(stream(), year)
+                .collect(groupingBy(DraftPick::getPosition, counting()));
+    }
+
+    public static List<DraftPick> picksByCollege(String college) {
+        return stream()
+                .filter(p -> p.getCollege().equals(college))
+                .sorted(comparing(DraftPick::getYear).thenComparing(DraftPick::getOverall))
+                .collect(toList());
+    }
+
+    public static List<DraftPick> picksByCollegeAndRound(String college, int round) {
+        validateRound(round);
+        return stream()
+                .filter(p -> p.getCollege().equals(college))
+                .filter(p -> p.getRound() == round)
+                .sorted(comparing(DraftPick::getYear).thenComparing(DraftPick::getOverall))
+                .collect(toList());
+    }
+
     private static List<DraftPick> draftPicksList() {
         Loader l = new Loader(DRAFTS_DATA_JSON);
         return l.load(new TypeToken<List<DraftPick>>() {}.getType());
+    }
+
+    private static Stream<DraftPick> filterByYear(Stream<DraftPick> stream, int year) {
+        return stream.filter(d -> d.getYear() == year);
     }
 }
