@@ -18,6 +18,8 @@ package io.github.carlomicieli.java8;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 
+import java.util.Comparator;
+
 /**
  * @author Carlo Micieli
  */
@@ -25,11 +27,13 @@ public class Book {
     private final String author;
     private final String title;
     private final int pages;
+    private final double weight;
 
-    public Book(String author, String title, int pages) {
+    public Book(String author, String title, int pages, double weight) {
         this.author = author;
         this.title = title;
         this.pages = pages;
+        this.weight = weight;
     }
 
     public String getAuthor() {
@@ -42,6 +46,10 @@ public class Book {
 
     public int getPagesCount() {
         return pages;
+    }
+
+    public double getWeight() {
+        return weight;
     }
 
     @Override
@@ -66,11 +74,13 @@ public class Book {
                 .hashCode();
     }
 
+    public static final Comparator<Book> BY_PAGE_COUNT_ASC = Comparator.comparing(Book::getPagesCount);
+
     public static Book longBook() {
-        return new Book("JRR Tolkien", "The lord of the rings", 1034);
+        return new Book("JRR Tolkien", "The lord of the rings", 1034, 41.6);
     }
 
     public static Book shortBook() {
-        return new Book("Kurt Vonnegut", "Cat's cradle", 234);
+        return new Book("Kurt Vonnegut", "Cat's cradle", 234, 4.2);
     }
 }
