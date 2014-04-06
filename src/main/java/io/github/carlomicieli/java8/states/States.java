@@ -16,7 +16,7 @@
 package io.github.carlomicieli.java8.states;
 
 import com.google.gson.reflect.TypeToken;
-import io.github.carlomicieli.java8.utils.Loader;
+import io.github.carlomicieli.java8.helpers.Loader;
 
 import java.util.List;
 import java.util.stream.Stream;

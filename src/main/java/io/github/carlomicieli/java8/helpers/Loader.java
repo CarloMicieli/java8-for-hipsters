@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.github.carlomicieli.java8.utils;
+package io.github.carlomicieli.java8.helpers;
 
 import com.google.gson.*;
 import io.github.carlomicieli.java8.football.PlayingSurface;

@@ -15,7 +15,7 @@
  */
 package io.github.carlomicieli.java8.football;
 
-import io.github.carlomicieli.java8.utils.OrdinalNumber;
+import io.github.carlomicieli.java8.helpers.OrdinalNumber;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 
