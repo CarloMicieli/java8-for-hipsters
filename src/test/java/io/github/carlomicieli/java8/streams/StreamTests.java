@@ -20,7 +20,6 @@ import org.junit.Test;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
-import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -34,10 +33,6 @@ import static org.junit.Assert.assertThat;
  */
 public class StreamTests {
 
-    private Stream<Integer> numbers() {
-        return Stream.of(1, 45, 23, 22, 55, 66, 80);
-    }
-
     @Test
     public void shouldCheckWhetherAllElementsMatchThePredicate() {
         assertThat(numbers().allMatch(n -> n < 100), is(equalTo(true)));
@@ -50,6 +45,10 @@ public class StreamTests {
         assertThat(numbers().anyMatch(n -> n % 2 == 0), is(equalTo(true)));
     }
 
+    private Stream<Integer> numbers() {
+        return Stream.of(1, 45, 23, 22, 55, 66, 80);
+    }
+
     @Test
     public void shouldConcatTwoStreams() {
         Stream<Integer> s1 = Stream.of(1, 2, 3, 4);
@@ -57,8 +56,9 @@ public class StreamTests {
 
         Stream<Integer> s = Stream.concat(s1, s2);
 
-        List<Integer> l = s.collect(Collectors.toList());
-        assertThat(l.size(), is(equalTo(8)));
+        List<Integer> values = s.collect(Collectors.toList());
+        assertThat(values.size(), is(equalTo(8)));
+        assertThat(values, contains(1, 2, 3, 4, 5, 6, 7, 8));
     }
 
     @Test
@@ -71,7 +71,6 @@ public class StreamTests {
     public void shouldCreateStreamsWithTheSpecifiedElements() {
         Stream<Integer> s = Stream.of(1, 2, 3, 4);
         List<Integer> elems = s.collect(Collectors.toList());
-
         assertThat(elems, contains(1, 2, 3, 4));
     }
 
@@ -83,18 +82,21 @@ public class StreamTests {
 
     @Test
     public void shouldGenerateInfiniteStreams() {
-        Stream<Integer> s = Stream.iterate(0, n -> n + 1);
-        Optional<Integer> val = s.skip(100).limit(1).findFirst();
-        int n = val.orElse(-1);
-        assertThat(n, is(equalTo(100)));
+        Stream<Integer> infiniteStream = Stream.iterate(0, n -> n + 1);
+        int val = infiniteStream
+                .skip(100)
+                .limit(1)
+                .findFirst().orElse(-1);
+        assertThat(val, is(equalTo(100)));
     }
 
     @Test
     public void shouldApplyFunctionToStreamElements() {
-        Stream<String> s = Stream.of("home", "sweet", "home");
-        Stream<String> s2 = s.map(String::toUpperCase);
+        String[] upperStrings = Stream.of("home", "sweet", "home")
+                .map(String::toUpperCase)
+                .toArray(String[]::new);
 
-        assertThat(s2.toArray(String[]::new), is(new String[]{"HOME", "SWEET", "HOME"}));
+        assertThat(upperStrings, is(new String[]{"HOME", "SWEET", "HOME"}));
     }
 
     @Test(expected = IllegalStateException.class)
