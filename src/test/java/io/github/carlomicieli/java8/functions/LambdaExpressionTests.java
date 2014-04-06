@@ -41,14 +41,14 @@ public class LambdaExpressionTests {
     }
 
     @Test
-    public void constructorReferences_areBeLambdas() {
-        Function3<String, String, Integer, Book> f3 = Book::new;
-        Book b1 = f3.apply("JRR Tolkien", "The lord of the rings", 1034);
+    public void shouldConstructorReferencesBeLambdasToo() {
+        Function4<String, String, Integer, Double, Book> f3 = Book::new;
+        Book b1 = f3.apply("JRR Tolkien", "The lord of the rings", 1034, 41.9);
         assertThat(b1, is(equalTo(Book.longBook())));
     }
 
     @Test
-    public void lambdaExpressions_Are_Closures() {
+    public void shouldLambdaExpressionsBeClosures() {
         int a = 10;
         MyFunction<Integer, Integer, Integer> op = (n1, n2) -> a + (n1 * n2);
 
@@ -59,7 +59,7 @@ public class LambdaExpressionTests {
     }
 
     @Test
-    public void functionalInterfaces_Can_Be_Replaced_With_MethodReferences() {
+    public void shouldUseMethodReferencesToReplaceFunctionalInterfaces() {
         assertThat(TestClass.applyPredicate(TestClass::method, "abc"), is(true));
     }
 
@@ -74,8 +74,8 @@ public class LambdaExpressionTests {
     }
 
     @FunctionalInterface
-    private static interface Function3<A, B, C, R> {
-        R apply(A a, B b, C c);
+    private static interface Function4<A, B, C, D, R> {
+        R apply(A a, B b, C c, D d);
     }
 
     private static class TestClass {
@@ -88,7 +88,7 @@ public class LambdaExpressionTests {
         }
 
         static boolean method(String s) {
-            return true;
+            return s.equals(s);
         }
     }
 }

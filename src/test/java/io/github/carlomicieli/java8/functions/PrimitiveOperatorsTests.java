@@ -17,6 +17,7 @@ package io.github.carlomicieli.java8.functions;
 
 import org.junit.Test;
 
+import java.util.Arrays;
 import java.util.function.*;
 
 import static org.hamcrest.Matchers.equalTo;
@@ -28,6 +29,17 @@ import static org.junit.Assert.assertThat;
  * @author Carlo Micieli
  */
 public class PrimitiveOperatorsTests {
+    @Test
+    public void shouldFillArraysWithValuesGeneratedByIntUnaryOperator() {
+        final int[] EXPECTED = new int[]{0, 1, 4, 9, 16};
+        int[] square = new int[5];
+
+        Arrays.setAll(square, n -> n * n);
+
+        assertThat(square.length, is(equalTo(5)));
+        assertThat(square, is(equalTo(EXPECTED)));
+    }
+
     @Test
     public void intUnaryOperator_is_a_specialOperatorForPrimitiveIntegers() {
         IntUnaryOperator twoTimes = n -> 2 * n;

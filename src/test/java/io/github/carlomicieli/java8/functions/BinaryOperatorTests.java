@@ -18,15 +18,14 @@ package io.github.carlomicieli.java8.functions;
 import io.github.carlomicieli.java8.Book;
 import org.junit.Test;
 
-import java.util.Comparator;
 import java.util.function.BiFunction;
 import java.util.function.BinaryOperator;
 import java.util.function.Function;
 
 import static io.github.carlomicieli.java8.Book.longBook;
 import static io.github.carlomicieli.java8.Book.shortBook;
-import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
 /**
@@ -42,21 +41,21 @@ public class BinaryOperatorTests {
 
     @Test
     public void binaryOperator_shouldReturnTheLesserOfTwoElementsAccordingComparator() {
-        BinaryOperator<Book> minOp = BinaryOperator.minBy(Comparator.comparing(Book::getPagesCount));
+        BinaryOperator<Book> minOp = BinaryOperator.minBy(Book.BY_PAGE_COUNT_ASC);
         Book shorter = minOp.apply(shortBook(), longBook());
         assertThat(shorter, is(equalTo(shortBook())));
     }
 
     @Test
     public void binaryOperator_shouldReturnTheGreaterOfTwoElementsAccordingComparator() {
-        BinaryOperator<Book> greatOp = BinaryOperator.maxBy(Comparator.comparing(Book::getPagesCount));
+        BinaryOperator<Book> greatOp = BinaryOperator.maxBy(Book.BY_PAGE_COUNT_ASC);
         Book greater = greatOp.apply(shortBook(), longBook());
         assertThat(greater, is(equalTo(longBook())));
     }
 
     @Test
     public void binaryOperator_shouldApplyTheOperator_AndThen_a_Function() {
-        BinaryOperator<Book> greatOp = BinaryOperator.maxBy(Comparator.comparing(Book::getPagesCount));
+        BinaryOperator<Book> greatOp = BinaryOperator.maxBy(Book.BY_PAGE_COUNT_ASC);
         Function<Book, Boolean> moreThan1000pages = b -> b.getPagesCount() > 1000;
 
         BiFunction<Book, Book, Boolean> bookLongerThan1000pages = greatOp.andThen(moreThan1000pages);
