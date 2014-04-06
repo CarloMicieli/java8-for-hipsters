@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.github.carlomicieli.java8.streams;
+package io.github.carlomicieli.java8.util;
 
 import org.junit.Test;
 
@@ -41,7 +41,7 @@ public class LocaleTests {
         assertThat(ranges, hasSize(3));
 
         Map<String, Double> values = ranges.stream()
-              .collect(toMap(Locale.LanguageRange::getRange, Locale.LanguageRange::getWeight));
+                .collect(toMap(Locale.LanguageRange::getRange, Locale.LanguageRange::getWeight));
         assertThat(values, hasEntry("fr", 1.0));
         assertThat(values, hasEntry("en", 0.2));
         assertThat(values, hasEntry("de", 0.5));

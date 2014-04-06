@@ -13,13 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.github.carlomicieli.java8;
+package io.github.carlomicieli.java8.time;
 
 import org.junit.Test;
 
-import java.time.*;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.Month;
 import java.time.format.DateTimeFormatter;
-import java.time.format.TextStyle;
 import java.util.Locale;
 
 import static java.time.format.DateTimeFormatter.ofPattern;

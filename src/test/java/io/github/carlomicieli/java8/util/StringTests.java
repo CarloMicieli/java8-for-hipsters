@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.github.carlomicieli.java8;
+package io.github.carlomicieli.java8.util;
 
 import org.junit.Test;
 
@@ -42,15 +42,16 @@ public class StringTests {
         assertThat(message, is(equalTo("Java-is-cool")));
     }
 
+    @SuppressWarnings("unused")
     @Test(expected = NullPointerException.class)
     public void stringJoin_shouldThrowNullPointerException_WhenDelimiterIsNull() {
-        String.join(null, "hello");
+        String s = String.join(null, "hello");
     }
 
+    @SuppressWarnings("unused")
     @Test(expected = NullPointerException.class)
     public void stringJoin_shouldThrowNullPointerException_WhenElementsAreNull() {
-        List<String> elements = null;
-        String.join(", ", elements);
+        String s = String.join(", ", (List<String>) null);
     }
 
     @Test

@@ -13,13 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.github.carlomicieli.java8;
+package io.github.carlomicieli.java8.util;
 
 import org.junit.Test;
 
-import static org.hamcrest.Matchers.closeTo;
-import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.is;
+import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.assertThat;
 
 /**
@@ -73,8 +71,9 @@ public class MathTests {
         assertThat(Integer.parseUnsignedInt(b, 2), is(equalTo(378)));
     }
 
+    @SuppressWarnings("unused")
     @Test(expected = NumberFormatException.class)
     public void integer_shouldThrowNumberFormatException_WhenParsingAnInvalidValue() {
-        Integer.parseUnsignedInt("Z");
+        Integer n = Integer.parseUnsignedInt("Z");
     }
 }

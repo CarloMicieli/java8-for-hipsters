@@ -1,4 +1,19 @@
-package io.github.carlomicieli.java8;
+/*
+ * Copyright 2014 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * 	http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package io.github.carlomicieli.java8.time;
 
 import org.junit.Test;
 
@@ -31,7 +46,8 @@ public class MonthTests {
 
     @Test
     public void shouldObtainInformationAboutTheMonth() {
-        boolean leapYear = true;
+        final boolean leapYear = true;
+        final boolean notLeapYear = false;
         Month feb = Month.FEBRUARY;
         Month sept = Month.SEPTEMBER;
 
@@ -40,7 +56,7 @@ public class MonthTests {
         assertThat(feb.maxLength(), is(equalTo(29)));
         assertThat(feb.firstMonthOfQuarter(), is(equalTo(Month.JANUARY)));
         assertThat(sept.firstDayOfYear(leapYear), is(equalTo(245)));
-        assertThat(sept.firstDayOfYear(!leapYear), is(equalTo(244)));
+        assertThat(sept.firstDayOfYear(notLeapYear), is(equalTo(244)));
     }
 
     @Test
