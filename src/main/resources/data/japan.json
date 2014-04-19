@@ -1,0 +1,6474 @@
+[
+    {
+        "name": "Nagoya",
+        "prefecture": "Aichi",
+        "population": 2239464,
+        "area": 326.45,
+        "density": 6860.0,
+        "founded": "1889-10-01T00:00:00Z"
+    },
+    {
+        "name": "Toyohashi",
+        "prefecture": "Aichi",
+        "population": 377045,
+        "area": 261.35,
+        "density": 1443.0,
+        "founded": "1906-08-01T00:00:00Z"
+    },
+    {
+        "name": "Okazaki",
+        "prefecture": "Aichi",
+        "population": 371380,
+        "area": 387.24,
+        "density": 959.0,
+        "founded": "1916-07-01T00:00:00Z"
+    },
+    {
+        "name": "Ichinomiya",
+        "prefecture": "Aichi",
+        "population": 375939,
+        "area": 113.91,
+        "density": 3300.0,
+        "founded": "1921-09-01T00:00:00Z"
+    },
+    {
+        "name": "Seto",
+        "prefecture": "Aichi",
+        "population": 132311,
+        "area": 111.61,
+        "density": 1185.0,
+        "founded": "1929-10-01T00:00:00Z"
+    },
+    {
+        "name": "Handa",
+        "prefecture": "Aichi",
+        "population": 117927,
+        "area": 47.24,
+        "density": 2496.0,
+        "founded": "1937-10-01T00:00:00Z"
+    },
+    {
+        "name": "Kasugai",
+        "prefecture": "Aichi",
+        "population": 300713,
+        "area": 92.71,
+        "density": 3244.0,
+        "founded": "1943-06-01T00:00:00Z"
+    },
+    {
+        "name": "Toyokawa",
+        "prefecture": "Aichi",
+        "population": 161595,
+        "area": 150.71,
+        "density": 1072.0,
+        "founded": "1943-06-01T00:00:00Z"
+    },
+    {
+        "name": "Tsushima",
+        "prefecture": "Aichi",
+        "population": 65646,
+        "area": 25.08,
+        "density": 2617.0,
+        "founded": "1947-03-01T00:00:00Z"
+    },
+    {
+        "name": "Hekinan",
+        "prefecture": "Aichi",
+        "population": 73024,
+        "area": 35.86,
+        "density": 2036.0,
+        "founded": "1948-04-05T00:00:00Z"
+    },
+    {
+        "name": "Kariya",
+        "prefecture": "Aichi",
+        "population": 145117,
+        "area": 50.45,
+        "density": 2876.0,
+        "founded": "1950-04-01T00:00:00Z"
+    },
+    {
+        "name": "Toyota",
+        "prefecture": "Aichi",
+        "population": 420286,
+        "area": 918.47,
+        "density": 458.0,
+        "founded": "1951-03-01T00:00:00Z"
+    },
+    {
+        "name": "AnjoAnjō",
+        "prefecture": "Aichi",
+        "population": 176046,
+        "area": 86.01,
+        "density": 2047.0,
+        "founded": "1952-05-05T00:00:00Z"
+    },
+    {
+        "name": "Nishio",
+        "prefecture": "Aichi",
+        "population": 106643,
+        "area": 75.78,
+        "density": 1407.0,
+        "founded": "1953-12-15T00:00:00Z"
+    },
+    {
+        "name": "GamagoriGamagōri",
+        "prefecture": "Aichi",
+        "population": 82264,
+        "area": 56.81,
+        "density": 1448.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Inuyama",
+        "prefecture": "Aichi",
+        "population": 75304,
+        "area": 74.97,
+        "density": 1004.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Tokoname",
+        "prefecture": "Aichi",
+        "population": 52837,
+        "area": 55.63,
+        "density": 950.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "KonanKōnan",
+        "prefecture": "Aichi",
+        "population": 100064,
+        "area": 30.17,
+        "density": 3317.0,
+        "founded": "1954-06-01T00:00:00Z"
+    },
+    {
+        "name": "Komaki",
+        "prefecture": "Aichi",
+        "population": 149060,
+        "area": 62.82,
+        "density": 2373.0,
+        "founded": "1955-01-01T00:00:00Z"
+    },
+    {
+        "name": "Inazawa",
+        "prefecture": "Aichi",
+        "population": 137475,
+        "area": 79.3,
+        "density": 1734.0,
+        "founded": "1958-11-01T00:00:00Z"
+    },
+    {
+        "name": "TokaiTōkai",
+        "prefecture": "Aichi",
+        "population": 106708,
+        "area": 43.36,
+        "density": 2461.0,
+        "founded": "1969-04-01T00:00:00Z"
+    },
+    {
+        "name": "ObuŌbu",
+        "prefecture": "Aichi",
+        "population": 83097,
+        "area": 33.68,
+        "density": 2467.0,
+        "founded": "1970-09-01T00:00:00Z"
+    },
+    {
+        "name": "Chita",
+        "prefecture": "Aichi",
+        "population": 84782,
+        "area": 45.43,
+        "density": 1866.0,
+        "founded": "1970-09-01T00:00:00Z"
+    },
+    {
+        "name": "ChiryuChiryū",
+        "prefecture": "Aichi",
+        "population": 68216,
+        "area": 16.34,
+        "density": 4175.0,
+        "founded": "1970-12-01T00:00:00Z"
+    },
+    {
+        "name": "Owariasahi",
+        "prefecture": "Aichi",
+        "population": 79197,
+        "area": 21.03,
+        "density": 3766.0,
+        "founded": "1970-12-01T00:00:00Z"
+    },
+    {
+        "name": "Takahama",
+        "prefecture": "Aichi",
+        "population": 43467,
+        "area": 13.0,
+        "density": 3344.0,
+        "founded": "1970-12-01T00:00:00Z"
+    },
+    {
+        "name": "Iwakura",
+        "prefecture": "Aichi",
+        "population": 48042,
+        "area": 10.49,
+        "density": 4580.0,
+        "founded": "1971-12-01T00:00:00Z"
+    },
+    {
+        "name": "Toyoake",
+        "prefecture": "Aichi",
+        "population": 69124,
+        "area": 23.18,
+        "density": 2982.0,
+        "founded": "1972-08-01T00:00:00Z"
+    },
+    {
+        "name": "Nisshin",
+        "prefecture": "Aichi",
+        "population": 80921,
+        "area": 34.9,
+        "density": 2319.0,
+        "founded": "1994-10-01T00:00:00Z"
+    },
+    {
+        "name": "Tahara",
+        "prefecture": "Aichi",
+        "population": 66698,
+        "area": 188.81,
+        "density": 353.0,
+        "founded": "2003-08-20T00:00:00Z"
+    },
+    {
+        "name": "Aisai",
+        "prefecture": "Aichi",
+        "population": 65481,
+        "area": 66.63,
+        "density": 983.0,
+        "founded": "2005-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kiyosu",
+        "prefecture": "Aichi",
+        "population": 56635,
+        "area": 13.31,
+        "density": 4255.0,
+        "founded": "2005-07-07T00:00:00Z"
+    },
+    {
+        "name": "Shinshiro",
+        "prefecture": "Aichi",
+        "population": 51326,
+        "area": 499.0,
+        "density": 103.0,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "Kitanagoya",
+        "prefecture": "Aichi",
+        "population": 80112,
+        "area": 18.37,
+        "density": 4361.0,
+        "founded": "2006-03-20T00:00:00Z"
+    },
+    {
+        "name": "Yatomi",
+        "prefecture": "Aichi",
+        "population": 43145,
+        "area": 48.92,
+        "density": 882.0,
+        "founded": "2006-04-01T00:00:00Z"
+    },
+    {
+        "name": "Miyoshi",
+        "prefecture": "Aichi",
+        "population": 0,
+        "area": 32.11,
+        "density": 0.0,
+        "founded": "2010-01-04T00:00:00Z"
+    },
+    {
+        "name": "Ama",
+        "prefecture": "Aichi",
+        "population": 0,
+        "area": 27.59,
+        "density": 0.0,
+        "founded": "2010-03-22T00:00:00Z"
+    },
+    {
+        "name": "Akita",
+        "prefecture": "Akita",
+        "population": 329287,
+        "area": 905.67,
+        "density": 364.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "OdateŌdate",
+        "prefecture": "Akita",
+        "population": 80587,
+        "area": 913.7,
+        "density": 88.2,
+        "founded": "1951-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kazuno",
+        "prefecture": "Akita",
+        "population": 35543,
+        "area": 707.34,
+        "density": 50.2,
+        "founded": "1972-04-01T00:00:00Z"
+    },
+    {
+        "name": "Daisen",
+        "prefecture": "Akita",
+        "population": 91143,
+        "area": 866.67,
+        "density": 105.0,
+        "founded": "2005-03-22T00:00:00Z"
+    },
+    {
+        "name": "Katagami",
+        "prefecture": "Akita",
+        "population": 35460,
+        "area": 97.96,
+        "density": 362.0,
+        "founded": "2005-03-22T00:00:00Z"
+    },
+    {
+        "name": "Kitaakita",
+        "prefecture": "Akita",
+        "population": 38543,
+        "area": 1152.57,
+        "density": 33.4,
+        "founded": "2005-03-22T00:00:00Z"
+    },
+    {
+        "name": "Oga",
+        "prefecture": "Akita",
+        "population": 34194,
+        "area": 240.8,
+        "density": 142.0,
+        "founded": "2005-03-22T00:00:00Z"
+    },
+    {
+        "name": "YurihonjoYurihonjō",
+        "prefecture": "Akita",
+        "population": 87525,
+        "area": 1209.04,
+        "density": 72.4,
+        "founded": "2005-03-22T00:00:00Z"
+    },
+    {
+        "name": "Yuzawa",
+        "prefecture": "Akita",
+        "population": 53588,
+        "area": 790.72,
+        "density": 67.8,
+        "founded": "2005-03-22T00:00:00Z"
+    },
+    {
+        "name": "Semboku",
+        "prefecture": "Akita",
+        "population": 30885,
+        "area": 1093.64,
+        "density": 28.2,
+        "founded": "2005-09-20T00:00:00Z"
+    },
+    {
+        "name": "Yokote",
+        "prefecture": "Akita",
+        "population": 101234,
+        "area": 693.6,
+        "density": 146.0,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "Nikaho",
+        "prefecture": "Akita",
+        "population": 28422,
+        "area": 240.61,
+        "density": 118.0,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "Noshiro",
+        "prefecture": "Akita",
+        "population": 61295,
+        "area": 426.74,
+        "density": 144.0,
+        "founded": "2006-03-21T00:00:00Z"
+    },
+    {
+        "name": "Hachinohe",
+        "prefecture": "Aomori",
+        "population": 241613,
+        "area": 305.17,
+        "density": 792.0,
+        "founded": "1929-05-01T00:00:00Z"
+    },
+    {
+        "name": "Kuroishi",
+        "prefecture": "Aomori",
+        "population": 37585,
+        "area": 216.96,
+        "density": 173.0,
+        "founded": "1954-07-01T00:00:00Z"
+    },
+    {
+        "name": "Misawa",
+        "prefecture": "Aomori",
+        "population": 42535,
+        "area": 119.97,
+        "density": 355.0,
+        "founded": "1958-09-01T00:00:00Z"
+    },
+    {
+        "name": "Mutsu",
+        "prefecture": "Aomori",
+        "population": 62220,
+        "area": 863.79,
+        "density": 72.0,
+        "founded": "1959-09-01T00:00:00Z"
+    },
+    {
+        "name": "Towada",
+        "prefecture": "Aomori",
+        "population": 66834,
+        "area": 688.6,
+        "density": 97.1,
+        "founded": "2005-01-01T00:00:00Z"
+    },
+    {
+        "name": "Tsugaru",
+        "prefecture": "Aomori",
+        "population": 38919,
+        "area": 253.85,
+        "density": 153.0,
+        "founded": "2005-02-11T00:00:00Z"
+    },
+    {
+        "name": "Goshogawara",
+        "prefecture": "Aomori",
+        "population": 60788,
+        "area": 404.58,
+        "density": 150.0,
+        "founded": "2005-03-28T00:00:00Z"
+    },
+    {
+        "name": "Aomori",
+        "prefecture": "Aomori",
+        "population": 305884,
+        "area": 824.52,
+        "density": 371.0,
+        "founded": "2005-04-01T00:00:00Z"
+    },
+    {
+        "name": "Hirakawa",
+        "prefecture": "Aomori",
+        "population": 34638,
+        "area": 345.81,
+        "density": 100.0,
+        "founded": "2006-01-01T00:00:00Z"
+    },
+    {
+        "name": "Hirosaki",
+        "prefecture": "Aomori",
+        "population": 185865,
+        "area": 523.6,
+        "density": 355.0,
+        "founded": "2006-02-27T00:00:00Z"
+    },
+    {
+        "name": "Chiba",
+        "prefecture": "Chiba",
+        "population": 938695,
+        "area": 272.08,
+        "density": 3450.0,
+        "founded": "1921-01-01T00:00:00Z"
+    },
+    {
+        "name": "ChoshiChōshi",
+        "prefecture": "Chiba",
+        "population": 72348,
+        "area": 83.91,
+        "density": 862.0,
+        "founded": "1933-02-11T00:00:00Z"
+    },
+    {
+        "name": "Ichikawa",
+        "prefecture": "Chiba",
+        "population": 470149,
+        "area": 57.4,
+        "density": 8191.0,
+        "founded": "1934-11-03T00:00:00Z"
+    },
+    {
+        "name": "Funabashi",
+        "prefecture": "Chiba",
+        "population": 586762,
+        "area": 85.64,
+        "density": 6851.0,
+        "founded": "1937-04-01T00:00:00Z"
+    },
+    {
+        "name": "Tateyama",
+        "prefecture": "Chiba",
+        "population": 49987,
+        "area": 110.21,
+        "density": 454.0,
+        "founded": "1939-11-03T00:00:00Z"
+    },
+    {
+        "name": "Kisarazu",
+        "prefecture": "Chiba",
+        "population": 123743,
+        "area": 138.73,
+        "density": 892.0,
+        "founded": "1942-11-03T00:00:00Z"
+    },
+    {
+        "name": "Matsudo",
+        "prefecture": "Chiba",
+        "population": 477603,
+        "area": 61.33,
+        "density": 7787.0,
+        "founded": "1943-04-01T00:00:00Z"
+    },
+    {
+        "name": "Noda",
+        "prefecture": "Chiba",
+        "population": 153422,
+        "area": 103.54,
+        "density": 1482.0,
+        "founded": "1950-05-03T00:00:00Z"
+    },
+    {
+        "name": "Mobara",
+        "prefecture": "Chiba",
+        "population": 93032,
+        "area": 100.01,
+        "density": 930.0,
+        "founded": "1952-04-01T00:00:00Z"
+    },
+    {
+        "name": "Narita",
+        "prefecture": "Chiba",
+        "population": 124773,
+        "area": 213.84,
+        "density": 583.0,
+        "founded": "1954-03-31T00:00:00Z"
+    },
+    {
+        "name": "Sakura",
+        "prefecture": "Chiba",
+        "population": 171472,
+        "area": 103.59,
+        "density": 1655.0,
+        "founded": "1954-03-31T00:00:00Z"
+    },
+    {
+        "name": "ToganeTōgane",
+        "prefecture": "Chiba",
+        "population": 61591,
+        "area": 89.34,
+        "density": 689.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Narashino",
+        "prefecture": "Chiba",
+        "population": 159758,
+        "area": 20.99,
+        "density": 7611.0,
+        "founded": "1954-08-01T00:00:00Z"
+    },
+    {
+        "name": "Kashiwa",
+        "prefecture": "Chiba",
+        "population": 389036,
+        "area": 114.9,
+        "density": 3386.0,
+        "founded": "1954-09-01T00:00:00Z"
+    },
+    {
+        "name": "Katsuura",
+        "prefecture": "Chiba",
+        "population": 21413,
+        "area": 94.2,
+        "density": 227.0,
+        "founded": "1958-10-01T00:00:00Z"
+    },
+    {
+        "name": "Ichihara",
+        "prefecture": "Chiba",
+        "population": 279591,
+        "area": 368.2,
+        "density": 759.0,
+        "founded": "1963-05-01T00:00:00Z"
+    },
+    {
+        "name": "Nagareyama",
+        "prefecture": "Chiba",
+        "population": 156686,
+        "area": 35.28,
+        "density": 4441.0,
+        "founded": "1967-01-01T00:00:00Z"
+    },
+    {
+        "name": "Yachiyo",
+        "prefecture": "Chiba",
+        "population": 184655,
+        "area": 51.27,
+        "density": 3602.0,
+        "founded": "1967-01-01T00:00:00Z"
+    },
+    {
+        "name": "Abiko",
+        "prefecture": "Chiba",
+        "population": 133533,
+        "area": 43.19,
+        "density": 3092.0,
+        "founded": "1970-07-01T00:00:00Z"
+    },
+    {
+        "name": "Kamagaya",
+        "prefecture": "Chiba",
+        "population": 104564,
+        "area": 21.11,
+        "density": 4953.0,
+        "founded": "1971-09-01T00:00:00Z"
+    },
+    {
+        "name": "Kimitsu",
+        "prefecture": "Chiba",
+        "population": 89350,
+        "area": 318.83,
+        "density": 280.0,
+        "founded": "1971-09-01T00:00:00Z"
+    },
+    {
+        "name": "Futtsu",
+        "prefecture": "Chiba",
+        "population": 48973,
+        "area": 205.35,
+        "density": 238.0,
+        "founded": "1971-09-01T00:00:00Z"
+    },
+    {
+        "name": "Urayasu",
+        "prefecture": "Chiba",
+        "population": 159312,
+        "area": 17.29,
+        "density": 9214.0,
+        "founded": "1981-04-01T00:00:00Z"
+    },
+    {
+        "name": "YotsukaidoYotsukaidō",
+        "prefecture": "Chiba",
+        "population": 85738,
+        "area": 34.7,
+        "density": 2471.0,
+        "founded": "1981-04-01T00:00:00Z"
+    },
+    {
+        "name": "Sodegaura",
+        "prefecture": "Chiba",
+        "population": 59443,
+        "area": 94.92,
+        "density": 626.0,
+        "founded": "1991-04-01T00:00:00Z"
+    },
+    {
+        "name": "Yachimata",
+        "prefecture": "Chiba",
+        "population": 75369,
+        "area": 74.87,
+        "density": 1007.0,
+        "founded": "1992-04-01T00:00:00Z"
+    },
+    {
+        "name": "Inzai",
+        "prefecture": "Chiba",
+        "population": 60280,
+        "area": 53.51,
+        "density": 1127.0,
+        "founded": "1996-04-01T00:00:00Z"
+    },
+    {
+        "name": "Shiroi",
+        "prefecture": "Chiba",
+        "population": 57151,
+        "area": 35.41,
+        "density": 1614.0,
+        "founded": "2001-04-01T00:00:00Z"
+    },
+    {
+        "name": "Tomisato",
+        "prefecture": "Chiba",
+        "population": 51590,
+        "area": 53.91,
+        "density": 957.0,
+        "founded": "2002-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kamogawa",
+        "prefecture": "Chiba",
+        "population": 35792,
+        "area": 191.3,
+        "density": 187.0,
+        "founded": "2005-02-11T00:00:00Z"
+    },
+    {
+        "name": "Asahi",
+        "prefecture": "Chiba",
+        "population": 69971,
+        "area": 129.91,
+        "density": 539.0,
+        "founded": "2005-07-01T00:00:00Z"
+    },
+    {
+        "name": "Isumi",
+        "prefecture": "Chiba",
+        "population": 41605,
+        "area": 157.5,
+        "density": 264.0,
+        "founded": "2005-12-05T00:00:00Z"
+    },
+    {
+        "name": "SosaSōsa",
+        "prefecture": "Chiba",
+        "population": 41361,
+        "area": 101.78,
+        "density": 406.0,
+        "founded": "2006-01-23T00:00:00Z"
+    },
+    {
+        "name": "MinamibosoMinamibōsō",
+        "prefecture": "Chiba",
+        "population": 43553,
+        "area": 230.22,
+        "density": 189.0,
+        "founded": "2006-03-20T00:00:00Z"
+    },
+    {
+        "name": "Katori",
+        "prefecture": "Chiba",
+        "population": 85193,
+        "area": 262.31,
+        "density": 325.0,
+        "founded": "2006-03-27T00:00:00Z"
+    },
+    {
+        "name": "Sanmu",
+        "prefecture": "Chiba",
+        "population": 57806,
+        "area": 146.38,
+        "density": 395.0,
+        "founded": "2006-03-27T00:00:00Z"
+    },
+    {
+        "name": "Matsuyama",
+        "prefecture": "Ehime",
+        "population": 515068,
+        "area": 429.03,
+        "density": 1201.0,
+        "founded": "1889-12-15T00:00:00Z"
+    },
+    {
+        "name": "Niihama",
+        "prefecture": "Ehime",
+        "population": 123329,
+        "area": 234.3,
+        "density": 526.0,
+        "founded": "1937-11-03T00:00:00Z"
+    },
+    {
+        "name": "ShikokuchuoShikokuchūō",
+        "prefecture": "Ehime",
+        "population": 91688,
+        "area": 420.1,
+        "density": 218.0,
+        "founded": "2004-04-01T00:00:00Z"
+    },
+    {
+        "name": "Seiyo",
+        "prefecture": "Ehime",
+        "population": 43476,
+        "area": 514.79,
+        "density": 84.5,
+        "founded": "2004-04-01T00:00:00Z"
+    },
+    {
+        "name": "ToonTōon",
+        "prefecture": "Ehime",
+        "population": 35517,
+        "area": 211.45,
+        "density": 168.0,
+        "founded": "2004-09-21T00:00:00Z"
+    },
+    {
+        "name": "SaijoSaijō",
+        "prefecture": "Ehime",
+        "population": 112543,
+        "area": 509.05,
+        "density": 221.0,
+        "founded": "2004-11-01T00:00:00Z"
+    },
+    {
+        "name": "OzuŌzu",
+        "prefecture": "Ehime",
+        "population": 49543,
+        "area": 432.2,
+        "density": 115.0,
+        "founded": "2005-01-11T00:00:00Z"
+    },
+    {
+        "name": "Imabari",
+        "prefecture": "Ehime",
+        "population": 170986,
+        "area": 419.85,
+        "density": 407.0,
+        "founded": "2005-01-16T00:00:00Z"
+    },
+    {
+        "name": "Yawatahama",
+        "prefecture": "Ehime",
+        "population": 40010,
+        "area": 132.98,
+        "density": 301.0,
+        "founded": "2005-03-28T00:00:00Z"
+    },
+    {
+        "name": "Iyo",
+        "prefecture": "Ehime",
+        "population": 38890,
+        "area": 194.47,
+        "density": 200.0,
+        "founded": "2005-04-01T00:00:00Z"
+    },
+    {
+        "name": "Uwajima",
+        "prefecture": "Ehime",
+        "population": 86819,
+        "area": 469.52,
+        "density": 185.0,
+        "founded": "2005-08-01T00:00:00Z"
+    },
+    {
+        "name": "Fukui",
+        "prefecture": "Fukui",
+        "population": 268574,
+        "area": 536.17,
+        "density": 501.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "Tsuruga",
+        "prefecture": "Fukui",
+        "population": 68188,
+        "area": 250.75,
+        "density": 272.0,
+        "founded": "1937-04-01T00:00:00Z"
+    },
+    {
+        "name": "Obama",
+        "prefecture": "Fukui",
+        "population": 31486,
+        "area": 232.86,
+        "density": 135.0,
+        "founded": "1951-03-30T00:00:00Z"
+    },
+    {
+        "name": "OnoŌno",
+        "prefecture": "Fukui",
+        "population": 36763,
+        "area": 872.3,
+        "density": 42.1,
+        "founded": "1954-07-01T00:00:00Z"
+    },
+    {
+        "name": "Katsuyama",
+        "prefecture": "Fukui",
+        "population": 26333,
+        "area": 253.68,
+        "density": 104.0,
+        "founded": "1954-09-01T00:00:00Z"
+    },
+    {
+        "name": "Sabae",
+        "prefecture": "Fukui",
+        "population": 67430,
+        "area": 84.75,
+        "density": 796.0,
+        "founded": "1955-01-15T00:00:00Z"
+    },
+    {
+        "name": "Awara",
+        "prefecture": "Fukui",
+        "population": 30765,
+        "area": 116.99,
+        "density": 263.0,
+        "founded": "2004-03-01T00:00:00Z"
+    },
+    {
+        "name": "Echizen",
+        "prefecture": "Fukui",
+        "population": 87116,
+        "area": 230.75,
+        "density": 378.0,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "Sakai",
+        "prefecture": "Fukui",
+        "population": 92420,
+        "area": 209.91,
+        "density": 440.0,
+        "founded": "2006-03-20T00:00:00Z"
+    },
+    {
+        "name": "Fukuoka",
+        "prefecture": "Fukuoka",
+        "population": 1430371,
+        "area": 340.96,
+        "density": 4195.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kurume",
+        "prefecture": "Fukuoka",
+        "population": 305147,
+        "area": 229.84,
+        "density": 1328.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "OmutaŌmuta",
+        "prefecture": "Fukuoka",
+        "population": 127474,
+        "area": 81.55,
+        "density": 1563.0,
+        "founded": "1917-03-01T00:00:00Z"
+    },
+    {
+        "name": "NogataNōgata",
+        "prefecture": "Fukuoka",
+        "population": 57319,
+        "area": 61.78,
+        "density": 928.0,
+        "founded": "1931-01-01T00:00:00Z"
+    },
+    {
+        "name": "Tagawa",
+        "prefecture": "Fukuoka",
+        "population": 50484,
+        "area": 54.52,
+        "density": 926.0,
+        "founded": "1943-11-03T00:00:00Z"
+    },
+    {
+        "name": "Yanagawa",
+        "prefecture": "Fukuoka",
+        "population": 72798,
+        "area": 76.9,
+        "density": 947.0,
+        "founded": "1952-04-01T00:00:00Z"
+    },
+    {
+        "name": "Yame",
+        "prefecture": "Fukuoka",
+        "population": 42241,
+        "area": 98.66,
+        "density": 428.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Chikugo",
+        "prefecture": "Fukuoka",
+        "population": 48281,
+        "area": 41.85,
+        "density": 1154.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "OkawaŌkawa",
+        "prefecture": "Fukuoka",
+        "population": 38266,
+        "area": 33.61,
+        "density": 1139.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Yukuhashi",
+        "prefecture": "Fukuoka",
+        "population": 70064,
+        "area": 69.83,
+        "density": 1003.0,
+        "founded": "1954-10-10T00:00:00Z"
+    },
+    {
+        "name": "Buzen",
+        "prefecture": "Fukuoka",
+        "population": 27578,
+        "area": 111.17,
+        "density": 248.0,
+        "founded": "1955-04-10T00:00:00Z"
+    },
+    {
+        "name": "Nakama",
+        "prefecture": "Fukuoka",
+        "population": 45549,
+        "area": 15.98,
+        "density": 2850.0,
+        "founded": "1958-11-01T00:00:00Z"
+    },
+    {
+        "name": "KitakyushuKitakyūshū",
+        "prefecture": "Fukuoka",
+        "population": 986998,
+        "area": 487.71,
+        "density": 2024.0,
+        "founded": "1963-02-10T00:00:00Z"
+    },
+    {
+        "name": "OgoriOgōri",
+        "prefecture": "Fukuoka",
+        "population": 58460,
+        "area": 45.5,
+        "density": 1285.0,
+        "founded": "1972-04-01T00:00:00Z"
+    },
+    {
+        "name": "Chikushino",
+        "prefecture": "Fukuoka",
+        "population": 98914,
+        "area": 87.78,
+        "density": 1127.0,
+        "founded": "1972-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kasuga",
+        "prefecture": "Fukuoka",
+        "population": 107845,
+        "area": 14.15,
+        "density": 7622.0,
+        "founded": "1972-04-01T00:00:00Z"
+    },
+    {
+        "name": "OnojoŌnojō",
+        "prefecture": "Fukuoka",
+        "population": 94037,
+        "area": 26.88,
+        "density": 3498.0,
+        "founded": "1972-04-01T00:00:00Z"
+    },
+    {
+        "name": "Munakata",
+        "prefecture": "Fukuoka",
+        "population": 94877,
+        "area": 119.66,
+        "density": 793.0,
+        "founded": "1981-04-01T00:00:00Z"
+    },
+    {
+        "name": "Dazaifu",
+        "prefecture": "Fukuoka",
+        "population": 68561,
+        "area": 29.58,
+        "density": 2318.0,
+        "founded": "1982-04-01T00:00:00Z"
+    },
+    {
+        "name": "Koga",
+        "prefecture": "Fukuoka",
+        "population": 57084,
+        "area": 42.11,
+        "density": 1356.0,
+        "founded": "1997-10-01T00:00:00Z"
+    },
+    {
+        "name": "Fukutsu",
+        "prefecture": "Fukuoka",
+        "population": 55123,
+        "area": 52.7,
+        "density": 1046.0,
+        "founded": "2005-01-24T00:00:00Z"
+    },
+    {
+        "name": "Ukiha",
+        "prefecture": "Fukuoka",
+        "population": 32277,
+        "area": 117.55,
+        "density": 275.0,
+        "founded": "2005-03-20T00:00:00Z"
+    },
+    {
+        "name": "Miyawaka",
+        "prefecture": "Fukuoka",
+        "population": 30793,
+        "area": 139.99,
+        "density": 220.0,
+        "founded": "2006-02-11T00:00:00Z"
+    },
+    {
+        "name": "Asakura",
+        "prefecture": "Fukuoka",
+        "population": 57881,
+        "area": 246.73,
+        "density": 235.0,
+        "founded": "2006-03-20T00:00:00Z"
+    },
+    {
+        "name": "Iizuka",
+        "prefecture": "Fukuoka",
+        "population": 132208,
+        "area": 214.13,
+        "density": 617.0,
+        "founded": "2006-03-26T00:00:00Z"
+    },
+    {
+        "name": "Kama",
+        "prefecture": "Fukuoka",
+        "population": 44431,
+        "area": 135.18,
+        "density": 329.0,
+        "founded": "2006-03-27T00:00:00Z"
+    },
+    {
+        "name": "Miyama",
+        "prefecture": "Fukuoka",
+        "population": 42219,
+        "area": 105.12,
+        "density": 402.0,
+        "founded": "2007-01-29T00:00:00Z"
+    },
+    {
+        "name": "Itoshima",
+        "prefecture": "Fukuoka",
+        "population": 0,
+        "area": 216.12,
+        "density": 0.0,
+        "founded": "2010-01-01T00:00:00Z"
+    },
+    {
+        "name": "Aizuwakamatsu",
+        "prefecture": "Fukushima",
+        "population": 129388,
+        "area": 383.03,
+        "density": 338.0,
+        "founded": "1899-04-01T00:00:00Z"
+    },
+    {
+        "name": "Fukushima",
+        "prefecture": "Fukushima",
+        "population": 289355,
+        "area": 746.43,
+        "density": 388.0,
+        "founded": "1907-04-01T00:00:00Z"
+    },
+    {
+        "name": "KoriyamaKōriyama",
+        "prefecture": "Fukushima",
+        "population": 339395,
+        "area": 757.06,
+        "density": 448.0,
+        "founded": "1924-09-01T00:00:00Z"
+    },
+    {
+        "name": "Sukagawa",
+        "prefecture": "Fukushima",
+        "population": 80336,
+        "area": 279.55,
+        "density": 287.0,
+        "founded": "1954-03-31T00:00:00Z"
+    },
+    {
+        "name": "SomaSōma",
+        "prefecture": "Fukushima",
+        "population": 38543,
+        "area": 197.67,
+        "density": 195.0,
+        "founded": "1954-03-31T00:00:00Z"
+    },
+    {
+        "name": "Iwaki",
+        "prefecture": "Fukushima",
+        "population": 349947,
+        "area": 1231.34,
+        "density": 284.0,
+        "founded": "1966-10-01T00:00:00Z"
+    },
+    {
+        "name": "Tamura",
+        "prefecture": "Fukushima",
+        "population": 42221,
+        "area": 458.3,
+        "density": 92.1,
+        "founded": "2005-03-01T00:00:00Z"
+    },
+    {
+        "name": "Shirakawa",
+        "prefecture": "Fukushima",
+        "population": 65665,
+        "area": 305.3,
+        "density": 215.0,
+        "founded": "2005-11-07T00:00:00Z"
+    },
+    {
+        "name": "Nihonmatsu",
+        "prefecture": "Fukushima",
+        "population": 61698,
+        "area": 344.65,
+        "density": 179.0,
+        "founded": "2005-12-01T00:00:00Z"
+    },
+    {
+        "name": "MinamisomaMinamisōma",
+        "prefecture": "Fukushima",
+        "population": 71761,
+        "area": 398.5,
+        "density": 180.0,
+        "founded": "2006-01-01T00:00:00Z"
+    },
+    {
+        "name": "Date",
+        "prefecture": "Fukushima",
+        "population": 67487,
+        "area": 265.1,
+        "density": 255.0,
+        "founded": "2006-01-01T00:00:00Z"
+    },
+    {
+        "name": "Kitakata",
+        "prefecture": "Fukushima",
+        "population": 54684,
+        "area": 554.67,
+        "density": 98.6,
+        "founded": "2006-01-04T00:00:00Z"
+    },
+    {
+        "name": "Motomiya",
+        "prefecture": "Fukushima",
+        "population": 31737,
+        "area": 87.94,
+        "density": 361.0,
+        "founded": "2007-01-01T00:00:00Z"
+    },
+    {
+        "name": "Gifu",
+        "prefecture": "Gifu",
+        "population": 412779,
+        "area": 202.89,
+        "density": 2034.0,
+        "founded": "1889-07-01T00:00:00Z"
+    },
+    {
+        "name": "OgakiŌgaki",
+        "prefecture": "Gifu",
+        "population": 163047,
+        "area": 206.52,
+        "density": 789.0,
+        "founded": "1918-04-01T00:00:00Z"
+    },
+    {
+        "name": "Takayama",
+        "prefecture": "Gifu",
+        "population": 94879,
+        "area": 2177.67,
+        "density": 43.6,
+        "founded": "1936-11-01T00:00:00Z"
+    },
+    {
+        "name": "Tajimi",
+        "prefecture": "Gifu",
+        "population": 114866,
+        "area": 91.24,
+        "density": 1259.0,
+        "founded": "1940-08-01T00:00:00Z"
+    },
+    {
+        "name": "Seki",
+        "prefecture": "Gifu",
+        "population": 92896,
+        "area": 472.84,
+        "density": 196.0,
+        "founded": "1950-10-15T00:00:00Z"
+    },
+    {
+        "name": "Nakatsugawa",
+        "prefecture": "Gifu",
+        "population": 83116,
+        "area": 676.38,
+        "density": 123.0,
+        "founded": "1952-04-01T00:00:00Z"
+    },
+    {
+        "name": "Mino",
+        "prefecture": "Gifu",
+        "population": 22912,
+        "area": 117.05,
+        "density": 196.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Mizunami",
+        "prefecture": "Gifu",
+        "population": 41556,
+        "area": 175.0,
+        "density": 237.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Hashima",
+        "prefecture": "Gifu",
+        "population": 67167,
+        "area": 53.64,
+        "density": 1252.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Minokamo",
+        "prefecture": "Gifu",
+        "population": 53988,
+        "area": 74.81,
+        "density": 722.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Toki",
+        "prefecture": "Gifu",
+        "population": 61393,
+        "area": 116.01,
+        "density": 529.0,
+        "founded": "1955-02-01T00:00:00Z"
+    },
+    {
+        "name": "Kakamigahara",
+        "prefecture": "Gifu",
+        "population": 145126,
+        "area": 87.77,
+        "density": 1653.0,
+        "founded": "1963-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kani",
+        "prefecture": "Gifu",
+        "population": 99318,
+        "area": 87.6,
+        "density": 1134.0,
+        "founded": "1982-04-01T00:00:00Z"
+    },
+    {
+        "name": "Yamagata",
+        "prefecture": "Gifu",
+        "population": 29857,
+        "area": 222.04,
+        "density": 134.0,
+        "founded": "2003-04-01T00:00:00Z"
+    },
+    {
+        "name": "Mizuho",
+        "prefecture": "Gifu",
+        "population": 51230,
+        "area": 28.18,
+        "density": 1818.0,
+        "founded": "2003-05-01T00:00:00Z"
+    },
+    {
+        "name": "Hida",
+        "prefecture": "Gifu",
+        "population": 28112,
+        "area": 792.31,
+        "density": 35.5,
+        "founded": "2004-02-01T00:00:00Z"
+    },
+    {
+        "name": "Motosu",
+        "prefecture": "Gifu",
+        "population": 34729,
+        "area": 374.57,
+        "density": 92.7,
+        "founded": "2004-02-01T00:00:00Z"
+    },
+    {
+        "name": "GujoGujō",
+        "prefecture": "Gifu",
+        "population": 46338,
+        "area": 1030.79,
+        "density": 45.0,
+        "founded": "2004-03-01T00:00:00Z"
+    },
+    {
+        "name": "Gero",
+        "prefecture": "Gifu",
+        "population": 37455,
+        "area": 851.06,
+        "density": 44.0,
+        "founded": "2004-03-01T00:00:00Z"
+    },
+    {
+        "name": "Ena",
+        "prefecture": "Gifu",
+        "population": 54844,
+        "area": 504.19,
+        "density": 109.0,
+        "founded": "2004-10-25T00:00:00Z"
+    },
+    {
+        "name": "Kaizu",
+        "prefecture": "Gifu",
+        "population": 38532,
+        "area": 112.31,
+        "density": 343.0,
+        "founded": "2005-03-28T00:00:00Z"
+    },
+    {
+        "name": "Maebashi",
+        "prefecture": "Gunma",
+        "population": 318058,
+        "area": 241.22,
+        "density": 1319.0,
+        "founded": "1892-04-01T00:00:00Z"
+    },
+    {
+        "name": "Takasaki",
+        "prefecture": "Gunma",
+        "population": 341838,
+        "area": 401.01,
+        "density": 852.0,
+        "founded": "1900-04-01T00:00:00Z"
+    },
+    {
+        "name": "KiryuKiryū",
+        "prefecture": "Gunma",
+        "population": 124892,
+        "area": 274.57,
+        "density": 455.0,
+        "founded": "1921-03-01T00:00:00Z"
+    },
+    {
+        "name": "Isesaki",
+        "prefecture": "Gunma",
+        "population": 204240,
+        "area": 139.33,
+        "density": 1466.0,
+        "founded": "1940-09-13T00:00:00Z"
+    },
+    {
+        "name": "OtaŌta",
+        "prefecture": "Gunma",
+        "population": 214049,
+        "area": 176.49,
+        "density": 1213.0,
+        "founded": "1948-05-03T00:00:00Z"
+    },
+    {
+        "name": "Numata",
+        "prefecture": "Gunma",
+        "population": 52319,
+        "area": 443.37,
+        "density": 118.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Tatebayashi",
+        "prefecture": "Gunma",
+        "population": 79023,
+        "area": 60.98,
+        "density": 1296.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Fujioka",
+        "prefecture": "Gunma",
+        "population": 68710,
+        "area": 180.09,
+        "density": 382.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Shibukawa",
+        "prefecture": "Gunma",
+        "population": 86134,
+        "area": 240.42,
+        "density": 358.0,
+        "founded": "2006-02-20T00:00:00Z"
+    },
+    {
+        "name": "Annaka",
+        "prefecture": "Gunma",
+        "population": 62270,
+        "area": 276.34,
+        "density": 225.0,
+        "founded": "2006-03-18T00:00:00Z"
+    },
+    {
+        "name": "Tomioka",
+        "prefecture": "Gunma",
+        "population": 53332,
+        "area": 122.9,
+        "density": 434.0,
+        "founded": "2006-03-27T00:00:00Z"
+    },
+    {
+        "name": "Midori",
+        "prefecture": "Gunma",
+        "population": 51964,
+        "area": 208.23,
+        "density": 250.0,
+        "founded": "2006-03-27T00:00:00Z"
+    },
+    {
+        "name": "Hiroshima",
+        "prefecture": "Hiroshima",
+        "population": 1163806,
+        "area": 905.13,
+        "density": 1286.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "Onomichi",
+        "prefecture": "Hiroshima",
+        "population": 148085,
+        "area": 284.85,
+        "density": 520.0,
+        "founded": "1898-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kure",
+        "prefecture": "Hiroshima",
+        "population": 246118,
+        "area": 353.74,
+        "density": 696.0,
+        "founded": "1902-10-01T00:00:00Z"
+    },
+    {
+        "name": "Fukuyama",
+        "prefecture": "Hiroshima",
+        "population": 461368,
+        "area": 518.07,
+        "density": 891.0,
+        "founded": "1916-07-01T00:00:00Z"
+    },
+    {
+        "name": "Mihara",
+        "prefecture": "Hiroshima",
+        "population": 103209,
+        "area": 471.03,
+        "density": 219.0,
+        "founded": "1936-11-15T00:00:00Z"
+    },
+    {
+        "name": "FuchuFuchū",
+        "prefecture": "Hiroshima",
+        "population": 44212,
+        "area": 195.71,
+        "density": 226.0,
+        "founded": "1954-03-31T00:00:00Z"
+    },
+    {
+        "name": "Miyoshi",
+        "prefecture": "Hiroshima",
+        "population": 58264,
+        "area": 778.19,
+        "density": 74.9,
+        "founded": "1954-03-31T00:00:00Z"
+    },
+    {
+        "name": "ShobaraShōbara",
+        "prefecture": "Hiroshima",
+        "population": 41747,
+        "area": 1246.6,
+        "density": 33.5,
+        "founded": "1954-03-31T00:00:00Z"
+    },
+    {
+        "name": "OtakeŌtake",
+        "prefecture": "Hiroshima",
+        "population": 29665,
+        "area": 78.55,
+        "density": 378.0,
+        "founded": "1954-09-01T00:00:00Z"
+    },
+    {
+        "name": "Takehara",
+        "prefecture": "Hiroshima",
+        "population": 29803,
+        "area": 118.3,
+        "density": 252.0,
+        "founded": "1958-11-03T00:00:00Z"
+    },
+    {
+        "name": "Higashihiroshima",
+        "prefecture": "Hiroshima",
+        "population": 187711,
+        "area": 635.32,
+        "density": 295.0,
+        "founded": "1974-04-20T00:00:00Z"
+    },
+    {
+        "name": "Hatsukaichi",
+        "prefecture": "Hiroshima",
+        "population": 115184,
+        "area": 489.36,
+        "density": 235.0,
+        "founded": "1988-04-01T00:00:00Z"
+    },
+    {
+        "name": "Akitakata",
+        "prefecture": "Hiroshima",
+        "population": 32323,
+        "area": 537.79,
+        "density": 60.1,
+        "founded": "2004-03-01T00:00:00Z"
+    },
+    {
+        "name": "Etajima",
+        "prefecture": "Hiroshima",
+        "population": 28601,
+        "area": 100.97,
+        "density": 283.0,
+        "founded": "2004-11-01T00:00:00Z"
+    },
+    {
+        "name": "Sapporo",
+        "prefecture": "Hokkaidō",
+        "population": 1904319,
+        "area": 1121.12,
+        "density": 1699.0,
+        "founded": "1922-08-01T00:00:00Z"
+    },
+    {
+        "name": "Hakodate",
+        "prefecture": "Hokkaidō",
+        "population": 277056,
+        "area": 677.89,
+        "density": 409.0,
+        "founded": "1922-08-01T00:00:00Z"
+    },
+    {
+        "name": "Otaru",
+        "prefecture": "Hokkaidō",
+        "population": 130255,
+        "area": 243.3,
+        "density": 535.0,
+        "founded": "1922-08-01T00:00:00Z"
+    },
+    {
+        "name": "Asahikawa",
+        "prefecture": "Hokkaidō",
+        "population": 350511,
+        "area": 747.6,
+        "density": 469.0,
+        "founded": "1922-08-01T00:00:00Z"
+    },
+    {
+        "name": "Muroran",
+        "prefecture": "Hokkaidō",
+        "population": 93078,
+        "area": 80.65,
+        "density": 1154.0,
+        "founded": "1922-08-01T00:00:00Z"
+    },
+    {
+        "name": "Obihiro",
+        "prefecture": "Hokkaidō",
+        "population": 168188,
+        "area": 618.94,
+        "density": 272.0,
+        "founded": "1933-04-01T00:00:00Z"
+    },
+    {
+        "name": "YubariYūbari",
+        "prefecture": "Hokkaidō",
+        "population": 10471,
+        "area": 763.2,
+        "density": 13.7,
+        "founded": "1943-04-01T00:00:00Z"
+    },
+    {
+        "name": "Iwamizawa",
+        "prefecture": "Hokkaidō",
+        "population": 89023,
+        "area": 481.1,
+        "density": 185.0,
+        "founded": "1943-04-01T00:00:00Z"
+    },
+    {
+        "name": "Abashiri",
+        "prefecture": "Hokkaidō",
+        "population": 38548,
+        "area": 471.0,
+        "density": 81.8,
+        "founded": "1947-02-11T00:00:00Z"
+    },
+    {
+        "name": "Rumoi",
+        "prefecture": "Hokkaidō",
+        "population": 24036,
+        "area": 297.44,
+        "density": 80.8,
+        "founded": "1947-10-01T00:00:00Z"
+    },
+    {
+        "name": "Tomakomai",
+        "prefecture": "Hokkaidō",
+        "population": 173761,
+        "area": 561.49,
+        "density": 309.0,
+        "founded": "1948-04-01T00:00:00Z"
+    },
+    {
+        "name": "Wakkanai",
+        "prefecture": "Hokkaidō",
+        "population": 37911,
+        "area": 760.83,
+        "density": 49.8,
+        "founded": "1949-04-01T00:00:00Z"
+    },
+    {
+        "name": "Bibai",
+        "prefecture": "Hokkaidō",
+        "population": 25312,
+        "area": 277.61,
+        "density": 91.2,
+        "founded": "1950-04-01T00:00:00Z"
+    },
+    {
+        "name": "Ashibetsu",
+        "prefecture": "Hokkaidō",
+        "population": 16465,
+        "area": 865.02,
+        "density": 19.0,
+        "founded": "1953-04-01T00:00:00Z"
+    },
+    {
+        "name": "Ebetsu",
+        "prefecture": "Hokkaidō",
+        "population": 120940,
+        "area": 187.57,
+        "density": 645.0,
+        "founded": "1954-07-01T00:00:00Z"
+    },
+    {
+        "name": "Akabira",
+        "prefecture": "Hokkaidō",
+        "population": 12234,
+        "area": 129.88,
+        "density": 94.2,
+        "founded": "1954-07-01T00:00:00Z"
+    },
+    {
+        "name": "Monbetsu",
+        "prefecture": "Hokkaidō",
+        "population": 24293,
+        "area": 830.7,
+        "density": 29.2,
+        "founded": "1954-07-01T00:00:00Z"
+    },
+    {
+        "name": "Mikasa",
+        "prefecture": "Hokkaidō",
+        "population": 10070,
+        "area": 302.64,
+        "density": 33.3,
+        "founded": "1957-04-01T00:00:00Z"
+    },
+    {
+        "name": "Nemuro",
+        "prefecture": "Hokkaidō",
+        "population": 28923,
+        "area": 512.63,
+        "density": 56.4,
+        "founded": "1957-08-01T00:00:00Z"
+    },
+    {
+        "name": "Chitose",
+        "prefecture": "Hokkaidō",
+        "population": 94124,
+        "area": 594.95,
+        "density": 158.0,
+        "founded": "1958-07-01T00:00:00Z"
+    },
+    {
+        "name": "Takikawa",
+        "prefecture": "Hokkaidō",
+        "population": 42815,
+        "area": 115.82,
+        "density": 370.0,
+        "founded": "1958-07-01T00:00:00Z"
+    },
+    {
+        "name": "Sunagawa",
+        "prefecture": "Hokkaidō",
+        "population": 18740,
+        "area": 78.69,
+        "density": 238.0,
+        "founded": "1958-07-01T00:00:00Z"
+    },
+    {
+        "name": "Utashinai",
+        "prefecture": "Hokkaidō",
+        "population": 4259,
+        "area": 55.99,
+        "density": 76.1,
+        "founded": "1958-07-01T00:00:00Z"
+    },
+    {
+        "name": "Fukagawa",
+        "prefecture": "Hokkaidō",
+        "population": 23215,
+        "area": 529.23,
+        "density": 43.9,
+        "founded": "1963-05-01T00:00:00Z"
+    },
+    {
+        "name": "Furano",
+        "prefecture": "Hokkaidō",
+        "population": 23890,
+        "area": 600.97,
+        "density": 39.8,
+        "founded": "1966-05-01T00:00:00Z"
+    },
+    {
+        "name": "Noboribetsu",
+        "prefecture": "Hokkaidō",
+        "population": 51474,
+        "area": 212.11,
+        "density": 243.0,
+        "founded": "1970-08-01T00:00:00Z"
+    },
+    {
+        "name": "Eniwa",
+        "prefecture": "Hokkaidō",
+        "population": 68754,
+        "area": 294.87,
+        "density": 233.0,
+        "founded": "1970-11-01T00:00:00Z"
+    },
+    {
+        "name": "Date",
+        "prefecture": "Hokkaidō",
+        "population": 36461,
+        "area": 444.28,
+        "density": 82.1,
+        "founded": "1972-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kitahiroshima",
+        "prefecture": "Hokkaidō",
+        "population": 60291,
+        "area": 118.54,
+        "density": 509.0,
+        "founded": "1996-09-01T00:00:00Z"
+    },
+    {
+        "name": "Ishikari",
+        "prefecture": "Hokkaidō",
+        "population": 60616,
+        "area": 721.86,
+        "density": 84.0,
+        "founded": "1996-09-01T00:00:00Z"
+    },
+    {
+        "name": "Shibetsu",
+        "prefecture": "Hokkaidō",
+        "population": 21640,
+        "area": 1119.29,
+        "density": 19.3,
+        "founded": "2005-09-01T00:00:00Z"
+    },
+    {
+        "name": "Kushiro",
+        "prefecture": "Hokkaidō",
+        "population": 182263,
+        "area": 1362.75,
+        "density": 134.0,
+        "founded": "2005-10-11T00:00:00Z"
+    },
+    {
+        "name": "Hokuto",
+        "prefecture": "Hokkaidō",
+        "population": 48779,
+        "area": 397.3,
+        "density": 123.0,
+        "founded": "2006-02-01T00:00:00Z"
+    },
+    {
+        "name": "Kitami",
+        "prefecture": "Hokkaidō",
+        "population": 124291,
+        "area": 1427.56,
+        "density": 87.1,
+        "founded": "2006-03-05T00:00:00Z"
+    },
+    {
+        "name": "Nayoro",
+        "prefecture": "Hokkaidō",
+        "population": 29869,
+        "area": 535.23,
+        "density": 55.8,
+        "founded": "2006-03-27T00:00:00Z"
+    },
+    {
+        "name": "Kobe",
+        "prefecture": "Hyōgo",
+        "population": 1530847,
+        "area": 552.23,
+        "density": 2772.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "Himeji",
+        "prefecture": "Hyōgo",
+        "population": 536170,
+        "area": 534.27,
+        "density": 1004.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "Amagasaki",
+        "prefecture": "Hyōgo",
+        "population": 461202,
+        "area": 49.77,
+        "density": 9267.0,
+        "founded": "1916-04-01T00:00:00Z"
+    },
+    {
+        "name": "Akashi",
+        "prefecture": "Hyōgo",
+        "population": 292162,
+        "area": 49.24,
+        "density": 5933.0,
+        "founded": "1919-11-01T00:00:00Z"
+    },
+    {
+        "name": "Nishinomiya",
+        "prefecture": "Hyōgo",
+        "population": 477056,
+        "area": 99.96,
+        "density": 4772.0,
+        "founded": "1925-04-01T00:00:00Z"
+    },
+    {
+        "name": "Ashiya",
+        "prefecture": "Hyōgo",
+        "population": 92828,
+        "area": 18.47,
+        "density": 5026.0,
+        "founded": "1940-11-10T00:00:00Z"
+    },
+    {
+        "name": "Itami",
+        "prefecture": "Hyōgo",
+        "population": 194488,
+        "area": 24.97,
+        "density": 7789.0,
+        "founded": "1940-11-10T00:00:00Z"
+    },
+    {
+        "name": "Aioi",
+        "prefecture": "Hyōgo",
+        "population": 31973,
+        "area": 90.45,
+        "density": 353.0,
+        "founded": "1942-10-01T00:00:00Z"
+    },
+    {
+        "name": "Toyooka",
+        "prefecture": "Hyōgo",
+        "population": 87555,
+        "area": 697.66,
+        "density": 125.0,
+        "founded": "1950-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kakogawa",
+        "prefecture": "Hyōgo",
+        "population": 267631,
+        "area": 138.51,
+        "density": 1932.0,
+        "founded": "1950-06-15T00:00:00Z"
+    },
+    {
+        "name": "AkoAkō",
+        "prefecture": "Hyōgo",
+        "population": 51277,
+        "area": 126.88,
+        "density": 404.0,
+        "founded": "1951-09-01T00:00:00Z"
+    },
+    {
+        "name": "Takarazuka",
+        "prefecture": "Hyōgo",
+        "population": 222071,
+        "area": 101.8,
+        "density": 2181.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Miki",
+        "prefecture": "Hyōgo",
+        "population": 83244,
+        "area": 176.58,
+        "density": 471.0,
+        "founded": "1954-06-01T00:00:00Z"
+    },
+    {
+        "name": "Takasago",
+        "prefecture": "Hyōgo",
+        "population": 94198,
+        "area": 34.4,
+        "density": 2738.0,
+        "founded": "1954-07-01T00:00:00Z"
+    },
+    {
+        "name": "Kawanishi",
+        "prefecture": "Hyōgo",
+        "population": 157461,
+        "area": 53.44,
+        "density": 2947.0,
+        "founded": "1954-08-01T00:00:00Z"
+    },
+    {
+        "name": "Ono",
+        "prefecture": "Hyōgo",
+        "population": 49664,
+        "area": 92.92,
+        "density": 534.0,
+        "founded": "1954-12-01T00:00:00Z"
+    },
+    {
+        "name": "Sanda",
+        "prefecture": "Hyōgo",
+        "population": 113600,
+        "area": 210.22,
+        "density": 540.0,
+        "founded": "1958-07-01T00:00:00Z"
+    },
+    {
+        "name": "Kasai",
+        "prefecture": "Hyōgo",
+        "population": 48435,
+        "area": 150.95,
+        "density": 321.0,
+        "founded": "1967-04-01T00:00:00Z"
+    },
+    {
+        "name": "Sasayama",
+        "prefecture": "Hyōgo",
+        "population": 44345,
+        "area": 377.61,
+        "density": 117.0,
+        "founded": "1999-04-01T00:00:00Z"
+    },
+    {
+        "name": "Yabu",
+        "prefecture": "Hyōgo",
+        "population": 27428,
+        "area": 422.78,
+        "density": 64.9,
+        "founded": "2004-04-01T00:00:00Z"
+    },
+    {
+        "name": "Tamba",
+        "prefecture": "Hyōgo",
+        "population": 69233,
+        "area": 493.28,
+        "density": 140.0,
+        "founded": "2004-11-01T00:00:00Z"
+    },
+    {
+        "name": "Minamiawaji",
+        "prefecture": "Hyōgo",
+        "population": 51069,
+        "area": 229.18,
+        "density": 223.0,
+        "founded": "2005-01-11T00:00:00Z"
+    },
+    {
+        "name": "Asago",
+        "prefecture": "Hyōgo",
+        "population": 34084,
+        "area": 402.98,
+        "density": 84.6,
+        "founded": "2005-04-01T00:00:00Z"
+    },
+    {
+        "name": "Awaji",
+        "prefecture": "Hyōgo",
+        "population": 47849,
+        "area": 184.21,
+        "density": 260.0,
+        "founded": "2005-04-01T00:00:00Z"
+    },
+    {
+        "name": "ShisoShisō",
+        "prefecture": "Hyōgo",
+        "population": 42302,
+        "area": 658.6,
+        "density": 64.2,
+        "founded": "2005-04-01T00:00:00Z"
+    },
+    {
+        "name": "Nishiwaki",
+        "prefecture": "Hyōgo",
+        "population": 43126,
+        "area": 132.47,
+        "density": 326.0,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "Tatsuno",
+        "prefecture": "Hyōgo",
+        "population": 80988,
+        "area": 210.93,
+        "density": 384.0,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "Sumoto",
+        "prefecture": "Hyōgo",
+        "population": 48631,
+        "area": 182.47,
+        "density": 267.0,
+        "founded": "2006-02-11T00:00:00Z"
+    },
+    {
+        "name": "KatoKatō",
+        "prefecture": "Hyōgo",
+        "population": 39935,
+        "area": 157.49,
+        "density": 254.0,
+        "founded": "2006-03-20T00:00:00Z"
+    },
+    {
+        "name": "Mito",
+        "prefecture": "Ibaraki",
+        "population": 264062,
+        "area": 217.43,
+        "density": 1214.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "Hitachi",
+        "prefecture": "Ibaraki",
+        "population": 195844,
+        "area": 225.55,
+        "density": 868.0,
+        "founded": "1939-09-01T00:00:00Z"
+    },
+    {
+        "name": "Tsuchiura",
+        "prefecture": "Ibaraki",
+        "population": 143986,
+        "area": 113.82,
+        "density": 1265.0,
+        "founded": "1940-11-03T00:00:00Z"
+    },
+    {
+        "name": "YukiYūki",
+        "prefecture": "Ibaraki",
+        "population": 52065,
+        "area": 65.84,
+        "density": 791.0,
+        "founded": "1954-03-15T00:00:00Z"
+    },
+    {
+        "name": "RyugasakiRyūgasaki",
+        "prefecture": "Ibaraki",
+        "population": 79295,
+        "area": 78.2,
+        "density": 1014.0,
+        "founded": "1954-03-20T00:00:00Z"
+    },
+    {
+        "name": "Shimotsuma",
+        "prefecture": "Ibaraki",
+        "population": 45918,
+        "area": 80.88,
+        "density": 568.0,
+        "founded": "1954-06-01T00:00:00Z"
+    },
+    {
+        "name": "JosoJōsō",
+        "prefecture": "Ibaraki",
+        "population": 65858,
+        "area": 123.52,
+        "density": 533.0,
+        "founded": "1954-07-10T00:00:00Z"
+    },
+    {
+        "name": "HitachiotaHitachiōta",
+        "prefecture": "Ibaraki",
+        "population": 58461,
+        "area": 372.01,
+        "density": 157.0,
+        "founded": "1954-07-15T00:00:00Z"
+    },
+    {
+        "name": "Takahagi",
+        "prefecture": "Ibaraki",
+        "population": 32031,
+        "area": 193.65,
+        "density": 165.0,
+        "founded": "1954-11-23T00:00:00Z"
+    },
+    {
+        "name": "Kitaibaraki",
+        "prefecture": "Ibaraki",
+        "population": 48437,
+        "area": 186.55,
+        "density": 260.0,
+        "founded": "1956-03-31T00:00:00Z"
+    },
+    {
+        "name": "Toride",
+        "prefecture": "Ibaraki",
+        "population": 109953,
+        "area": 69.96,
+        "density": 1572.0,
+        "founded": "1970-10-01T00:00:00Z"
+    },
+    {
+        "name": "Ushiku",
+        "prefecture": "Ibaraki",
+        "population": 79254,
+        "area": 58.88,
+        "density": 1346.0,
+        "founded": "1986-06-01T00:00:00Z"
+    },
+    {
+        "name": "Tsukuba",
+        "prefecture": "Ibaraki",
+        "population": 207314,
+        "area": 284.07,
+        "density": 730.0,
+        "founded": "1987-11-30T00:00:00Z"
+    },
+    {
+        "name": "Hitachinaka",
+        "prefecture": "Ibaraki",
+        "population": 155338,
+        "area": 99.04,
+        "density": 1568.0,
+        "founded": "1994-11-01T00:00:00Z"
+    },
+    {
+        "name": "Kashima",
+        "prefecture": "Ibaraki",
+        "population": 65193,
+        "area": 92.96,
+        "density": 701.0,
+        "founded": "1995-09-01T00:00:00Z"
+    },
+    {
+        "name": "Itako",
+        "prefecture": "Ibaraki",
+        "population": 31103,
+        "area": 62.67,
+        "density": 496.0,
+        "founded": "2001-04-01T00:00:00Z"
+    },
+    {
+        "name": "Moriya",
+        "prefecture": "Ibaraki",
+        "population": 57793,
+        "area": 35.63,
+        "density": 1622.0,
+        "founded": "2002-02-02T00:00:00Z"
+    },
+    {
+        "name": "HitachiomiyaHitachiōmiya",
+        "prefecture": "Ibaraki",
+        "population": 46729,
+        "area": 348.38,
+        "density": 134.0,
+        "founded": "2004-10-16T00:00:00Z"
+    },
+    {
+        "name": "Naka",
+        "prefecture": "Ibaraki",
+        "population": 54618,
+        "area": 97.8,
+        "density": 558.0,
+        "founded": "2005-01-21T00:00:00Z"
+    },
+    {
+        "name": "BandoBandō",
+        "prefecture": "Ibaraki",
+        "population": 57128,
+        "area": 123.18,
+        "density": 464.0,
+        "founded": "2005-03-22T00:00:00Z"
+    },
+    {
+        "name": "Inashiki",
+        "prefecture": "Ibaraki",
+        "population": 48125,
+        "area": 178.12,
+        "density": 270.0,
+        "founded": "2005-03-22T00:00:00Z"
+    },
+    {
+        "name": "Chikusei",
+        "prefecture": "Ibaraki",
+        "population": 110813,
+        "area": 205.35,
+        "density": 540.0,
+        "founded": "2005-03-28T00:00:00Z"
+    },
+    {
+        "name": "Kasumigaura",
+        "prefecture": "Ibaraki",
+        "population": 44450,
+        "area": 118.77,
+        "density": 374.0,
+        "founded": "2005-03-28T00:00:00Z"
+    },
+    {
+        "name": "Kamisu",
+        "prefecture": "Ibaraki",
+        "population": 93538,
+        "area": 147.24,
+        "density": 635.0,
+        "founded": "2005-08-01T00:00:00Z"
+    },
+    {
+        "name": "Namegata",
+        "prefecture": "Ibaraki",
+        "population": 39117,
+        "area": 166.33,
+        "density": 235.0,
+        "founded": "2005-09-02T00:00:00Z"
+    },
+    {
+        "name": "Koga",
+        "prefecture": "Ibaraki",
+        "population": 144392,
+        "area": 123.58,
+        "density": 1168.0,
+        "founded": "2005-09-12T00:00:00Z"
+    },
+    {
+        "name": "Ishioka",
+        "prefecture": "Ibaraki",
+        "population": 80502,
+        "area": 213.38,
+        "density": 377.0,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "Sakuragawa",
+        "prefecture": "Ibaraki",
+        "population": 47480,
+        "area": 179.78,
+        "density": 264.0,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "Hokota",
+        "prefecture": "Ibaraki",
+        "population": 50869,
+        "area": 203.9,
+        "density": 249.0,
+        "founded": "2005-10-11T00:00:00Z"
+    },
+    {
+        "name": "Kasama",
+        "prefecture": "Ibaraki",
+        "population": 80646,
+        "area": 240.27,
+        "density": 336.0,
+        "founded": "2006-03-19T00:00:00Z"
+    },
+    {
+        "name": "Tsukubamirai",
+        "prefecture": "Ibaraki",
+        "population": 41957,
+        "area": 79.14,
+        "density": 530.0,
+        "founded": "2006-03-27T00:00:00Z"
+    },
+    {
+        "name": "Omitama",
+        "prefecture": "Ibaraki",
+        "population": 52834,
+        "area": 140.21,
+        "density": 377.0,
+        "founded": "2006-03-27T00:00:00Z"
+    },
+    {
+        "name": "Kanazawa",
+        "prefecture": "Ishikawa",
+        "population": 455595,
+        "area": 467.77,
+        "density": 974.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "Nanao",
+        "prefecture": "Ishikawa",
+        "population": 60140,
+        "area": 317.96,
+        "density": 189.0,
+        "founded": "1939-07-20T00:00:00Z"
+    },
+    {
+        "name": "Komatsu",
+        "prefecture": "Ishikawa",
+        "population": 109285,
+        "area": 371.13,
+        "density": 294.0,
+        "founded": "1940-12-01T00:00:00Z"
+    },
+    {
+        "name": "Suzu",
+        "prefecture": "Ishikawa",
+        "population": 17111,
+        "area": 247.2,
+        "density": 69.2,
+        "founded": "1954-07-15T00:00:00Z"
+    },
+    {
+        "name": "Hakui",
+        "prefecture": "Ishikawa",
+        "population": 23963,
+        "area": 81.96,
+        "density": 292.0,
+        "founded": "1958-07-01T00:00:00Z"
+    },
+    {
+        "name": "Kahoku",
+        "prefecture": "Ishikawa",
+        "population": 34747,
+        "area": 64.76,
+        "density": 537.0,
+        "founded": "2004-03-01T00:00:00Z"
+    },
+    {
+        "name": "Hakusan",
+        "prefecture": "Ishikawa",
+        "population": 110563,
+        "area": 755.17,
+        "density": 146.0,
+        "founded": "2005-02-01T00:00:00Z"
+    },
+    {
+        "name": "Nomi",
+        "prefecture": "Ishikawa",
+        "population": 48106,
+        "area": 83.85,
+        "density": 574.0,
+        "founded": "2005-02-01T00:00:00Z"
+    },
+    {
+        "name": "Kaga",
+        "prefecture": "Ishikawa",
+        "population": 73745,
+        "area": 306.0,
+        "density": 241.0,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "Wajima",
+        "prefecture": "Ishikawa",
+        "population": 31532,
+        "area": 426.25,
+        "density": 74.0,
+        "founded": "2006-02-01T00:00:00Z"
+    },
+    {
+        "name": "Morioka",
+        "prefecture": "Iwate",
+        "population": 299746,
+        "area": 886.47,
+        "density": 338.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kamaishi",
+        "prefecture": "Iwate",
+        "population": 41348,
+        "area": 441.42,
+        "density": 93.7,
+        "founded": "1937-05-05T00:00:00Z"
+    },
+    {
+        "name": "OfunatoŌfunato",
+        "prefecture": "Iwate",
+        "population": 42119,
+        "area": 323.28,
+        "density": 130.0,
+        "founded": "1952-04-01T00:00:00Z"
+    },
+    {
+        "name": "Rikuzentakata",
+        "prefecture": "Iwate",
+        "population": 23961,
+        "area": 232.29,
+        "density": 103.0,
+        "founded": "1955-01-01T00:00:00Z"
+    },
+    {
+        "name": "Kitakami",
+        "prefecture": "Iwate",
+        "population": 94806,
+        "area": 437.55,
+        "density": 217.0,
+        "founded": "1991-04-01T00:00:00Z"
+    },
+    {
+        "name": "Miyako",
+        "prefecture": "Iwate",
+        "population": 58342,
+        "area": 696.82,
+        "density": 83.7,
+        "founded": "2005-06-06T00:00:00Z"
+    },
+    {
+        "name": "Hachimantai",
+        "prefecture": "Iwate",
+        "population": 29993,
+        "area": 862.25,
+        "density": 34.8,
+        "founded": "2005-09-01T00:00:00Z"
+    },
+    {
+        "name": "Ichinoseki",
+        "prefecture": "Iwate",
+        "population": 123155,
+        "area": 1133.1,
+        "density": 109.0,
+        "founded": "2005-09-20T00:00:00Z"
+    },
+    {
+        "name": "TonoTōno",
+        "prefecture": "Iwate",
+        "population": 30587,
+        "area": 825.62,
+        "density": 37.0,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "Hanamaki",
+        "prefecture": "Iwate",
+        "population": 103718,
+        "area": 908.32,
+        "density": 114.0,
+        "founded": "2006-01-01T00:00:00Z"
+    },
+    {
+        "name": "Ninohe",
+        "prefecture": "Iwate",
+        "population": 30685,
+        "area": 420.31,
+        "density": 73.0,
+        "founded": "2006-01-01T00:00:00Z"
+    },
+    {
+        "name": "OshuŌshū",
+        "prefecture": "Iwate",
+        "population": 128273,
+        "area": 993.35,
+        "density": 129.0,
+        "founded": "2006-02-20T00:00:00Z"
+    },
+    {
+        "name": "Kuji",
+        "prefecture": "Iwate",
+        "population": 37824,
+        "area": 623.14,
+        "density": 60.7,
+        "founded": "2006-03-06T00:00:00Z"
+    },
+    {
+        "name": "Takizawa",
+        "prefecture": "Iwate",
+        "population": 0,
+        "area": 182.32,
+        "density": 0.0,
+        "founded": "2014-01-01T00:00:00Z"
+    },
+    {
+        "name": "Takamatsu",
+        "prefecture": "Kagawa",
+        "population": 418557,
+        "area": 375.11,
+        "density": 1116.0,
+        "founded": "1890-02-15T00:00:00Z"
+    },
+    {
+        "name": "Marugame",
+        "prefecture": "Kagawa",
+        "population": 110550,
+        "area": 111.79,
+        "density": 989.0,
+        "founded": "1899-04-01T00:00:00Z"
+    },
+    {
+        "name": "Sakaide",
+        "prefecture": "Kagawa",
+        "population": 56501,
+        "area": 92.46,
+        "density": 611.0,
+        "founded": "1942-07-01T00:00:00Z"
+    },
+    {
+        "name": "ZentsujiZentsūji",
+        "prefecture": "Kagawa",
+        "population": 35180,
+        "area": 39.88,
+        "density": 882.0,
+        "founded": "1954-03-31T00:00:00Z"
+    },
+    {
+        "name": "Sanuki",
+        "prefecture": "Kagawa",
+        "population": 54832,
+        "area": 158.9,
+        "density": 345.0,
+        "founded": "2002-04-01T00:00:00Z"
+    },
+    {
+        "name": "Higashikagawa",
+        "prefecture": "Kagawa",
+        "population": 34953,
+        "area": 153.35,
+        "density": 228.0,
+        "founded": "2003-04-01T00:00:00Z"
+    },
+    {
+        "name": "Mitoyo",
+        "prefecture": "Kagawa",
+        "population": 69997,
+        "area": 222.66,
+        "density": 314.0,
+        "founded": "2006-01-01T00:00:00Z"
+    },
+    {
+        "name": "Kan\u0027onji",
+        "prefecture": "Kagawa",
+        "population": 64020,
+        "area": 117.47,
+        "density": 545.0,
+        "founded": "2007-03-12T00:00:00Z"
+    },
+    {
+        "name": "Kagoshima",
+        "prefecture": "Kagoshima",
+        "population": 605196,
+        "area": 547.06,
+        "density": 1106.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kanoya",
+        "prefecture": "Kagoshima",
+        "population": 105673,
+        "area": 448.33,
+        "density": 236.0,
+        "founded": "1941-05-27T00:00:00Z"
+    },
+    {
+        "name": "Makurazaki",
+        "prefecture": "Kagoshima",
+        "population": 24400,
+        "area": 74.88,
+        "density": 326.0,
+        "founded": "1949-09-01T00:00:00Z"
+    },
+    {
+        "name": "Akune",
+        "prefecture": "Kagoshima",
+        "population": 24166,
+        "area": 134.3,
+        "density": 180.0,
+        "founded": "1952-04-01T00:00:00Z"
+    },
+    {
+        "name": "Izumi",
+        "prefecture": "Kagoshima",
+        "population": 56851,
+        "area": 330.06,
+        "density": 172.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Ibusuki",
+        "prefecture": "Kagoshima",
+        "population": 45455,
+        "area": 149.01,
+        "density": 305.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Minamisatsuma",
+        "prefecture": "Kagoshima",
+        "population": 40386,
+        "area": 283.35,
+        "density": 143.0,
+        "founded": "1954-07-15T00:00:00Z"
+    },
+    {
+        "name": "Nishinoomote",
+        "prefecture": "Kagoshima",
+        "population": 17666,
+        "area": 205.75,
+        "density": 85.9,
+        "founded": "1958-10-01T00:00:00Z"
+    },
+    {
+        "name": "Tarumizu",
+        "prefecture": "Kagoshima",
+        "population": 18078,
+        "area": 162.01,
+        "density": 112.0,
+        "founded": "1958-10-01T00:00:00Z"
+    },
+    {
+        "name": "Satsumasendai",
+        "prefecture": "Kagoshima",
+        "population": 100730,
+        "area": 683.5,
+        "density": 147.0,
+        "founded": "2004-10-12T00:00:00Z"
+    },
+    {
+        "name": "Hioki",
+        "prefecture": "Kagoshima",
+        "population": 51472,
+        "area": 253.06,
+        "density": 203.0,
+        "founded": "2005-05-01T00:00:00Z"
+    },
+    {
+        "name": "Soo",
+        "prefecture": "Kagoshima",
+        "population": 41179,
+        "area": 390.39,
+        "density": 105.0,
+        "founded": "2005-07-01T00:00:00Z"
+    },
+    {
+        "name": "Ichikikushikino",
+        "prefecture": "Kagoshima",
+        "population": 32079,
+        "area": 112.04,
+        "density": 286.0,
+        "founded": "2005-10-11T00:00:00Z"
+    },
+    {
+        "name": "Kirishima",
+        "prefecture": "Kagoshima",
+        "population": 127726,
+        "area": 603.68,
+        "density": 212.0,
+        "founded": "2005-11-07T00:00:00Z"
+    },
+    {
+        "name": "Shibushi",
+        "prefecture": "Kagoshima",
+        "population": 34105,
+        "area": 289.93,
+        "density": 118.0,
+        "founded": "2006-01-01T00:00:00Z"
+    },
+    {
+        "name": "Amami",
+        "prefecture": "Kagoshima",
+        "population": 48116,
+        "area": 306.2,
+        "density": 157.0,
+        "founded": "2006-03-20T00:00:00Z"
+    },
+    {
+        "name": "MinamikyushuMinamikyūshū",
+        "prefecture": "Kagoshima",
+        "population": 40891,
+        "area": 357.85,
+        "density": 114.0,
+        "founded": "2007-12-01T00:00:00Z"
+    },
+    {
+        "name": "Isa",
+        "prefecture": "Kagoshima",
+        "population": 0,
+        "area": 392.36,
+        "density": 0.0,
+        "founded": "2008-11-01T00:00:00Z"
+    },
+    {
+        "name": "Aira",
+        "prefecture": "Kagoshima",
+        "population": 0,
+        "area": 231.32,
+        "density": 0.0,
+        "founded": "2010-03-23T00:00:00Z"
+    },
+    {
+        "name": "Yokohama",
+        "prefecture": "Kanagawa",
+        "population": 3631236,
+        "area": 437.38,
+        "density": 8302.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "Yokosuka",
+        "prefecture": "Kanagawa",
+        "population": 421397,
+        "area": 100.68,
+        "density": 4186.0,
+        "founded": "1907-02-15T00:00:00Z"
+    },
+    {
+        "name": "Kawasaki",
+        "prefecture": "Kanagawa",
+        "population": 1373630,
+        "area": 142.7,
+        "density": 9626.0,
+        "founded": "1924-07-01T00:00:00Z"
+    },
+    {
+        "name": "Hiratsuka",
+        "prefecture": "Kanagawa",
+        "population": 260419,
+        "area": 67.83,
+        "density": 3839.0,
+        "founded": "1932-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kamakura",
+        "prefecture": "Kanagawa",
+        "population": 173588,
+        "area": 39.6,
+        "density": 4384.0,
+        "founded": "1939-11-03T00:00:00Z"
+    },
+    {
+        "name": "Fujisawa",
+        "prefecture": "Kanagawa",
+        "population": 402628,
+        "area": 69.51,
+        "density": 5792.0,
+        "founded": "1940-10-01T00:00:00Z"
+    },
+    {
+        "name": "Odawara",
+        "prefecture": "Kanagawa",
+        "population": 198841,
+        "area": 114.09,
+        "density": 1743.0,
+        "founded": "1940-12-20T00:00:00Z"
+    },
+    {
+        "name": "Chigasaki",
+        "prefecture": "Kanagawa",
+        "population": 231005,
+        "area": 35.71,
+        "density": 6469.0,
+        "founded": "1947-10-01T00:00:00Z"
+    },
+    {
+        "name": "Zushi",
+        "prefecture": "Kanagawa",
+        "population": 58654,
+        "area": 17.34,
+        "density": 3383.0,
+        "founded": "1954-04-15T00:00:00Z"
+    },
+    {
+        "name": "Sagamihara",
+        "prefecture": "Kanagawa",
+        "population": 706342,
+        "area": 328.84,
+        "density": 2148.0,
+        "founded": "1954-11-20T00:00:00Z"
+    },
+    {
+        "name": "Miura",
+        "prefecture": "Kanagawa",
+        "population": 49371,
+        "area": 32.28,
+        "density": 1529.0,
+        "founded": "1955-01-01T00:00:00Z"
+    },
+    {
+        "name": "Hadano",
+        "prefecture": "Kanagawa",
+        "population": 169201,
+        "area": 103.61,
+        "density": 1633.0,
+        "founded": "1955-01-01T00:00:00Z"
+    },
+    {
+        "name": "Atsugi",
+        "prefecture": "Kanagawa",
+        "population": 225163,
+        "area": 93.83,
+        "density": 2400.0,
+        "founded": "1955-02-01T00:00:00Z"
+    },
+    {
+        "name": "Yamato",
+        "prefecture": "Kanagawa",
+        "population": 223127,
+        "area": 27.06,
+        "density": 8246.0,
+        "founded": "1959-02-01T00:00:00Z"
+    },
+    {
+        "name": "Isehara",
+        "prefecture": "Kanagawa",
+        "population": 100779,
+        "area": 55.52,
+        "density": 1815.0,
+        "founded": "1971-03-01T00:00:00Z"
+    },
+    {
+        "name": "Ebina",
+        "prefecture": "Kanagawa",
+        "population": 126035,
+        "area": 26.48,
+        "density": 4760.0,
+        "founded": "1971-11-01T00:00:00Z"
+    },
+    {
+        "name": "Zama",
+        "prefecture": "Kanagawa",
+        "population": 127582,
+        "area": 17.58,
+        "density": 7257.0,
+        "founded": "1971-11-01T00:00:00Z"
+    },
+    {
+        "name": "Minamiashigara",
+        "prefecture": "Kanagawa",
+        "population": 44285,
+        "area": 76.93,
+        "density": 576.0,
+        "founded": "1972-04-01T00:00:00Z"
+    },
+    {
+        "name": "Ayase",
+        "prefecture": "Kanagawa",
+        "population": 82083,
+        "area": 22.28,
+        "density": 3684.0,
+        "founded": "1978-11-01T00:00:00Z"
+    },
+    {
+        "name": "KochiKōchi",
+        "prefecture": "Kōchi",
+        "population": 342944,
+        "area": 309.22,
+        "density": 1109.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "Sukumo",
+        "prefecture": "Kōchi",
+        "population": 23771,
+        "area": 286.11,
+        "density": 83.1,
+        "founded": "1954-03-31T00:00:00Z"
+    },
+    {
+        "name": "Aki",
+        "prefecture": "Kōchi",
+        "population": 20555,
+        "area": 317.34,
+        "density": 64.8,
+        "founded": "1954-08-01T00:00:00Z"
+    },
+    {
+        "name": "Tosashimizu",
+        "prefecture": "Kōchi",
+        "population": 17421,
+        "area": 266.54,
+        "density": 65.4,
+        "founded": "1954-08-01T00:00:00Z"
+    },
+    {
+        "name": "Susaki",
+        "prefecture": "Kōchi",
+        "population": 25679,
+        "area": 135.46,
+        "density": 190.0,
+        "founded": "1954-10-01T00:00:00Z"
+    },
+    {
+        "name": "Tosa",
+        "prefecture": "Kōchi",
+        "population": 29726,
+        "area": 91.59,
+        "density": 325.0,
+        "founded": "1959-01-01T00:00:00Z"
+    },
+    {
+        "name": "Muroto",
+        "prefecture": "Kōchi",
+        "population": 17683,
+        "area": 248.25,
+        "density": 71.2,
+        "founded": "1959-03-01T00:00:00Z"
+    },
+    {
+        "name": "Nankoku",
+        "prefecture": "Kōchi",
+        "population": 50315,
+        "area": 125.35,
+        "density": 401.0,
+        "founded": "1959-10-01T00:00:00Z"
+    },
+    {
+        "name": "Shimanto",
+        "prefecture": "Kōchi",
+        "population": 37182,
+        "area": 632.42,
+        "density": 58.8,
+        "founded": "2005-04-10T00:00:00Z"
+    },
+    {
+        "name": "Kami",
+        "prefecture": "Kōchi",
+        "population": 29144,
+        "area": 538.22,
+        "density": 54.1,
+        "founded": "2006-03-01T00:00:00Z"
+    },
+    {
+        "name": "KonanKōnan",
+        "prefecture": "Kōchi",
+        "population": 34084,
+        "area": 126.49,
+        "density": 269.0,
+        "founded": "2006-03-01T00:00:00Z"
+    },
+    {
+        "name": "Kumamoto",
+        "prefecture": "Kumamoto",
+        "population": 670348,
+        "area": 267.23,
+        "density": 2509.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "Yatsushiro",
+        "prefecture": "Kumamoto",
+        "population": 134491,
+        "area": 680.59,
+        "density": 198.0,
+        "founded": "1940-09-01T00:00:00Z"
+    },
+    {
+        "name": "Hitoyoshi",
+        "prefecture": "Kumamoto",
+        "population": 36556,
+        "area": 210.55,
+        "density": 174.0,
+        "founded": "1942-02-11T00:00:00Z"
+    },
+    {
+        "name": "Arao",
+        "prefecture": "Kumamoto",
+        "population": 55505,
+        "area": 57.15,
+        "density": 971.0,
+        "founded": "1942-04-01T00:00:00Z"
+    },
+    {
+        "name": "Minamata",
+        "prefecture": "Kumamoto",
+        "population": 28123,
+        "area": 162.88,
+        "density": 173.0,
+        "founded": "1949-04-01T00:00:00Z"
+    },
+    {
+        "name": "Tamana",
+        "prefecture": "Kumamoto",
+        "population": 70747,
+        "area": 152.55,
+        "density": 464.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Yamaga",
+        "prefecture": "Kumamoto",
+        "population": 56741,
+        "area": 299.67,
+        "density": 189.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kikuchi",
+        "prefecture": "Kumamoto",
+        "population": 51471,
+        "area": 276.66,
+        "density": 186.0,
+        "founded": "1958-08-01T00:00:00Z"
+    },
+    {
+        "name": "Uto",
+        "prefecture": "Kumamoto",
+        "population": 37897,
+        "area": 74.19,
+        "density": 511.0,
+        "founded": "1958-10-01T00:00:00Z"
+    },
+    {
+        "name": "Kami-Amakusa",
+        "prefecture": "Kumamoto",
+        "population": 31051,
+        "area": 126.13,
+        "density": 246.0,
+        "founded": "2004-03-31T00:00:00Z"
+    },
+    {
+        "name": "Uki",
+        "prefecture": "Kumamoto",
+        "population": 62718,
+        "area": 188.56,
+        "density": 333.0,
+        "founded": "2005-01-15T00:00:00Z"
+    },
+    {
+        "name": "Aso",
+        "prefecture": "Kumamoto",
+        "population": 29149,
+        "area": 376.25,
+        "density": 77.5,
+        "founded": "2005-02-11T00:00:00Z"
+    },
+    {
+        "name": "KoshiKōshi",
+        "prefecture": "Kumamoto",
+        "population": 53490,
+        "area": 53.17,
+        "density": 1006.0,
+        "founded": "2006-02-27T00:00:00Z"
+    },
+    {
+        "name": "Amakusa",
+        "prefecture": "Kumamoto",
+        "population": 93047,
+        "area": 683.17,
+        "density": 136.0,
+        "founded": "2006-03-27T00:00:00Z"
+    },
+    {
+        "name": "Kyoto",
+        "prefecture": "Kyoto",
+        "population": 1468906,
+        "area": 827.9,
+        "density": 1774.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "Fukuchiyama",
+        "prefecture": "Kyoto",
+        "population": 80836,
+        "area": 552.57,
+        "density": 146.0,
+        "founded": "1937-04-01T00:00:00Z"
+    },
+    {
+        "name": "Maizuru",
+        "prefecture": "Kyoto",
+        "population": 90461,
+        "area": 342.15,
+        "density": 264.0,
+        "founded": "1943-05-27T00:00:00Z"
+    },
+    {
+        "name": "Ayabe",
+        "prefecture": "Kyoto",
+        "population": 37081,
+        "area": 347.11,
+        "density": 107.0,
+        "founded": "1950-08-01T00:00:00Z"
+    },
+    {
+        "name": "Uji",
+        "prefecture": "Kyoto",
+        "population": 191297,
+        "area": 67.55,
+        "density": 2832.0,
+        "founded": "1951-03-01T00:00:00Z"
+    },
+    {
+        "name": "Miyazu",
+        "prefecture": "Kyoto",
+        "population": 20565,
+        "area": 169.32,
+        "density": 121.0,
+        "founded": "1954-06-01T00:00:00Z"
+    },
+    {
+        "name": "Kameoka",
+        "prefecture": "Kyoto",
+        "population": 93641,
+        "area": 224.9,
+        "density": 416.0,
+        "founded": "1955-01-01T00:00:00Z"
+    },
+    {
+        "name": "JoyoJōyō",
+        "prefecture": "Kyoto",
+        "population": 80795,
+        "area": 32.74,
+        "density": 2468.0,
+        "founded": "1972-05-03T00:00:00Z"
+    },
+    {
+        "name": "MukoMukō",
+        "prefecture": "Kyoto",
+        "population": 55137,
+        "area": 7.67,
+        "density": 7189.0,
+        "founded": "1972-10-01T00:00:00Z"
+    },
+    {
+        "name": "NagaokakyoNagaokakyō",
+        "prefecture": "Kyoto",
+        "population": 79031,
+        "area": 19.18,
+        "density": 4120.0,
+        "founded": "1972-10-01T00:00:00Z"
+    },
+    {
+        "name": "Yawata",
+        "prefecture": "Kyoto",
+        "population": 73822,
+        "area": 24.37,
+        "density": 3029.0,
+        "founded": "1977-11-01T00:00:00Z"
+    },
+    {
+        "name": "KyotanabeKyōtanabe",
+        "prefecture": "Kyoto",
+        "population": 65211,
+        "area": 42.94,
+        "density": 1519.0,
+        "founded": "1997-04-01T00:00:00Z"
+    },
+    {
+        "name": "KyotangoKyōtango",
+        "prefecture": "Kyoto",
+        "population": 60980,
+        "area": 501.84,
+        "density": 122.0,
+        "founded": "2004-04-01T00:00:00Z"
+    },
+    {
+        "name": "Nantan",
+        "prefecture": "Kyoto",
+        "population": 35937,
+        "area": 616.31,
+        "density": 58.3,
+        "founded": "2006-06-01T00:00:00Z"
+    },
+    {
+        "name": "Kizugawa",
+        "prefecture": "Kyoto",
+        "population": 66783,
+        "area": 85.12,
+        "density": 785.0,
+        "founded": "2007-03-12T00:00:00Z"
+    },
+    {
+        "name": "Yokkaichi",
+        "prefecture": "Mie",
+        "population": 306584,
+        "area": 205.53,
+        "density": 1492.0,
+        "founded": "1897-08-01T00:00:00Z"
+    },
+    {
+        "name": "Matsusaka",
+        "prefecture": "Mie",
+        "population": 169571,
+        "area": 623.82,
+        "density": 272.0,
+        "founded": "1933-02-01T00:00:00Z"
+    },
+    {
+        "name": "Kuwana",
+        "prefecture": "Mie",
+        "population": 140816,
+        "area": 136.61,
+        "density": 1031.0,
+        "founded": "1937-04-01T00:00:00Z"
+    },
+    {
+        "name": "Suzuka",
+        "prefecture": "Mie",
+        "population": 197437,
+        "area": 194.67,
+        "density": 1014.0,
+        "founded": "1942-12-01T00:00:00Z"
+    },
+    {
+        "name": "Nabari",
+        "prefecture": "Mie",
+        "population": 81184,
+        "area": 129.76,
+        "density": 626.0,
+        "founded": "1954-03-31T00:00:00Z"
+    },
+    {
+        "name": "Owase",
+        "prefecture": "Mie",
+        "population": 21272,
+        "area": 193.16,
+        "density": 110.0,
+        "founded": "1954-06-20T00:00:00Z"
+    },
+    {
+        "name": "Kameyama",
+        "prefecture": "Mie",
+        "population": 50304,
+        "area": 190.91,
+        "density": 263.0,
+        "founded": "1954-10-01T00:00:00Z"
+    },
+    {
+        "name": "Toba",
+        "prefecture": "Mie",
+        "population": 22286,
+        "area": 107.98,
+        "density": 206.0,
+        "founded": "1954-11-01T00:00:00Z"
+    },
+    {
+        "name": "Inabe",
+        "prefecture": "Mie",
+        "population": 46676,
+        "area": 219.58,
+        "density": 213.0,
+        "founded": "2003-12-01T00:00:00Z"
+    },
+    {
+        "name": "Shima",
+        "prefecture": "Mie",
+        "population": 56758,
+        "area": 179.7,
+        "density": 316.0,
+        "founded": "2004-10-01T00:00:00Z"
+    },
+    {
+        "name": "Iga",
+        "prefecture": "Mie",
+        "population": 99662,
+        "area": 558.17,
+        "density": 179.0,
+        "founded": "2004-11-01T00:00:00Z"
+    },
+    {
+        "name": "Ise",
+        "prefecture": "Mie",
+        "population": 133547,
+        "area": 208.53,
+        "density": 640.0,
+        "founded": "2005-11-01T00:00:00Z"
+    },
+    {
+        "name": "Kumano",
+        "prefecture": "Mie",
+        "population": 20477,
+        "area": 373.63,
+        "density": 54.8,
+        "founded": "2005-11-01T00:00:00Z"
+    },
+    {
+        "name": "Tsu",
+        "prefecture": "Mie",
+        "population": 289215,
+        "area": 710.81,
+        "density": 407.0,
+        "founded": "2006-01-01T00:00:00Z"
+    },
+    {
+        "name": "Sendai",
+        "prefecture": "Miyagi",
+        "population": 1029552,
+        "area": 783.54,
+        "density": 1314.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "Ishinomaki",
+        "prefecture": "Miyagi",
+        "population": 163840,
+        "area": 555.77,
+        "density": 295.0,
+        "founded": "1933-04-01T00:00:00Z"
+    },
+    {
+        "name": "Shiogama",
+        "prefecture": "Miyagi",
+        "population": 58057,
+        "area": 17.86,
+        "density": 3251.0,
+        "founded": "1941-11-23T00:00:00Z"
+    },
+    {
+        "name": "Shiroishi",
+        "prefecture": "Miyagi",
+        "population": 38629,
+        "area": 286.47,
+        "density": 135.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Natori",
+        "prefecture": "Miyagi",
+        "population": 69610,
+        "area": 100.06,
+        "density": 696.0,
+        "founded": "1958-10-01T00:00:00Z"
+    },
+    {
+        "name": "Kakuda",
+        "prefecture": "Miyagi",
+        "population": 32559,
+        "area": 147.58,
+        "density": 221.0,
+        "founded": "1958-10-01T00:00:00Z"
+    },
+    {
+        "name": "TagajoTagajō",
+        "prefecture": "Miyagi",
+        "population": 63200,
+        "area": 19.65,
+        "density": 3216.0,
+        "founded": "1971-11-01T00:00:00Z"
+    },
+    {
+        "name": "Iwanuma",
+        "prefecture": "Miyagi",
+        "population": 44595,
+        "area": 60.72,
+        "density": 734.0,
+        "founded": "1971-11-01T00:00:00Z"
+    },
+    {
+        "name": "Tome",
+        "prefecture": "Miyagi",
+        "population": 86940,
+        "area": 536.38,
+        "density": 162.0,
+        "founded": "2005-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kurihara",
+        "prefecture": "Miyagi",
+        "population": 77862,
+        "area": 804.93,
+        "density": 96.7,
+        "founded": "2005-04-01T00:00:00Z"
+    },
+    {
+        "name": "Higashimatsushima",
+        "prefecture": "Miyagi",
+        "population": 43238,
+        "area": 101.86,
+        "density": 424.0,
+        "founded": "2005-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kesennuma",
+        "prefecture": "Miyagi",
+        "population": 64578,
+        "area": 226.67,
+        "density": 285.0,
+        "founded": "2006-03-31T00:00:00Z"
+    },
+    {
+        "name": "OsakiŌsaki",
+        "prefecture": "Miyagi",
+        "population": 137164,
+        "area": 796.76,
+        "density": 172.0,
+        "founded": "2006-03-31T00:00:00Z"
+    },
+    {
+        "name": "Miyazaki",
+        "prefecture": "Miyazaki",
+        "population": 369473,
+        "area": 596.8,
+        "density": 619.0,
+        "founded": "1924-04-01T00:00:00Z"
+    },
+    {
+        "name": "MiyakonojoMiyakonojō",
+        "prefecture": "Miyazaki",
+        "population": 169384,
+        "area": 653.31,
+        "density": 259.0,
+        "founded": "1924-04-01T00:00:00Z"
+    },
+    {
+        "name": "Nobeoka",
+        "prefecture": "Miyazaki",
+        "population": 132480,
+        "area": 867.97,
+        "density": 153.0,
+        "founded": "1933-02-11T00:00:00Z"
+    },
+    {
+        "name": "Nichinan",
+        "prefecture": "Miyazaki",
+        "population": 43264,
+        "area": 294.46,
+        "density": 147.0,
+        "founded": "1950-01-01T00:00:00Z"
+    },
+    {
+        "name": "Kobayashi",
+        "prefecture": "Miyazaki",
+        "population": 40514,
+        "area": 474.23,
+        "density": 85.4,
+        "founded": "1950-04-01T00:00:00Z"
+    },
+    {
+        "name": "HyugaHyūga",
+        "prefecture": "Miyazaki",
+        "population": 63066,
+        "area": 336.29,
+        "density": 188.0,
+        "founded": "1951-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kushima",
+        "prefecture": "Miyazaki",
+        "population": 21386,
+        "area": 294.96,
+        "density": 72.5,
+        "founded": "1954-11-03T00:00:00Z"
+    },
+    {
+        "name": "Saito",
+        "prefecture": "Miyazaki",
+        "population": 33290,
+        "area": 438.56,
+        "density": 75.9,
+        "founded": "1958-11-01T00:00:00Z"
+    },
+    {
+        "name": "Ebino",
+        "prefecture": "Miyazaki",
+        "population": 22445,
+        "area": 283.0,
+        "density": 79.3,
+        "founded": "1970-12-01T00:00:00Z"
+    },
+    {
+        "name": "Matsumoto",
+        "prefecture": "Nagano",
+        "population": 227392,
+        "area": 919.35,
+        "density": 247.0,
+        "founded": "1907-05-01T00:00:00Z"
+    },
+    {
+        "name": "Okaya",
+        "prefecture": "Nagano",
+        "population": 53722,
+        "area": 85.14,
+        "density": 631.0,
+        "founded": "1936-04-01T00:00:00Z"
+    },
+    {
+        "name": "Suwa",
+        "prefecture": "Nagano",
+        "population": 52671,
+        "area": 109.06,
+        "density": 483.0,
+        "founded": "1941-08-10T00:00:00Z"
+    },
+    {
+        "name": "Suzaka",
+        "prefecture": "Nagano",
+        "population": 53097,
+        "area": 149.84,
+        "density": 354.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Komoro",
+        "prefecture": "Nagano",
+        "population": 45333,
+        "area": 98.66,
+        "density": 459.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Komagane",
+        "prefecture": "Nagano",
+        "population": 34696,
+        "area": 165.92,
+        "density": 209.0,
+        "founded": "1954-07-01T00:00:00Z"
+    },
+    {
+        "name": "OmachiŌmachi",
+        "prefecture": "Nagano",
+        "population": 31276,
+        "area": 564.99,
+        "density": 55.4,
+        "founded": "1954-07-01T00:00:00Z"
+    },
+    {
+        "name": "Iiyama",
+        "prefecture": "Nagano",
+        "population": 24155,
+        "area": 202.32,
+        "density": 119.0,
+        "founded": "1954-08-01T00:00:00Z"
+    },
+    {
+        "name": "Iida",
+        "prefecture": "Nagano",
+        "population": 107129,
+        "area": 658.76,
+        "density": 163.0,
+        "founded": "1956-09-30T00:00:00Z"
+    },
+    {
+        "name": "Chino",
+        "prefecture": "Nagano",
+        "population": 57363,
+        "area": 266.41,
+        "density": 215.0,
+        "founded": "1958-08-01T00:00:00Z"
+    },
+    {
+        "name": "Shiojiri",
+        "prefecture": "Nagano",
+        "population": 67781,
+        "area": 290.13,
+        "density": 234.0,
+        "founded": "1959-04-01T00:00:00Z"
+    },
+    {
+        "name": "Nagano",
+        "prefecture": "Nagano",
+        "population": 378204,
+        "area": 730.83,
+        "density": 517.0,
+        "founded": "1966-10-16T00:00:00Z"
+    },
+    {
+        "name": "Chikuma",
+        "prefecture": "Nagano",
+        "population": 63305,
+        "area": 119.84,
+        "density": 528.0,
+        "founded": "2003-09-01T00:00:00Z"
+    },
+    {
+        "name": "TomiTōmi",
+        "prefecture": "Nagano",
+        "population": 31211,
+        "area": 112.3,
+        "density": 278.0,
+        "founded": "2004-04-01T00:00:00Z"
+    },
+    {
+        "name": "Nakano",
+        "prefecture": "Nagano",
+        "population": 46295,
+        "area": 112.06,
+        "density": 413.0,
+        "founded": "2005-04-01T00:00:00Z"
+    },
+    {
+        "name": "Saku",
+        "prefecture": "Nagano",
+        "population": 100077,
+        "area": 423.99,
+        "density": 236.0,
+        "founded": "2005-04-01T00:00:00Z"
+    },
+    {
+        "name": "Azumino",
+        "prefecture": "Nagano",
+        "population": 97084,
+        "area": 331.82,
+        "density": 293.0,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "Ueda",
+        "prefecture": "Nagano",
+        "population": 161887,
+        "area": 552.0,
+        "density": 293.0,
+        "founded": "2006-03-06T00:00:00Z"
+    },
+    {
+        "name": "Ina",
+        "prefecture": "Nagano",
+        "population": 71937,
+        "area": 667.81,
+        "density": 108.0,
+        "founded": "2006-03-31T00:00:00Z"
+    },
+    {
+        "name": "Nagasaki",
+        "prefecture": "Nagasaki",
+        "population": 448792,
+        "area": 406.37,
+        "density": 1104.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "Sasebo",
+        "prefecture": "Nagasaki",
+        "population": 254650,
+        "area": 364.0,
+        "density": 700.0,
+        "founded": "1902-04-01T00:00:00Z"
+    },
+    {
+        "name": "Shimabara",
+        "prefecture": "Nagasaki",
+        "population": 48953,
+        "area": 82.77,
+        "density": 591.0,
+        "founded": "1940-04-01T00:00:00Z"
+    },
+    {
+        "name": "OmuraŌmura",
+        "prefecture": "Nagasaki",
+        "population": 89650,
+        "area": 126.34,
+        "density": 710.0,
+        "founded": "1942-02-11T00:00:00Z"
+    },
+    {
+        "name": "Tsushima",
+        "prefecture": "Nagasaki",
+        "population": 36347,
+        "area": 708.81,
+        "density": 51.3,
+        "founded": "2004-03-01T00:00:00Z"
+    },
+    {
+        "name": "Iki",
+        "prefecture": "Nagasaki",
+        "population": 30352,
+        "area": 138.5,
+        "density": 219.0,
+        "founded": "2004-03-01T00:00:00Z"
+    },
+    {
+        "name": "GotoGotō",
+        "prefecture": "Nagasaki",
+        "population": 42447,
+        "area": 420.77,
+        "density": 101.0,
+        "founded": "2004-08-01T00:00:00Z"
+    },
+    {
+        "name": "Isahaya",
+        "prefecture": "Nagasaki",
+        "population": 142635,
+        "area": 312.24,
+        "density": 457.0,
+        "founded": "2005-03-01T00:00:00Z"
+    },
+    {
+        "name": "Saikai",
+        "prefecture": "Nagasaki",
+        "population": 32737,
+        "area": 241.95,
+        "density": 135.0,
+        "founded": "2005-04-01T00:00:00Z"
+    },
+    {
+        "name": "Hirado",
+        "prefecture": "Nagasaki",
+        "population": 36785,
+        "area": 235.63,
+        "density": 156.0,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "Unzen",
+        "prefecture": "Nagasaki",
+        "population": 48701,
+        "area": 206.92,
+        "density": 235.0,
+        "founded": "2005-10-11T00:00:00Z"
+    },
+    {
+        "name": "Matsuura",
+        "prefecture": "Nagasaki",
+        "population": 26007,
+        "area": 130.35,
+        "density": 200.0,
+        "founded": "2006-01-01T00:00:00Z"
+    },
+    {
+        "name": "Minamishimabara",
+        "prefecture": "Nagasaki",
+        "population": 52347,
+        "area": 169.88,
+        "density": 308.0,
+        "founded": "2006-03-31T00:00:00Z"
+    },
+    {
+        "name": "Nara",
+        "prefecture": "Nara",
+        "population": 367393,
+        "area": 276.84,
+        "density": 1327.0,
+        "founded": "1898-02-01T00:00:00Z"
+    },
+    {
+        "name": "Yamatotakada",
+        "prefecture": "Nara",
+        "population": 69473,
+        "area": 16.49,
+        "density": 4213.0,
+        "founded": "1948-01-01T00:00:00Z"
+    },
+    {
+        "name": "YamatokoriyamaYamatokōriyama",
+        "prefecture": "Nara",
+        "population": 90223,
+        "area": 42.68,
+        "density": 2114.0,
+        "founded": "1954-01-01T00:00:00Z"
+    },
+    {
+        "name": "Tenri",
+        "prefecture": "Nara",
+        "population": 70702,
+        "area": 86.37,
+        "density": 819.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kashihara",
+        "prefecture": "Nara",
+        "population": 124679,
+        "area": 39.52,
+        "density": 3155.0,
+        "founded": "1956-02-11T00:00:00Z"
+    },
+    {
+        "name": "Sakurai",
+        "prefecture": "Nara",
+        "population": 60699,
+        "area": 98.92,
+        "density": 614.0,
+        "founded": "1956-09-01T00:00:00Z"
+    },
+    {
+        "name": "GojoGojō",
+        "prefecture": "Nara",
+        "population": 36002,
+        "area": 292.05,
+        "density": 123.0,
+        "founded": "1957-10-15T00:00:00Z"
+    },
+    {
+        "name": "Gose",
+        "prefecture": "Nara",
+        "population": 31160,
+        "area": 60.58,
+        "density": 514.0,
+        "founded": "1958-03-31T00:00:00Z"
+    },
+    {
+        "name": "Ikoma",
+        "prefecture": "Nara",
+        "population": 115359,
+        "area": 53.18,
+        "density": 2169.0,
+        "founded": "1971-11-01T00:00:00Z"
+    },
+    {
+        "name": "Kashiba",
+        "prefecture": "Nara",
+        "population": 72967,
+        "area": 24.23,
+        "density": 3011.0,
+        "founded": "1991-10-01T00:00:00Z"
+    },
+    {
+        "name": "Katsuragi",
+        "prefecture": "Nara",
+        "population": 35194,
+        "area": 33.73,
+        "density": 1043.0,
+        "founded": "2004-10-01T00:00:00Z"
+    },
+    {
+        "name": "Uda",
+        "prefecture": "Nara",
+        "population": 35895,
+        "area": 247.62,
+        "density": 145.0,
+        "founded": "2006-01-01T00:00:00Z"
+    },
+    {
+        "name": "Niigata",
+        "prefecture": "Niigata",
+        "population": 813053,
+        "area": 726.1,
+        "density": 1120.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "Nagaoka",
+        "prefecture": "Niigata",
+        "population": 281222,
+        "area": 840.88,
+        "density": 334.0,
+        "founded": "1906-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kashiwazaki",
+        "prefecture": "Niigata",
+        "population": 93506,
+        "area": 442.7,
+        "density": 211.0,
+        "founded": "1940-07-01T00:00:00Z"
+    },
+    {
+        "name": "Shibata",
+        "prefecture": "Niigata",
+        "population": 103490,
+        "area": 532.82,
+        "density": 194.0,
+        "founded": "1947-01-01T00:00:00Z"
+    },
+    {
+        "name": "Ojiya",
+        "prefecture": "Niigata",
+        "population": 39304,
+        "area": 155.12,
+        "density": 253.0,
+        "founded": "1954-03-10T00:00:00Z"
+    },
+    {
+        "name": "Kamo",
+        "prefecture": "Niigata",
+        "population": 30800,
+        "area": 133.68,
+        "density": 230.0,
+        "founded": "1954-03-10T00:00:00Z"
+    },
+    {
+        "name": "Mitsuke",
+        "prefecture": "Niigata",
+        "population": 42139,
+        "area": 77.96,
+        "density": 541.0,
+        "founded": "1954-03-31T00:00:00Z"
+    },
+    {
+        "name": "Murakami",
+        "prefecture": "Niigata",
+        "population": 30197,
+        "area": 142.12,
+        "density": 212.0,
+        "founded": "1954-03-31T00:00:00Z"
+    },
+    {
+        "name": "MyokoMyōkō",
+        "prefecture": "Niigata",
+        "population": 36837,
+        "area": 445.52,
+        "density": 82.7,
+        "founded": "1954-11-01T00:00:00Z"
+    },
+    {
+        "name": "JoetsuJōetsu",
+        "prefecture": "Niigata",
+        "population": 206175,
+        "area": 973.32,
+        "density": 212.0,
+        "founded": "1971-04-29T00:00:00Z"
+    },
+    {
+        "name": "Sado",
+        "prefecture": "Niigata",
+        "population": 65037,
+        "area": 855.26,
+        "density": 76.0,
+        "founded": "2004-03-01T00:00:00Z"
+    },
+    {
+        "name": "Agano",
+        "prefecture": "Niigata",
+        "population": 46158,
+        "area": 192.72,
+        "density": 240.0,
+        "founded": "2004-04-01T00:00:00Z"
+    },
+    {
+        "name": "Uonuma",
+        "prefecture": "Niigata",
+        "population": 42334,
+        "area": 946.93,
+        "density": 44.7,
+        "founded": "2004-11-01T00:00:00Z"
+    },
+    {
+        "name": "Minami-Uonuma",
+        "prefecture": "Niigata",
+        "population": 62518,
+        "area": 584.82,
+        "density": 107.0,
+        "founded": "2004-11-01T00:00:00Z"
+    },
+    {
+        "name": "Itoigawa",
+        "prefecture": "Niigata",
+        "population": 48653,
+        "area": 746.24,
+        "density": 65.2,
+        "founded": "2005-03-19T00:00:00Z"
+    },
+    {
+        "name": "TokamachiTōkamachi",
+        "prefecture": "Niigata",
+        "population": 60480,
+        "area": 589.92,
+        "density": 103.0,
+        "founded": "2005-04-01T00:00:00Z"
+    },
+    {
+        "name": "SanjoSanjō",
+        "prefecture": "Niigata",
+        "population": 103199,
+        "area": 432.01,
+        "density": 239.0,
+        "founded": "2005-05-01T00:00:00Z"
+    },
+    {
+        "name": "Tainai",
+        "prefecture": "Niigata",
+        "population": 32165,
+        "area": 265.18,
+        "density": 121.0,
+        "founded": "2005-09-01T00:00:00Z"
+    },
+    {
+        "name": "Gosen",
+        "prefecture": "Niigata",
+        "population": 55936,
+        "area": 351.87,
+        "density": 159.0,
+        "founded": "2006-01-01T00:00:00Z"
+    },
+    {
+        "name": "Tsubame",
+        "prefecture": "Niigata",
+        "population": 82910,
+        "area": 110.88,
+        "density": 748.0,
+        "founded": "2006-03-20T00:00:00Z"
+    },
+    {
+        "name": "OitaŌita",
+        "prefecture": "Ōita",
+        "population": 467267,
+        "area": 501.25,
+        "density": 932.0,
+        "founded": "1911-04-01T00:00:00Z"
+    },
+    {
+        "name": "Beppu",
+        "prefecture": "Ōita",
+        "population": 127345,
+        "area": 125.15,
+        "density": 1018.0,
+        "founded": "1924-04-01T00:00:00Z"
+    },
+    {
+        "name": "Nakatsu",
+        "prefecture": "Ōita",
+        "population": 84179,
+        "area": 491.09,
+        "density": 171.0,
+        "founded": "1929-04-20T00:00:00Z"
+    },
+    {
+        "name": "Hita",
+        "prefecture": "Ōita",
+        "population": 72601,
+        "area": 666.19,
+        "density": 109.0,
+        "founded": "1940-12-11T00:00:00Z"
+    },
+    {
+        "name": "Saiki",
+        "prefecture": "Ōita",
+        "population": 78675,
+        "area": 903.44,
+        "density": 87.1,
+        "founded": "1941-04-29T00:00:00Z"
+    },
+    {
+        "name": "Usuki",
+        "prefecture": "Ōita",
+        "population": 42464,
+        "area": 291.07,
+        "density": 146.0,
+        "founded": "1950-04-01T00:00:00Z"
+    },
+    {
+        "name": "Tsukumi",
+        "prefecture": "Ōita",
+        "population": 20561,
+        "area": 79.53,
+        "density": 259.0,
+        "founded": "1951-04-01T00:00:00Z"
+    },
+    {
+        "name": "Taketa",
+        "prefecture": "Ōita",
+        "population": 25449,
+        "area": 477.59,
+        "density": 53.3,
+        "founded": "1954-03-31T00:00:00Z"
+    },
+    {
+        "name": "Bungotakada",
+        "prefecture": "Ōita",
+        "population": 24484,
+        "area": 206.64,
+        "density": 118.0,
+        "founded": "1954-05-31T00:00:00Z"
+    },
+    {
+        "name": "Usa",
+        "prefecture": "Ōita",
+        "population": 59971,
+        "area": 439.12,
+        "density": 137.0,
+        "founded": "1967-04-01T00:00:00Z"
+    },
+    {
+        "name": "Bungo-onoBungo-ōno",
+        "prefecture": "Ōita",
+        "population": 40409,
+        "area": 603.36,
+        "density": 67.0,
+        "founded": "2005-03-31T00:00:00Z"
+    },
+    {
+        "name": "Kitsuki",
+        "prefecture": "Ōita",
+        "population": 33465,
+        "area": 280.01,
+        "density": 120.0,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "Yufu",
+        "prefecture": "Ōita",
+        "population": 35298,
+        "area": 319.16,
+        "density": 111.0,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "Kunisaki",
+        "prefecture": "Ōita",
+        "population": 33473,
+        "area": 317.81,
+        "density": 105.0,
+        "founded": "2006-03-31T00:00:00Z"
+    },
+    {
+        "name": "Okayama",
+        "prefecture": "Okayama",
+        "population": 701293,
+        "area": 789.91,
+        "density": 887.0,
+        "founded": "1889-06-01T00:00:00Z"
+    },
+    {
+        "name": "Kurashiki",
+        "prefecture": "Okayama",
+        "population": 472452,
+        "area": 354.71,
+        "density": 1332.0,
+        "founded": "1928-04-01T00:00:00Z"
+    },
+    {
+        "name": "Tsuyama",
+        "prefecture": "Okayama",
+        "population": 109493,
+        "area": 506.36,
+        "density": 216.0,
+        "founded": "1929-02-11T00:00:00Z"
+    },
+    {
+        "name": "Tamano",
+        "prefecture": "Okayama",
+        "population": 65723,
+        "area": 103.63,
+        "density": 634.0,
+        "founded": "1940-08-03T00:00:00Z"
+    },
+    {
+        "name": "Kasaoka",
+        "prefecture": "Okayama",
+        "population": 55987,
+        "area": 136.03,
+        "density": 412.0,
+        "founded": "1952-04-01T00:00:00Z"
+    },
+    {
+        "name": "Ibara",
+        "prefecture": "Okayama",
+        "population": 44423,
+        "area": 243.36,
+        "density": 183.0,
+        "founded": "1953-04-01T00:00:00Z"
+    },
+    {
+        "name": "SojaSōja",
+        "prefecture": "Okayama",
+        "population": 66789,
+        "area": 212.0,
+        "density": 315.0,
+        "founded": "1954-03-31T00:00:00Z"
+    },
+    {
+        "name": "Takahashi",
+        "prefecture": "Okayama",
+        "population": 37573,
+        "area": 547.01,
+        "density": 68.7,
+        "founded": "1954-05-01T00:00:00Z"
+    },
+    {
+        "name": "Niimi",
+        "prefecture": "Okayama",
+        "population": 35022,
+        "area": 793.27,
+        "density": 44.1,
+        "founded": "1954-06-01T00:00:00Z"
+    },
+    {
+        "name": "Bizen",
+        "prefecture": "Okayama",
+        "population": 39117,
+        "area": 258.23,
+        "density": 151.0,
+        "founded": "1971-04-01T00:00:00Z"
+    },
+    {
+        "name": "Setouchi",
+        "prefecture": "Okayama",
+        "population": 38645,
+        "area": 125.53,
+        "density": 308.0,
+        "founded": "2004-11-01T00:00:00Z"
+    },
+    {
+        "name": "Akaiwa",
+        "prefecture": "Okayama",
+        "population": 43742,
+        "area": 209.43,
+        "density": 209.0,
+        "founded": "2005-03-07T00:00:00Z"
+    },
+    {
+        "name": "Maniwa",
+        "prefecture": "Okayama",
+        "population": 50405,
+        "area": 828.43,
+        "density": 60.8,
+        "founded": "2005-03-31T00:00:00Z"
+    },
+    {
+        "name": "Mimasaka",
+        "prefecture": "Okayama",
+        "population": 31550,
+        "area": 429.19,
+        "density": 73.5,
+        "founded": "2005-03-31T00:00:00Z"
+    },
+    {
+        "name": "Asakuchi",
+        "prefecture": "Okayama",
+        "population": 37108,
+        "area": 66.46,
+        "density": 558.0,
+        "founded": "2006-03-21T00:00:00Z"
+    },
+    {
+        "name": "Naha",
+        "prefecture": "Okinawa",
+        "population": 314162,
+        "area": 39.23,
+        "density": 7963.0,
+        "founded": "1921-05-20T00:00:00Z"
+    },
+    {
+        "name": "Ishigaki",
+        "prefecture": "Okinawa",
+        "population": 46489,
+        "area": 229.0,
+        "density": 195.0,
+        "founded": "1947-07-10T00:00:00Z"
+    },
+    {
+        "name": "Ginowan",
+        "prefecture": "Okinawa",
+        "population": 91233,
+        "area": 19.7,
+        "density": 4569.0,
+        "founded": "1962-07-01T00:00:00Z"
+    },
+    {
+        "name": "Urasoe",
+        "prefecture": "Okinawa",
+        "population": 108052,
+        "area": 19.09,
+        "density": 5516.0,
+        "founded": "1970-07-01T00:00:00Z"
+    },
+    {
+        "name": "Nago",
+        "prefecture": "Okinawa",
+        "population": 60598,
+        "area": 210.3,
+        "density": 278.0,
+        "founded": "1970-08-01T00:00:00Z"
+    },
+    {
+        "name": "Itoman",
+        "prefecture": "Okinawa",
+        "population": 56171,
+        "area": 46.63,
+        "density": 1200.0,
+        "founded": "1971-12-01T00:00:00Z"
+    },
+    {
+        "name": "Okinawa",
+        "prefecture": "Okinawa",
+        "population": 128421,
+        "area": 49.0,
+        "density": 2565.0,
+        "founded": "1974-04-01T00:00:00Z"
+    },
+    {
+        "name": "Tomigusuku",
+        "prefecture": "Okinawa",
+        "population": 54586,
+        "area": 19.45,
+        "density": 2751.0,
+        "founded": "2002-04-01T00:00:00Z"
+    },
+    {
+        "name": "Uruma",
+        "prefecture": "Okinawa",
+        "population": 114087,
+        "area": 86.03,
+        "density": 1313.0,
+        "founded": "2005-04-01T00:00:00Z"
+    },
+    {
+        "name": "Miyakojima",
+        "prefecture": "Okinawa",
+        "population": 52777,
+        "area": 204.54,
+        "density": 275.0,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "NanjoNanjō",
+        "prefecture": "Okinawa",
+        "population": 39458,
+        "area": 49.7,
+        "density": 819.0,
+        "founded": "2006-01-01T00:00:00Z"
+    },
+    {
+        "name": "Osaka",
+        "prefecture": "Osaka",
+        "population": 2645305,
+        "area": 222.3,
+        "density": 11900.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "Sakai",
+        "prefecture": "Osaka",
+        "population": 835333,
+        "area": 149.99,
+        "density": 5569.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kishiwada",
+        "prefecture": "Osaka",
+        "population": 200538,
+        "area": 72.24,
+        "density": 2776.0,
+        "founded": "1922-11-01T00:00:00Z"
+    },
+    {
+        "name": "Toyonaka",
+        "prefecture": "Osaka",
+        "population": 387269,
+        "area": 36.38,
+        "density": 10645.0,
+        "founded": "1936-10-15T00:00:00Z"
+    },
+    {
+        "name": "Ikeda",
+        "prefecture": "Osaka",
+        "population": 104426,
+        "area": 22.09,
+        "density": 4727.0,
+        "founded": "1939-04-29T00:00:00Z"
+    },
+    {
+        "name": "Suita",
+        "prefecture": "Osaka",
+        "population": 354600,
+        "area": 36.11,
+        "density": 9820.0,
+        "founded": "1940-04-01T00:00:00Z"
+    },
+    {
+        "name": "IzumiotsuIzumiōtsu",
+        "prefecture": "Osaka",
+        "population": 78014,
+        "area": 12.8,
+        "density": 6095.0,
+        "founded": "1942-04-01T00:00:00Z"
+    },
+    {
+        "name": "Takatsuki",
+        "prefecture": "Osaka",
+        "population": 354228,
+        "area": 105.31,
+        "density": 3364.0,
+        "founded": "1943-01-01T00:00:00Z"
+    },
+    {
+        "name": "Kaizuka",
+        "prefecture": "Osaka",
+        "population": 90447,
+        "area": 43.99,
+        "density": 2056.0,
+        "founded": "1943-05-01T00:00:00Z"
+    },
+    {
+        "name": "Moriguchi",
+        "prefecture": "Osaka",
+        "population": 146294,
+        "area": 12.73,
+        "density": 11492.0,
+        "founded": "1946-11-01T00:00:00Z"
+    },
+    {
+        "name": "Hirakata",
+        "prefecture": "Osaka",
+        "population": 406201,
+        "area": 65.08,
+        "density": 6242.0,
+        "founded": "1947-08-01T00:00:00Z"
+    },
+    {
+        "name": "Ibaraki",
+        "prefecture": "Osaka",
+        "population": 272240,
+        "area": 76.52,
+        "density": 3558.0,
+        "founded": "1948-01-01T00:00:00Z"
+    },
+    {
+        "name": "Yao",
+        "prefecture": "Osaka",
+        "population": 273244,
+        "area": 41.71,
+        "density": 6551.0,
+        "founded": "1948-04-01T00:00:00Z"
+    },
+    {
+        "name": "Izumisano",
+        "prefecture": "Osaka",
+        "population": 99636,
+        "area": 55.03,
+        "density": 1811.0,
+        "founded": "1948-04-01T00:00:00Z"
+    },
+    {
+        "name": "Tondabayashi",
+        "prefecture": "Osaka",
+        "population": 122205,
+        "area": 39.66,
+        "density": 3081.0,
+        "founded": "1950-04-01T00:00:00Z"
+    },
+    {
+        "name": "Neyagawa",
+        "prefecture": "Osaka",
+        "population": 239029,
+        "area": 24.73,
+        "density": 9666.0,
+        "founded": "1951-05-03T00:00:00Z"
+    },
+    {
+        "name": "Kawachinagano",
+        "prefecture": "Osaka",
+        "population": 114428,
+        "area": 109.61,
+        "density": 1044.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Matsubara",
+        "prefecture": "Osaka",
+        "population": 125274,
+        "area": 16.66,
+        "density": 7519.0,
+        "founded": "1955-02-01T00:00:00Z"
+    },
+    {
+        "name": "DaitoDaitō",
+        "prefecture": "Osaka",
+        "population": 125847,
+        "area": 18.27,
+        "density": 6888.0,
+        "founded": "1956-04-01T00:00:00Z"
+    },
+    {
+        "name": "Izumi",
+        "prefecture": "Osaka",
+        "population": 179352,
+        "area": 84.98,
+        "density": 2110.0,
+        "founded": "1956-09-01T00:00:00Z"
+    },
+    {
+        "name": "Minoh",
+        "prefecture": "Osaka",
+        "population": 127757,
+        "area": 47.84,
+        "density": 2671.0,
+        "founded": "1956-12-01T00:00:00Z"
+    },
+    {
+        "name": "Kashiwara",
+        "prefecture": "Osaka",
+        "population": 75875,
+        "area": 25.39,
+        "density": 2988.0,
+        "founded": "1958-10-01T00:00:00Z"
+    },
+    {
+        "name": "Habikino",
+        "prefecture": "Osaka",
+        "population": 118281,
+        "area": 26.44,
+        "density": 4474.0,
+        "founded": "1959-01-15T00:00:00Z"
+    },
+    {
+        "name": "Kadoma",
+        "prefecture": "Osaka",
+        "population": 130026,
+        "area": 12.28,
+        "density": 10588.0,
+        "founded": "1963-08-01T00:00:00Z"
+    },
+    {
+        "name": "Settsu",
+        "prefecture": "Osaka",
+        "population": 84330,
+        "area": 14.88,
+        "density": 5667.0,
+        "founded": "1966-11-01T00:00:00Z"
+    },
+    {
+        "name": "Takaishi",
+        "prefecture": "Osaka",
+        "population": 60077,
+        "area": 11.35,
+        "density": 5293.0,
+        "founded": "1966-11-01T00:00:00Z"
+    },
+    {
+        "name": "Fujiidera",
+        "prefecture": "Osaka",
+        "population": 65892,
+        "area": 8.89,
+        "density": 7412.0,
+        "founded": "1966-11-01T00:00:00Z"
+    },
+    {
+        "name": "HigashiosakaHigashiōsaka",
+        "prefecture": "Osaka",
+        "population": 509157,
+        "area": 61.81,
+        "density": 8237.0,
+        "founded": "1967-02-01T00:00:00Z"
+    },
+    {
+        "name": "Sennan",
+        "prefecture": "Osaka",
+        "population": 64916,
+        "area": 48.48,
+        "density": 1339.0,
+        "founded": "1970-07-01T00:00:00Z"
+    },
+    {
+        "name": "ShijonawateShijōnawate",
+        "prefecture": "Osaka",
+        "population": 57239,
+        "area": 18.74,
+        "density": 3054.0,
+        "founded": "1970-07-01T00:00:00Z"
+    },
+    {
+        "name": "Katano",
+        "prefecture": "Osaka",
+        "population": 77853,
+        "area": 25.55,
+        "density": 3047.0,
+        "founded": "1971-11-03T00:00:00Z"
+    },
+    {
+        "name": "OsakasayamaŌsakasayama",
+        "prefecture": "Osaka",
+        "population": 58661,
+        "area": 11.86,
+        "density": 4946.0,
+        "founded": "1987-10-01T00:00:00Z"
+    },
+    {
+        "name": "Hannan",
+        "prefecture": "Osaka",
+        "population": 56853,
+        "area": 36.1,
+        "density": 1575.0,
+        "founded": "1991-10-01T00:00:00Z"
+    },
+    {
+        "name": "Tosu",
+        "prefecture": "Saga",
+        "population": 66842,
+        "area": 71.73,
+        "density": 932.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Imari",
+        "prefecture": "Saga",
+        "population": 57604,
+        "area": 254.99,
+        "density": 226.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kashima",
+        "prefecture": "Saga",
+        "population": 31326,
+        "area": 112.1,
+        "density": 279.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Taku",
+        "prefecture": "Saga",
+        "population": 22165,
+        "area": 96.93,
+        "density": 229.0,
+        "founded": "1954-05-01T00:00:00Z"
+    },
+    {
+        "name": "Karatsu",
+        "prefecture": "Saga",
+        "population": 129194,
+        "area": 487.45,
+        "density": 265.0,
+        "founded": "2005-01-01T00:00:00Z"
+    },
+    {
+        "name": "Ogi",
+        "prefecture": "Saga",
+        "population": 45516,
+        "area": 95.85,
+        "density": 475.0,
+        "founded": "2005-03-01T00:00:00Z"
+    },
+    {
+        "name": "Saga",
+        "prefecture": "Saga",
+        "population": 239932,
+        "area": 431.42,
+        "density": 556.0,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "Ureshino",
+        "prefecture": "Saga",
+        "population": 29644,
+        "area": 126.51,
+        "density": 234.0,
+        "founded": "2006-01-01T00:00:00Z"
+    },
+    {
+        "name": "Takeo",
+        "prefecture": "Saga",
+        "population": 50788,
+        "area": 195.44,
+        "density": 260.0,
+        "founded": "2006-03-01T00:00:00Z"
+    },
+    {
+        "name": "Kanzaki",
+        "prefecture": "Saga",
+        "population": 33449,
+        "area": 125.01,
+        "density": 268.0,
+        "founded": "2006-03-20T00:00:00Z"
+    },
+    {
+        "name": "Kawagoe",
+        "prefecture": "Saitama",
+        "population": 335693,
+        "area": 109.16,
+        "density": 3075.0,
+        "founded": "1922-12-01T00:00:00Z"
+    },
+    {
+        "name": "Kawaguchi",
+        "prefecture": "Saitama",
+        "population": 552883,
+        "area": 61.97,
+        "density": 8922.0,
+        "founded": "1933-04-01T00:00:00Z"
+    },
+    {
+        "name": "GyodaGyōda",
+        "prefecture": "Saitama",
+        "population": 87462,
+        "area": 67.37,
+        "density": 1298.0,
+        "founded": "1949-05-03T00:00:00Z"
+    },
+    {
+        "name": "Chichibu",
+        "prefecture": "Saitama",
+        "population": 69139,
+        "area": 577.69,
+        "density": 120.0,
+        "founded": "1950-04-01T00:00:00Z"
+    },
+    {
+        "name": "Tokorozawa",
+        "prefecture": "Saitama",
+        "population": 338560,
+        "area": 71.99,
+        "density": 4703.0,
+        "founded": "1950-11-03T00:00:00Z"
+    },
+    {
+        "name": "HannoHannō",
+        "prefecture": "Saitama",
+        "population": 84053,
+        "area": 193.16,
+        "density": 435.0,
+        "founded": "1954-01-01T00:00:00Z"
+    },
+    {
+        "name": "Kazo",
+        "prefecture": "Saitama",
+        "population": 67862,
+        "area": 59.4,
+        "density": 1142.0,
+        "founded": "1954-05-03T00:00:00Z"
+    },
+    {
+        "name": "Higashimatsuyama",
+        "prefecture": "Saitama",
+        "population": 90840,
+        "area": 65.33,
+        "density": 1390.0,
+        "founded": "1954-07-01T00:00:00Z"
+    },
+    {
+        "name": "Sayama",
+        "prefecture": "Saitama",
+        "population": 156634,
+        "area": 49.04,
+        "density": 3194.0,
+        "founded": "1954-07-01T00:00:00Z"
+    },
+    {
+        "name": "HanyuHanyū",
+        "prefecture": "Saitama",
+        "population": 56820,
+        "area": 58.55,
+        "density": 970.0,
+        "founded": "1954-09-01T00:00:00Z"
+    },
+    {
+        "name": "KonosuKōnosu",
+        "prefecture": "Saitama",
+        "population": 119768,
+        "area": 67.49,
+        "density": 1775.0,
+        "founded": "1954-09-30T00:00:00Z"
+    },
+    {
+        "name": "Ageo",
+        "prefecture": "Saitama",
+        "population": 222479,
+        "area": 45.55,
+        "density": 4884.0,
+        "founded": "1958-07-15T00:00:00Z"
+    },
+    {
+        "name": "SokaSōka",
+        "prefecture": "Saitama",
+        "population": 237964,
+        "area": 27.42,
+        "density": 8678.0,
+        "founded": "1958-11-01T00:00:00Z"
+    },
+    {
+        "name": "Koshigaya",
+        "prefecture": "Saitama",
+        "population": 318592,
+        "area": 60.31,
+        "density": 5283.0,
+        "founded": "1958-11-03T00:00:00Z"
+    },
+    {
+        "name": "Warabi",
+        "prefecture": "Saitama",
+        "population": 70410,
+        "area": 5.1,
+        "density": 13806.0,
+        "founded": "1959-04-01T00:00:00Z"
+    },
+    {
+        "name": "Toda",
+        "prefecture": "Saitama",
+        "population": 118591,
+        "area": 18.17,
+        "density": 6527.0,
+        "founded": "1966-10-01T00:00:00Z"
+    },
+    {
+        "name": "Iruma",
+        "prefecture": "Saitama",
+        "population": 148203,
+        "area": 44.74,
+        "density": 3313.0,
+        "founded": "1966-11-01T00:00:00Z"
+    },
+    {
+        "name": "Asaka",
+        "prefecture": "Saitama",
+        "population": 126902,
+        "area": 18.38,
+        "density": 6904.0,
+        "founded": "1967-03-15T00:00:00Z"
+    },
+    {
+        "name": "Shiki",
+        "prefecture": "Saitama",
+        "population": 68531,
+        "area": 9.06,
+        "density": 7564.0,
+        "founded": "1970-10-26T00:00:00Z"
+    },
+    {
+        "name": "WakoWakō",
+        "prefecture": "Saitama",
+        "population": 78575,
+        "area": 11.04,
+        "density": 7117.0,
+        "founded": "1970-10-31T00:00:00Z"
+    },
+    {
+        "name": "Niiza",
+        "prefecture": "Saitama",
+        "population": 155926,
+        "area": 22.8,
+        "density": 6839.0,
+        "founded": "1970-11-01T00:00:00Z"
+    },
+    {
+        "name": "Okegawa",
+        "prefecture": "Saitama",
+        "population": 74703,
+        "area": 25.26,
+        "density": 2957.0,
+        "founded": "1970-11-03T00:00:00Z"
+    },
+    {
+        "name": "Kuki",
+        "prefecture": "Saitama",
+        "population": 71667,
+        "area": 25.35,
+        "density": 2827.0,
+        "founded": "1971-10-01T00:00:00Z"
+    },
+    {
+        "name": "Kitamoto",
+        "prefecture": "Saitama",
+        "population": 69903,
+        "area": 19.84,
+        "density": 3523.0,
+        "founded": "1971-11-03T00:00:00Z"
+    },
+    {
+        "name": "Yashio",
+        "prefecture": "Saitama",
+        "population": 78601,
+        "area": 18.03,
+        "density": 4359.0,
+        "founded": "1972-01-15T00:00:00Z"
+    },
+    {
+        "name": "Fujimi",
+        "prefecture": "Saitama",
+        "population": 105286,
+        "area": 19.7,
+        "density": 5344.0,
+        "founded": "1972-04-10T00:00:00Z"
+    },
+    {
+        "name": "Misato",
+        "prefecture": "Saitama",
+        "population": 128956,
+        "area": 30.16,
+        "density": 4276.0,
+        "founded": "1972-05-03T00:00:00Z"
+    },
+    {
+        "name": "Hasuda",
+        "prefecture": "Saitama",
+        "population": 63375,
+        "area": 27.27,
+        "density": 2324.0,
+        "founded": "1972-10-01T00:00:00Z"
+    },
+    {
+        "name": "Sakado",
+        "prefecture": "Saitama",
+        "population": 99680,
+        "area": 40.97,
+        "density": 2433.0,
+        "founded": "1976-09-01T00:00:00Z"
+    },
+    {
+        "name": "Satte",
+        "prefecture": "Saitama",
+        "population": 53485,
+        "area": 33.95,
+        "density": 1575.0,
+        "founded": "1986-10-01T00:00:00Z"
+    },
+    {
+        "name": "Tsurugashima",
+        "prefecture": "Saitama",
+        "population": 70131,
+        "area": 17.73,
+        "density": 3955.0,
+        "founded": "1991-09-01T00:00:00Z"
+    },
+    {
+        "name": "Hidaka",
+        "prefecture": "Saitama",
+        "population": 55454,
+        "area": 47.5,
+        "density": 1167.0,
+        "founded": "1991-10-01T00:00:00Z"
+    },
+    {
+        "name": "Yoshikawa",
+        "prefecture": "Saitama",
+        "population": 63050,
+        "area": 31.62,
+        "density": 1994.0,
+        "founded": "1996-04-01T00:00:00Z"
+    },
+    {
+        "name": "Saitama",
+        "prefecture": "Saitama",
+        "population": 1192418,
+        "area": 217.49,
+        "density": 5483.0,
+        "founded": "2001-05-01T00:00:00Z"
+    },
+    {
+        "name": "Kumagaya",
+        "prefecture": "Saitama",
+        "population": 204853,
+        "area": 159.88,
+        "density": 1281.0,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "Kasukabe",
+        "prefecture": "Saitama",
+        "population": 236854,
+        "area": 65.98,
+        "density": 3590.0,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "Fujimino",
+        "prefecture": "Saitama",
+        "population": 103724,
+        "area": 14.67,
+        "density": 7070.0,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "Fukaya",
+        "prefecture": "Saitama",
+        "population": 146128,
+        "area": 137.58,
+        "density": 1062.0,
+        "founded": "2006-01-01T00:00:00Z"
+    },
+    {
+        "name": "HonjoHonjō",
+        "prefecture": "Saitama",
+        "population": 81805,
+        "area": 89.71,
+        "density": 912.0,
+        "founded": "2006-01-10T00:00:00Z"
+    },
+    {
+        "name": "OtsuŌtsu",
+        "prefecture": "Shiga",
+        "population": 329024,
+        "area": 464.1,
+        "density": 709.0,
+        "founded": "1898-10-01T00:00:00Z"
+    },
+    {
+        "name": "Hikone",
+        "prefecture": "Shiga",
+        "population": 110945,
+        "area": 196.84,
+        "density": 564.0,
+        "founded": "1937-02-11T00:00:00Z"
+    },
+    {
+        "name": "OmihachimanŌmihachiman",
+        "prefecture": "Shiga",
+        "population": 69116,
+        "area": 153.09,
+        "density": 451.0,
+        "founded": "1954-03-31T00:00:00Z"
+    },
+    {
+        "name": "Kusatsu",
+        "prefecture": "Shiga",
+        "population": 123512,
+        "area": 67.92,
+        "density": 1818.0,
+        "founded": "1954-10-15T00:00:00Z"
+    },
+    {
+        "name": "Moriyama",
+        "prefecture": "Shiga",
+        "population": 74263,
+        "area": 54.81,
+        "density": 1355.0,
+        "founded": "1970-07-01T00:00:00Z"
+    },
+    {
+        "name": "RittoRittō",
+        "prefecture": "Shiga",
+        "population": 62353,
+        "area": 52.75,
+        "density": 1182.0,
+        "founded": "2001-10-01T00:00:00Z"
+    },
+    {
+        "name": "KokaKōka",
+        "prefecture": "Shiga",
+        "population": 94007,
+        "area": 481.69,
+        "density": 195.0,
+        "founded": "2004-10-01T00:00:00Z"
+    },
+    {
+        "name": "Yasu",
+        "prefecture": "Shiga",
+        "population": 49821,
+        "area": 81.07,
+        "density": 615.0,
+        "founded": "2004-10-01T00:00:00Z"
+    },
+    {
+        "name": "Konan",
+        "prefecture": "Shiga",
+        "population": 55144,
+        "area": 70.49,
+        "density": 782.0,
+        "founded": "2004-10-01T00:00:00Z"
+    },
+    {
+        "name": "Takashima",
+        "prefecture": "Shiga",
+        "population": 52967,
+        "area": 693.0,
+        "density": 76.4,
+        "founded": "2005-01-01T00:00:00Z"
+    },
+    {
+        "name": "HigashiomiHigashiōmi",
+        "prefecture": "Shiga",
+        "population": 117487,
+        "area": 388.58,
+        "density": 302.0,
+        "founded": "2005-02-11T00:00:00Z"
+    },
+    {
+        "name": "Maibara",
+        "prefecture": "Shiga",
+        "population": 40757,
+        "area": 250.46,
+        "density": 163.0,
+        "founded": "2005-02-14T00:00:00Z"
+    },
+    {
+        "name": "Nagahama",
+        "prefecture": "Shiga",
+        "population": 83555,
+        "area": 247.01,
+        "density": 338.0,
+        "founded": "2006-02-13T00:00:00Z"
+    },
+    {
+        "name": "Matsue",
+        "prefecture": "Shimane",
+        "population": 195875,
+        "area": 530.27,
+        "density": 369.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "Izumo",
+        "prefecture": "Shimane",
+        "population": 146115,
+        "area": 543.48,
+        "density": 269.0,
+        "founded": "1941-11-03T00:00:00Z"
+    },
+    {
+        "name": "Masuda",
+        "prefecture": "Shimane",
+        "population": 50980,
+        "area": 733.16,
+        "density": 69.5,
+        "founded": "1952-08-01T00:00:00Z"
+    },
+    {
+        "name": "Yasugi",
+        "prefecture": "Shimane",
+        "population": 42997,
+        "area": 420.97,
+        "density": 102.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "GotsuGōtsu",
+        "prefecture": "Shimane",
+        "population": 26958,
+        "area": 268.51,
+        "density": 100.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Unnan",
+        "prefecture": "Shimane",
+        "population": 43269,
+        "area": 553.37,
+        "density": 78.2,
+        "founded": "2004-11-01T00:00:00Z"
+    },
+    {
+        "name": "Hamada",
+        "prefecture": "Shimane",
+        "population": 61325,
+        "area": 689.6,
+        "density": 88.9,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "OdaŌda",
+        "prefecture": "Shimane",
+        "population": 39593,
+        "area": 436.11,
+        "density": 90.8,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "Shizuoka",
+        "prefecture": "Shizuoka",
+        "population": 710944,
+        "area": 1388.78,
+        "density": 512.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "Hamamatsu",
+        "prefecture": "Shizuoka",
+        "population": 811431,
+        "area": 1511.17,
+        "density": 537.0,
+        "founded": "1911-07-01T00:00:00Z"
+    },
+    {
+        "name": "Numazu",
+        "prefecture": "Shizuoka",
+        "population": 206818,
+        "area": 187.11,
+        "density": 1105.0,
+        "founded": "1923-07-01T00:00:00Z"
+    },
+    {
+        "name": "Atami",
+        "prefecture": "Shizuoka",
+        "population": 40524,
+        "area": 61.56,
+        "density": 658.0,
+        "founded": "1937-04-10T00:00:00Z"
+    },
+    {
+        "name": "Mishima",
+        "prefecture": "Shizuoka",
+        "population": 112320,
+        "area": 62.13,
+        "density": 1808.0,
+        "founded": "1941-04-29T00:00:00Z"
+    },
+    {
+        "name": "Fujinomiya",
+        "prefecture": "Shizuoka",
+        "population": 122122,
+        "area": 314.81,
+        "density": 388.0,
+        "founded": "1942-06-01T00:00:00Z"
+    },
+    {
+        "name": "ItoItō",
+        "prefecture": "Shizuoka",
+        "population": 72038,
+        "area": 124.13,
+        "density": 580.0,
+        "founded": "1947-08-10T00:00:00Z"
+    },
+    {
+        "name": "Shimada",
+        "prefecture": "Shizuoka",
+        "population": 95762,
+        "area": 195.4,
+        "density": 490.0,
+        "founded": "1948-01-01T00:00:00Z"
+    },
+    {
+        "name": "Iwata",
+        "prefecture": "Shizuoka",
+        "population": 172583,
+        "area": 164.08,
+        "density": 1052.0,
+        "founded": "1948-04-01T00:00:00Z"
+    },
+    {
+        "name": "Yaizu",
+        "prefecture": "Shizuoka",
+        "population": 120331,
+        "area": 46.01,
+        "density": 2615.0,
+        "founded": "1951-03-01T00:00:00Z"
+    },
+    {
+        "name": "Kakegawa",
+        "prefecture": "Shizuoka",
+        "population": 118660,
+        "area": 265.63,
+        "density": 447.0,
+        "founded": "1954-03-31T00:00:00Z"
+    },
+    {
+        "name": "Fujieda",
+        "prefecture": "Shizuoka",
+        "population": 129637,
+        "area": 140.74,
+        "density": 921.0,
+        "founded": "1954-03-31T00:00:00Z"
+    },
+    {
+        "name": "Gotenba",
+        "prefecture": "Shizuoka",
+        "population": 88078,
+        "area": 194.63,
+        "density": 453.0,
+        "founded": "1955-02-11T00:00:00Z"
+    },
+    {
+        "name": "Fukuroi",
+        "prefecture": "Shizuoka",
+        "population": 85163,
+        "area": 108.56,
+        "density": 784.0,
+        "founded": "1958-11-03T00:00:00Z"
+    },
+    {
+        "name": "Fuji",
+        "prefecture": "Shizuoka",
+        "population": 237279,
+        "area": 214.1,
+        "density": 1108.0,
+        "founded": "1966-11-01T00:00:00Z"
+    },
+    {
+        "name": "Shimoda",
+        "prefecture": "Shizuoka",
+        "population": 25784,
+        "area": 104.7,
+        "density": 246.0,
+        "founded": "1971-01-01T00:00:00Z"
+    },
+    {
+        "name": "Susono",
+        "prefecture": "Shizuoka",
+        "population": 53740,
+        "area": 138.39,
+        "density": 388.0,
+        "founded": "1971-01-01T00:00:00Z"
+    },
+    {
+        "name": "Kosai",
+        "prefecture": "Shizuoka",
+        "population": 44545,
+        "area": 55.08,
+        "density": 809.0,
+        "founded": "1972-01-01T00:00:00Z"
+    },
+    {
+        "name": "Izu",
+        "prefecture": "Shizuoka",
+        "population": 35911,
+        "area": 363.97,
+        "density": 98.7,
+        "founded": "2004-04-01T00:00:00Z"
+    },
+    {
+        "name": "Omaezaki",
+        "prefecture": "Shizuoka",
+        "population": 35015,
+        "area": 65.85,
+        "density": 532.0,
+        "founded": "2004-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kikugawa",
+        "prefecture": "Shizuoka",
+        "population": 47702,
+        "area": 94.24,
+        "density": 506.0,
+        "founded": "2005-01-17T00:00:00Z"
+    },
+    {
+        "name": "Izunokuni",
+        "prefecture": "Shizuoka",
+        "population": 49711,
+        "area": 94.71,
+        "density": 525.0,
+        "founded": "2005-04-01T00:00:00Z"
+    },
+    {
+        "name": "Makinohara",
+        "prefecture": "Shizuoka",
+        "population": 49726,
+        "area": 111.5,
+        "density": 446.0,
+        "founded": "2005-10-11T00:00:00Z"
+    },
+    {
+        "name": "Utsunomiya",
+        "prefecture": "Tochigi",
+        "population": 507833,
+        "area": 416.84,
+        "density": 1218.0,
+        "founded": "1896-04-01T00:00:00Z"
+    },
+    {
+        "name": "Ashikaga",
+        "prefecture": "Tochigi",
+        "population": 157793,
+        "area": 177.82,
+        "density": 887.0,
+        "founded": "1921-01-01T00:00:00Z"
+    },
+    {
+        "name": "Tochigi",
+        "prefecture": "Tochigi",
+        "population": 81601,
+        "area": 122.06,
+        "density": 669.0,
+        "founded": "1937-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kanuma",
+        "prefecture": "Tochigi",
+        "population": 103690,
+        "area": 490.62,
+        "density": 211.0,
+        "founded": "1948-10-10T00:00:00Z"
+    },
+    {
+        "name": "Oyama",
+        "prefecture": "Tochigi",
+        "population": 162283,
+        "area": 171.61,
+        "density": 946.0,
+        "founded": "1954-03-31T00:00:00Z"
+    },
+    {
+        "name": "Mooka",
+        "prefecture": "Tochigi",
+        "population": 66705,
+        "area": 111.76,
+        "density": 597.0,
+        "founded": "1954-10-01T00:00:00Z"
+    },
+    {
+        "name": "OtawaraŌtawara",
+        "prefecture": "Tochigi",
+        "population": 78563,
+        "area": 354.12,
+        "density": 222.0,
+        "founded": "1954-12-01T00:00:00Z"
+    },
+    {
+        "name": "Yaita",
+        "prefecture": "Tochigi",
+        "population": 35462,
+        "area": 170.66,
+        "density": 208.0,
+        "founded": "1958-11-01T00:00:00Z"
+    },
+    {
+        "name": "Nasushiobara",
+        "prefecture": "Tochigi",
+        "population": 115633,
+        "area": 592.82,
+        "density": 195.0,
+        "founded": "2005-01-01T00:00:00Z"
+    },
+    {
+        "name": "Sano",
+        "prefecture": "Tochigi",
+        "population": 123034,
+        "area": 356.07,
+        "density": 346.0,
+        "founded": "2005-02-28T00:00:00Z"
+    },
+    {
+        "name": "Sakura",
+        "prefecture": "Tochigi",
+        "population": 42403,
+        "area": 125.46,
+        "density": 338.0,
+        "founded": "2005-03-28T00:00:00Z"
+    },
+    {
+        "name": "Nasukarasuyama",
+        "prefecture": "Tochigi",
+        "population": 30433,
+        "area": 174.42,
+        "density": 174.0,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "Shimotsuke",
+        "prefecture": "Tochigi",
+        "population": 59459,
+        "area": 74.58,
+        "density": 797.0,
+        "founded": "2006-01-10T00:00:00Z"
+    },
+    {
+        "name": "NikkoNikkō",
+        "prefecture": "Tochigi",
+        "population": 92181,
+        "area": 1449.87,
+        "density": 63.6,
+        "founded": "2006-03-20T00:00:00Z"
+    },
+    {
+        "name": "Tokushima",
+        "prefecture": "Tokushima",
+        "population": 266370,
+        "area": 191.39,
+        "density": 1392.0,
+        "founded": "1889-10-01T00:00:00Z"
+    },
+    {
+        "name": "Naruto",
+        "prefecture": "Tokushima",
+        "population": 62453,
+        "area": 135.46,
+        "density": 461.0,
+        "founded": "1947-03-15T00:00:00Z"
+    },
+    {
+        "name": "Komatsushima",
+        "prefecture": "Tokushima",
+        "population": 41540,
+        "area": 45.24,
+        "density": 918.0,
+        "founded": "1951-06-01T00:00:00Z"
+    },
+    {
+        "name": "Anan",
+        "prefecture": "Tokushima",
+        "population": 77099,
+        "area": 279.39,
+        "density": 276.0,
+        "founded": "1958-05-01T00:00:00Z"
+    },
+    {
+        "name": "Yoshinogawa",
+        "prefecture": "Tokushima",
+        "population": 44905,
+        "area": 144.19,
+        "density": 311.0,
+        "founded": "2004-10-01T00:00:00Z"
+    },
+    {
+        "name": "Mima",
+        "prefecture": "Tokushima",
+        "population": 33520,
+        "area": 367.38,
+        "density": 91.2,
+        "founded": "2005-03-01T00:00:00Z"
+    },
+    {
+        "name": "Awa",
+        "prefecture": "Tokushima",
+        "population": 40303,
+        "area": 190.97,
+        "density": 211.0,
+        "founded": "2005-04-01T00:00:00Z"
+    },
+    {
+        "name": "Miyoshi",
+        "prefecture": "Tokushima",
+        "population": 32329,
+        "area": 721.48,
+        "density": 44.8,
+        "founded": "2006-03-01T00:00:00Z"
+    },
+    {
+        "name": "HachiojiHachiōji",
+        "prefecture": "Tokyo",
+        "population": 567367,
+        "area": 186.31,
+        "density": 3045.0,
+        "founded": "1917-09-01T00:00:00Z"
+    },
+    {
+        "name": "Tachikawa",
+        "prefecture": "Tokyo",
+        "population": 175639,
+        "area": 24.38,
+        "density": 7204.0,
+        "founded": "1940-12-01T00:00:00Z"
+    },
+    {
+        "name": "Musashino",
+        "prefecture": "Tokyo",
+        "population": 138516,
+        "area": 10.73,
+        "density": 12909.0,
+        "founded": "1947-11-03T00:00:00Z"
+    },
+    {
+        "name": "Mitaka",
+        "prefecture": "Tokyo",
+        "population": 180797,
+        "area": 16.5,
+        "density": 10957.0,
+        "founded": "1950-11-03T00:00:00Z"
+    },
+    {
+        "name": "OmeŌme",
+        "prefecture": "Tokyo",
+        "population": 141708,
+        "area": 103.26,
+        "density": 1372.0,
+        "founded": "1951-04-01T00:00:00Z"
+    },
+    {
+        "name": "FuchuFuchū",
+        "prefecture": "Tokyo",
+        "population": 248445,
+        "area": 29.34,
+        "density": 8468.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Akishima",
+        "prefecture": "Tokyo",
+        "population": 111763,
+        "area": 17.33,
+        "density": 6449.0,
+        "founded": "1954-05-01T00:00:00Z"
+    },
+    {
+        "name": "ChofuChōfu",
+        "prefecture": "Tokyo",
+        "population": 219053,
+        "area": 21.53,
+        "density": 10174.0,
+        "founded": "1955-04-01T00:00:00Z"
+    },
+    {
+        "name": "Machida",
+        "prefecture": "Tokyo",
+        "population": 413786,
+        "area": 71.63,
+        "density": 5777.0,
+        "founded": "1958-02-01T00:00:00Z"
+    },
+    {
+        "name": "Koganei",
+        "prefecture": "Tokyo",
+        "population": 115116,
+        "area": 11.33,
+        "density": 10160.0,
+        "founded": "1958-10-01T00:00:00Z"
+    },
+    {
+        "name": "Kodaira",
+        "prefecture": "Tokyo",
+        "population": 185829,
+        "area": 20.46,
+        "density": 9083.0,
+        "founded": "1962-10-01T00:00:00Z"
+    },
+    {
+        "name": "Hino",
+        "prefecture": "Tokyo",
+        "population": 179482,
+        "area": 27.53,
+        "density": 6520.0,
+        "founded": "1963-11-03T00:00:00Z"
+    },
+    {
+        "name": "Higashimurayama",
+        "prefecture": "Tokyo",
+        "population": 146585,
+        "area": 17.17,
+        "density": 8537.0,
+        "founded": "1964-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kokubunji",
+        "prefecture": "Tokyo",
+        "population": 118801,
+        "area": 11.48,
+        "density": 10349.0,
+        "founded": "1964-11-03T00:00:00Z"
+    },
+    {
+        "name": "Kunitachi",
+        "prefecture": "Tokyo",
+        "population": 73362,
+        "area": 8.15,
+        "density": 9001.0,
+        "founded": "1967-01-01T00:00:00Z"
+    },
+    {
+        "name": "Fussa",
+        "prefecture": "Tokyo",
+        "population": 60413,
+        "area": 10.24,
+        "density": 5900.0,
+        "founded": "1970-07-01T00:00:00Z"
+    },
+    {
+        "name": "Komae",
+        "prefecture": "Tokyo",
+        "population": 78237,
+        "area": 6.39,
+        "density": 12244.0,
+        "founded": "1970-10-01T00:00:00Z"
+    },
+    {
+        "name": "Higashiyamato",
+        "prefecture": "Tokyo",
+        "population": 81445,
+        "area": 13.54,
+        "density": 6015.0,
+        "founded": "1970-10-01T00:00:00Z"
+    },
+    {
+        "name": "Kiyose",
+        "prefecture": "Tokyo",
+        "population": 73518,
+        "area": 10.19,
+        "density": 7215.0,
+        "founded": "1970-10-01T00:00:00Z"
+    },
+    {
+        "name": "Higashikurume",
+        "prefecture": "Tokyo",
+        "population": 115405,
+        "area": 12.92,
+        "density": 8932.0,
+        "founded": "1970-10-01T00:00:00Z"
+    },
+    {
+        "name": "Musashimurayama",
+        "prefecture": "Tokyo",
+        "population": 68333,
+        "area": 15.37,
+        "density": 4446.0,
+        "founded": "1970-11-03T00:00:00Z"
+    },
+    {
+        "name": "Tama",
+        "prefecture": "Tokyo",
+        "population": 149404,
+        "area": 21.08,
+        "density": 7087.0,
+        "founded": "1971-11-01T00:00:00Z"
+    },
+    {
+        "name": "Inagi",
+        "prefecture": "Tokyo",
+        "population": 80772,
+        "area": 17.97,
+        "density": 4495.0,
+        "founded": "1971-11-01T00:00:00Z"
+    },
+    {
+        "name": "Hamura",
+        "prefecture": "Tokyo",
+        "population": 56984,
+        "area": 9.91,
+        "density": 5750.0,
+        "founded": "1991-11-01T00:00:00Z"
+    },
+    {
+        "name": "Akiruno",
+        "prefecture": "Tokyo",
+        "population": 80268,
+        "area": 73.34,
+        "density": 1094.0,
+        "founded": "1995-09-01T00:00:00Z"
+    },
+    {
+        "name": "NishitokyoNishitōkyō",
+        "prefecture": "Tokyo",
+        "population": 193350,
+        "area": 15.85,
+        "density": 12199.0,
+        "founded": "2001-01-21T00:00:00Z"
+    },
+    {
+        "name": "Tokyo WardAdachi",
+        "prefecture": "Tokyo",
+        "population": 629392,
+        "area": 53.2,
+        "density": 11830.0,
+        "founded": "1947-03-13T00:00:00Z"
+    },
+    {
+        "name": "Tokyo WardArakawa",
+        "prefecture": "Tokyo",
+        "population": 194777,
+        "area": 10.2,
+        "density": 18262.0,
+        "founded": "1947-03-13T00:00:00Z"
+    },
+    {
+        "name": "Tokyo WardBunkyo",
+        "prefecture": "Tokyo",
+        "population": 194933,
+        "area": 11.31,
+        "density": 16009.0,
+        "founded": "1947-03-13T00:00:00Z"
+    },
+    {
+        "name": "Tokyo WardChiyoda",
+        "prefecture": "Tokyo",
+        "population": 43802,
+        "area": 11.64,
+        "density": 3763.0,
+        "founded": "1947-03-13T00:00:00Z"
+    },
+    {
+        "name": "Tokyo WardChūō",
+        "prefecture": "Tokyo",
+        "population": 104997,
+        "area": 10.15,
+        "density": 10344.0,
+        "founded": "1947-03-13T00:00:00Z"
+    },
+    {
+        "name": "Tokyo WardEdogawa",
+        "prefecture": "Tokyo",
+        "population": 661386,
+        "area": 49.86,
+        "density": 13264.0,
+        "founded": "1947-03-13T00:00:00Z"
+    },
+    {
+        "name": "Tokyo WardItabashi",
+        "prefecture": "Tokyo",
+        "population": 529059,
+        "area": 32.17,
+        "density": 16445.0,
+        "founded": "1947-03-13T00:00:00Z"
+    },
+    {
+        "name": "Tokyo WardKatsushika",
+        "prefecture": "Tokyo",
+        "population": 428066,
+        "area": 34.84,
+        "density": 12286.0,
+        "founded": "1947-03-13T00:00:00Z"
+    },
+    {
+        "name": "Tokyo WardKita",
+        "prefecture": "Tokyo",
+        "population": 330646,
+        "area": 20.59,
+        "density": 15885.0,
+        "founded": "1947-03-13T00:00:00Z"
+    },
+    {
+        "name": "Tokyo WardKoto",
+        "prefecture": "Tokyo",
+        "population": 436337,
+        "area": 39.8,
+        "density": 10963.0,
+        "founded": "1947-03-13T00:00:00Z"
+    },
+    {
+        "name": "Tokyo WardMeguro",
+        "prefecture": "Tokyo",
+        "population": 267798,
+        "area": 14.7,
+        "density": 18217.0,
+        "founded": "1947-03-13T00:00:00Z"
+    },
+    {
+        "name": "Tokyo WardMinato",
+        "prefecture": "Tokyo",
+        "population": 205196,
+        "area": 20.34,
+        "density": 10088.0,
+        "founded": "1947-03-13T00:00:00Z"
+    },
+    {
+        "name": "Tokyo WardNakano",
+        "prefecture": "Tokyo",
+        "population": 312939,
+        "area": 15.59,
+        "density": 20097.0,
+        "founded": "1947-03-13T00:00:00Z"
+    },
+    {
+        "name": "Tokyo WardNerima",
+        "prefecture": "Tokyo",
+        "population": 702202,
+        "area": 48.16,
+        "density": 14580.0,
+        "founded": "1947-08-01T00:00:00Z"
+    },
+    {
+        "name": "Tokyo WardOtaŌta",
+        "prefecture": "Tokyo",
+        "population": 674590,
+        "area": 59.46,
+        "density": 11345.0,
+        "founded": "1947-03-13T00:00:00Z"
+    },
+    {
+        "name": "Tokyo WardSetagaya",
+        "prefecture": "Tokyo",
+        "population": 855416,
+        "area": 58.08,
+        "density": 14728.0,
+        "founded": "1947-03-13T00:00:00Z"
+    },
+    {
+        "name": "Tokyo WardShibuya",
+        "prefecture": "Tokyo",
+        "population": 205512,
+        "area": 15.11,
+        "density": 13337.0,
+        "founded": "1947-03-13T00:00:00Z"
+    },
+    {
+        "name": "Tokyo WardShinagawa",
+        "prefecture": "Tokyo",
+        "population": 353887,
+        "area": 22.72,
+        "density": 15576.0,
+        "founded": "1947-03-13T00:00:00Z"
+    },
+    {
+        "name": "Tokyo WardShinjuku",
+        "prefecture": "Tokyo",
+        "population": 309463,
+        "area": 18.23,
+        "density": 16975.0,
+        "founded": "1947-03-13T00:00:00Z"
+    },
+    {
+        "name": "Tokyo WardSuginami",
+        "prefecture": "Tokyo",
+        "population": 534981,
+        "area": 34.02,
+        "density": 15725.0,
+        "founded": "1947-03-13T00:00:00Z"
+    },
+    {
+        "name": "Tokyo WardSumida",
+        "prefecture": "Tokyo",
+        "population": 237433,
+        "area": 13.75,
+        "density": 16079.0,
+        "founded": "1947-03-13T00:00:00Z"
+    },
+    {
+        "name": "Tokyo WardTaitō",
+        "prefecture": "Tokyo",
+        "population": 168277,
+        "area": 10.08,
+        "density": 16139.0,
+        "founded": "1947-03-13T00:00:00Z"
+    },
+    {
+        "name": "Tokyo WardToshima",
+        "prefecture": "Tokyo",
+        "population": 256009,
+        "area": 13.01,
+        "density": 19428.0,
+        "founded": "1947-03-13T00:00:00Z"
+    },
+    {
+        "name": "Tottori",
+        "prefecture": "Tottori",
+        "population": 200315,
+        "area": 765.66,
+        "density": 262.0,
+        "founded": "1889-10-01T00:00:00Z"
+    },
+    {
+        "name": "Yonago",
+        "prefecture": "Tottori",
+        "population": 149140,
+        "area": 132.21,
+        "density": 1128.0,
+        "founded": "1927-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kurayoshi",
+        "prefecture": "Tottori",
+        "population": 51453,
+        "area": 272.15,
+        "density": 189.0,
+        "founded": "1953-10-01T00:00:00Z"
+    },
+    {
+        "name": "Sakaiminato",
+        "prefecture": "Tottori",
+        "population": 35908,
+        "area": 28.79,
+        "density": 1247.0,
+        "founded": "1956-04-01T00:00:00Z"
+    },
+    {
+        "name": "Toyama",
+        "prefecture": "Toyama",
+        "population": 421116,
+        "area": 1241.85,
+        "density": 339.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "Uozu",
+        "prefecture": "Toyama",
+        "population": 45945,
+        "area": 200.63,
+        "density": 229.0,
+        "founded": "1952-04-01T00:00:00Z"
+    },
+    {
+        "name": "Himi",
+        "prefecture": "Toyama",
+        "population": 53316,
+        "area": 230.47,
+        "density": 231.0,
+        "founded": "1952-08-01T00:00:00Z"
+    },
+    {
+        "name": "Namerikawa",
+        "prefecture": "Toyama",
+        "population": 33789,
+        "area": 54.61,
+        "density": 619.0,
+        "founded": "1954-03-01T00:00:00Z"
+    },
+    {
+        "name": "Tonami",
+        "prefecture": "Toyama",
+        "population": 49396,
+        "area": 126.96,
+        "density": 389.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Oyabe",
+        "prefecture": "Toyama",
+        "population": 32656,
+        "area": 134.11,
+        "density": 244.0,
+        "founded": "1962-08-01T00:00:00Z"
+    },
+    {
+        "name": "Nanto",
+        "prefecture": "Toyama",
+        "population": 57061,
+        "area": 668.86,
+        "density": 85.3,
+        "founded": "2004-11-01T00:00:00Z"
+    },
+    {
+        "name": "Takaoka",
+        "prefecture": "Toyama",
+        "population": 178965,
+        "area": 209.38,
+        "density": 855.0,
+        "founded": "2005-11-01T00:00:00Z"
+    },
+    {
+        "name": "Imizu",
+        "prefecture": "Toyama",
+        "population": 94691,
+        "area": 109.18,
+        "density": 867.0,
+        "founded": "2005-11-01T00:00:00Z"
+    },
+    {
+        "name": "Kurobe",
+        "prefecture": "Toyama",
+        "population": 42612,
+        "area": 426.34,
+        "density": 99.9,
+        "founded": "2006-03-31T00:00:00Z"
+    },
+    {
+        "name": "Wakayama",
+        "prefecture": "Wakayama",
+        "population": 372175,
+        "area": 209.23,
+        "density": 1779.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kainan",
+        "prefecture": "Wakayama",
+        "population": 55877,
+        "area": 101.18,
+        "density": 552.0,
+        "founded": "1934-05-01T00:00:00Z"
+    },
+    {
+        "name": "Tanabe",
+        "prefecture": "Wakayama",
+        "population": 80478,
+        "area": 1026.77,
+        "density": 78.4,
+        "founded": "1942-05-20T00:00:00Z"
+    },
+    {
+        "name": "GoboGobō",
+        "prefecture": "Wakayama",
+        "population": 26335,
+        "area": 43.93,
+        "density": 599.0,
+        "founded": "1954-04-01T00:00:00Z"
+    },
+    {
+        "name": "Arida",
+        "prefecture": "Wakayama",
+        "population": 31194,
+        "area": 36.92,
+        "density": 845.0,
+        "founded": "1956-05-01T00:00:00Z"
+    },
+    {
+        "name": "ShinguShingū",
+        "prefecture": "Wakayama",
+        "population": 32654,
+        "area": 255.43,
+        "density": 128.0,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "Kinokawa",
+        "prefecture": "Wakayama",
+        "population": 67192,
+        "area": 228.24,
+        "density": 294.0,
+        "founded": "2005-11-07T00:00:00Z"
+    },
+    {
+        "name": "Hashimoto",
+        "prefecture": "Wakayama",
+        "population": 67505,
+        "area": 130.31,
+        "density": 518.0,
+        "founded": "2006-03-01T00:00:00Z"
+    },
+    {
+        "name": "Iwade",
+        "prefecture": "Wakayama",
+        "population": 51843,
+        "area": 38.5,
+        "density": 1347.0,
+        "founded": "2006-04-01T00:00:00Z"
+    },
+    {
+        "name": "Yamagata",
+        "prefecture": "Yamagata",
+        "population": 255370,
+        "area": 381.34,
+        "density": 670.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "Yonezawa",
+        "prefecture": "Yamagata",
+        "population": 91704,
+        "area": 548.74,
+        "density": 167.0,
+        "founded": "1889-04-01T00:00:00Z"
+    },
+    {
+        "name": "ShinjoShinjō",
+        "prefecture": "Yamagata",
+        "population": 39808,
+        "area": 223.08,
+        "density": 178.0,
+        "founded": "1949-04-01T00:00:00Z"
+    },
+    {
+        "name": "Sagae",
+        "prefecture": "Yamagata",
+        "population": 43299,
+        "area": 139.08,
+        "density": 311.0,
+        "founded": "1954-08-01T00:00:00Z"
+    },
+    {
+        "name": "Kaminoyama",
+        "prefecture": "Yamagata",
+        "population": 35086,
+        "area": 240.95,
+        "density": 146.0,
+        "founded": "1954-10-01T00:00:00Z"
+    },
+    {
+        "name": "Murayama",
+        "prefecture": "Yamagata",
+        "population": 27586,
+        "area": 196.83,
+        "density": 140.0,
+        "founded": "1954-11-01T00:00:00Z"
+    },
+    {
+        "name": "Nagai",
+        "prefecture": "Yamagata",
+        "population": 30285,
+        "area": 214.69,
+        "density": 141.0,
+        "founded": "1954-11-15T00:00:00Z"
+    },
+    {
+        "name": "TendoTendō",
+        "prefecture": "Yamagata",
+        "population": 63470,
+        "area": 113.01,
+        "density": 562.0,
+        "founded": "1958-10-01T00:00:00Z"
+    },
+    {
+        "name": "Higashine",
+        "prefecture": "Yamagata",
+        "population": 46141,
+        "area": 207.17,
+        "density": 223.0,
+        "founded": "1958-11-03T00:00:00Z"
+    },
+    {
+        "name": "Obanazawa",
+        "prefecture": "Yamagata",
+        "population": 19937,
+        "area": 372.32,
+        "density": 53.5,
+        "founded": "1959-04-10T00:00:00Z"
+    },
+    {
+        "name": "Nan\u0027yoNan\u0027yō",
+        "prefecture": "Yamagata",
+        "population": 34542,
+        "area": 160.7,
+        "density": 215.0,
+        "founded": "1967-04-01T00:00:00Z"
+    },
+    {
+        "name": "Tsuruoka",
+        "prefecture": "Yamagata",
+        "population": 140097,
+        "area": 1311.51,
+        "density": 107.0,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "Sakata",
+        "prefecture": "Yamagata",
+        "population": 114964,
+        "area": 602.79,
+        "density": 191.0,
+        "founded": "2005-11-01T00:00:00Z"
+    },
+    {
+        "name": "Ube",
+        "prefecture": "Yamaguchi",
+        "population": 176370,
+        "area": 287.69,
+        "density": 613.0,
+        "founded": "1921-11-01T00:00:00Z"
+    },
+    {
+        "name": "HofuHōfu",
+        "prefecture": "Yamaguchi",
+        "population": 116393,
+        "area": 188.59,
+        "density": 617.0,
+        "founded": "1936-08-25T00:00:00Z"
+    },
+    {
+        "name": "Kudamatsu",
+        "prefecture": "Yamaguchi",
+        "population": 54026,
+        "area": 89.36,
+        "density": 605.0,
+        "founded": "1939-11-03T00:00:00Z"
+    },
+    {
+        "name": "Mine",
+        "prefecture": "Yamaguchi",
+        "population": 17355,
+        "area": 228.25,
+        "density": 76.0,
+        "founded": "1954-03-31T00:00:00Z"
+    },
+    {
+        "name": "ShunanShūnan",
+        "prefecture": "Yamaguchi",
+        "population": 150299,
+        "area": 656.25,
+        "density": 229.0,
+        "founded": "2003-04-21T00:00:00Z"
+    },
+    {
+        "name": "Hikari",
+        "prefecture": "Yamaguchi",
+        "population": 53274,
+        "area": 91.94,
+        "density": 579.0,
+        "founded": "2004-10-04T00:00:00Z"
+    },
+    {
+        "name": "Shimonoseki",
+        "prefecture": "Yamaguchi",
+        "population": 286073,
+        "area": 716.06,
+        "density": 400.0,
+        "founded": "2005-02-13T00:00:00Z"
+    },
+    {
+        "name": "Yanai",
+        "prefecture": "Yamaguchi",
+        "population": 35438,
+        "area": 139.9,
+        "density": 253.0,
+        "founded": "2005-02-21T00:00:00Z"
+    },
+    {
+        "name": "Hagi",
+        "prefecture": "Yamaguchi",
+        "population": 55831,
+        "area": 698.87,
+        "density": 79.9,
+        "founded": "2005-03-06T00:00:00Z"
+    },
+    {
+        "name": "Nagato",
+        "prefecture": "Yamaguchi",
+        "population": 39825,
+        "area": 357.92,
+        "density": 111.0,
+        "founded": "2005-03-22T00:00:00Z"
+    },
+    {
+        "name": "San\u0027yo-OnodaSan\u0027yō-Onoda",
+        "prefecture": "Yamaguchi",
+        "population": 65523,
+        "area": 132.99,
+        "density": 493.0,
+        "founded": "2005-03-22T00:00:00Z"
+    },
+    {
+        "name": "Yamaguchi",
+        "prefecture": "Yamaguchi",
+        "population": 192008,
+        "area": 730.23,
+        "density": 263.0,
+        "founded": "2005-10-01T00:00:00Z"
+    },
+    {
+        "name": "Iwakuni",
+        "prefecture": "Yamaguchi",
+        "population": 146885,
+        "area": 872.71,
+        "density": 168.0,
+        "founded": "2006-03-20T00:00:00Z"
+    },
+    {
+        "name": "KofuKōfu",
+        "prefecture": "Yamanashi",
+        "population": 199374,
+        "area": 212.41,
+        "density": 939.0,
+        "founded": "1889-07-01T00:00:00Z"
+    },
+    {
+        "name": "Fujiyoshida",
+        "prefecture": "Yamanashi",
+        "population": 51879,
+        "area": 121.83,
+        "density": 426.0,
+        "founded": "1951-03-20T00:00:00Z"
+    },
+    {
+        "name": "Tsuru",
+        "prefecture": "Yamanashi",
+        "population": 34439,
+        "area": 161.58,
+        "density": 213.0,
+        "founded": "1954-04-29T00:00:00Z"
+    },
+    {
+        "name": "OtsukiŌtsuki",
+        "prefecture": "Yamanashi",
+        "population": 29869,
+        "area": 280.3,
+        "density": 107.0,
+        "founded": "1954-08-08T00:00:00Z"
+    },
+    {
+        "name": "Nirasaki",
+        "prefecture": "Yamanashi",
+        "population": 33539,
+        "area": 143.73,
+        "density": 233.0,
+        "founded": "1954-10-10T00:00:00Z"
+    },
+    {
+        "name": "Minami-Alps",
+        "prefecture": "Yamanashi",
+        "population": 72295,
+        "area": 264.06,
+        "density": 274.0,
+        "founded": "2003-04-01T00:00:00Z"
+    },
+    {
+        "name": "Kai",
+        "prefecture": "Yamanashi",
+        "population": 74077,
+        "area": 71.94,
+        "density": 1030.0,
+        "founded": "2004-09-01T00:00:00Z"
+    },
+    {
+        "name": "Fuefuki",
+        "prefecture": "Yamanashi",
+        "population": 71184,
+        "area": 201.92,
+        "density": 353.0,
+        "founded": "2004-10-12T00:00:00Z"
+    },
+    {
+        "name": "Hokuto",
+        "prefecture": "Yamanashi",
+        "population": 47754,
+        "area": 602.89,
+        "density": 79.2,
+        "founded": "2004-11-01T00:00:00Z"
+    },
+    {
+        "name": "Uenohara",
+        "prefecture": "Yamanashi",
+        "population": 28295,
+        "area": 170.65,
+        "density": 166.0,
+        "founded": "2005-02-13T00:00:00Z"
+    },
+    {
+        "name": "Yamanashi",
+        "prefecture": "Yamanashi",
+        "population": 38202,
+        "area": 289.87,
+        "density": 132.0,
+        "founded": "2005-03-22T00:00:00Z"
+    },
+    {
+        "name": "KoshuKōshū",
+        "prefecture": "Yamanashi",
+        "population": 35072,
+        "area": 264.01,
+        "density": 133.0,
+        "founded": "2005-11-01T00:00:00Z"
+    },
+    {
+        "name": "ChuoChūō",
+        "prefecture": "Yamanashi",
+        "population": 31875,
+        "area": 31.81,
+        "density": 1002.0,
+        "founded": "2006-02-20T00:00:00Z"
+    }
+]
