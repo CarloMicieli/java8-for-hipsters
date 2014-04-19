@@ -33,36 +33,7 @@ import static org.junit.Assert.assertThat;
  * @author Carlo Micieli
  */
 public class LocalDateTimeTests {
-
-    private final LocalDate SEPTEMBER_9TH = LocalDate.of(1981, 9, 9);
-
-    @Test
-    public void shouldObtainLocalDateFromYearMonthAndDay() {
-        LocalDate september9th = LocalDate.of(1981, 9, 9);
-        assertThat(september9th.getDayOfMonth(), is(equalTo(9)));
-        assertThat(september9th.getMonth(), is(equalTo(Month.SEPTEMBER)));
-        assertThat(september9th.getYear(), is(equalTo(1981)));
-    }
-
-    @Test
-    public void shouldObtainLocalDateFromYearAndDayOfYear() {
-        LocalDate september9th = LocalDate.ofYearDay(1981, 252);
-        assertThat(september9th, is(equalTo(SEPTEMBER_9TH)));
-        assertThat(september9th.getDayOfYear(), is(equalTo(252)));
-    }
-
-    @Test
-    public void shouldObtainInformationAboutYears() {
-        LocalDate leapYear = LocalDate.of(2012, 2, 1);
-        LocalDate notLeapYear = LocalDate.of(2013, 2, 1);
-
-        assertThat(leapYear.getYear(), is(equalTo(2012)));
-        assertThat(leapYear.isLeapYear(), is(true));
-        assertThat(leapYear.lengthOfYear(), is(equalTo(366)));
-
-        assertThat(notLeapYear.isLeapYear(), is(false));
-        assertThat(notLeapYear.lengthOfYear(), is(equalTo(365)));
-    }
+    private final static LocalDate SEPTEMBER_9TH = LocalDate.of(1981, 9, 9);
 
     @Test
     public void shouldFormatLocalDateValues() {
@@ -78,24 +49,5 @@ public class LocalDateTimeTests {
         assertThat(date, is(equalTo(SEPTEMBER_9TH)));
     }
 
-    @Test
-    public void shouldObtainLocalTimeFromHourAndMinutes() {
-        LocalTime time = LocalTime.of(12, 30);
-        assertThat(time.getHour(), is(equalTo(12)));
-        assertThat(time.getMinute(), is(equalTo(30)));
-        assertThat(time.getSecond(), is(equalTo(0)));
-    }
 
-    @Test
-    public void shouldObtainLocalTimeFromSecondOfDay() {
-        LocalTime time = LocalTime.ofSecondOfDay(12_345);
-        assertThat(time, is(LocalTime.of(3, 25, 45)));
-    }
-
-    @Test
-    public void shouldCreateLocalDateTime_FromLocalTime() {
-        LocalDateTime ldt = LocalTime.NOON.atDate(LocalDate.of(1981, 9, 9));
-        assertThat(ldt.toLocalDate(), is(equalTo(SEPTEMBER_9TH)));
-        assertThat(ldt.toLocalTime(), is(equalTo(LocalTime.NOON)));
-    }
 }
