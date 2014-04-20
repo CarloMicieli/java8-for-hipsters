@@ -37,6 +37,14 @@ public class DateAndTimeTests {
     }
 
     @Test
+    public void shouldProduceISORepresentationAsString() {
+        LocalDate date = LocalDate.of(2014, Month.JULY, 4);
+        LocalTime time = LocalTime.of(13, 30, 13);
+        assertThat(date.toString(), is(equalTo("2014-07-04")));
+        assertThat(time.toString(), is(equalTo("13:30:13")));
+    }
+
+    @Test
     public void shouldGetYearMonthAndDayFromLocalDate() {
         assertThat(SEPTEMBER_9TH.getDayOfMonth(), is(equalTo(9)));
         assertThat(SEPTEMBER_9TH.getMonth(), is(equalTo(Month.SEPTEMBER)));
@@ -55,9 +63,19 @@ public class DateAndTimeTests {
 
     @Test
     public void shouldCreateNewLocalDateFromYearAndDayOfYear() {
-        LocalDate september9th = LocalDate.ofYearDay(1981, 252);
-        assertThat(september9th, is(equalTo(SEPTEMBER_9TH)));
-        assertThat(september9th.getDayOfYear(), is(equalTo(252)));
+        LocalDate programmersDay = LocalDate.ofYearDay(2014, 256);
+        assertThat(programmersDay.toString(), is(equalTo("2014-09-13")));
+        assertThat(programmersDay.getDayOfYear(), is(equalTo(256)));
+    }
+
+    @Test
+    public void shouldChangeDayMonthAndYearForGivenLocalDate() {
+        LocalDate day = LocalDate.now()
+                .withMonth(7)
+                .withYear(1968)
+                .withDayOfMonth(4);
+
+        assertThat(day.toString(), is(equalTo("1968-07-04")));
     }
 
     @Test
