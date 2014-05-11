@@ -80,6 +80,7 @@ public class Loader {
         };
     }
 
+    @SuppressWarnings("serial")
     public static class LoadingException extends RuntimeException {
         public LoadingException(String msg) {
             super(msg);

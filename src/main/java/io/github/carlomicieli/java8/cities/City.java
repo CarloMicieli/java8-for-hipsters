@@ -16,6 +16,7 @@
 package io.github.carlomicieli.java8.cities;
 
 import java.time.LocalDate;
+import java.util.Objects;
 
 /**
  * @author Carlo Micieli
@@ -59,6 +60,11 @@ public final class City {
 
     public LocalDate foundedAt() {
         return founded;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name);
     }
 
     @Override

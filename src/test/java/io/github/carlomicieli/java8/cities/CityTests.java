@@ -19,9 +19,7 @@ import org.junit.Test;
 
 import java.time.LocalDate;
 
-import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.is;
-import static org.junit.Assert.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /**
  * @author Carlo Micieli
@@ -32,22 +30,58 @@ public class CityTests {
 
     @Test
     public void shouldCreateNewCities() {
-        City c = Tokushima();
-        assertThat(c.getName(), is(equalTo("Tokushima")));
-        assertThat(c.getPrefecture(), is(equalTo("Tokushima")));
-        assertThat(c.getPopulation(), is(equalTo(266370)));
-        assertThat(c.getArea(), is(equalTo(191.39)));
-        assertThat(c.getDensity(), is(equalTo(1392.0)));
-        assertThat(c.foundedAt(), is(equalTo(FOUNDED_AT)));
+        City c = tokushima();
+
+        assertThat(c.getName()).isEqualTo("Tokushima");
+        assertThat(c.getPrefecture()).isEqualTo("Tokushima");
+        assertThat(c.getPopulation()).isEqualTo(266370);
+        assertThat(c.getArea()).isEqualTo(191.39);
+        assertThat(c.getDensity()).isEqualTo(1392.0);
+        assertThat(c.foundedAt()).isEqualTo(FOUNDED_AT);
     }
 
-    private static City Tokushima() {
+    @Test
+    public void shouldCheckWhetherTwoCitiesAreEquals() {
+        City a = tokushima();
+        City b = tokushima();
+
+        assertThat(a).isEqualTo(b);
+    }
+
+    @Test
+    public void shouldCheckWhetherTwoCitiesAreDifferent() {
+        City a = tokushima();
+        City b = nagoya();
+
+        assertThat(a).isNotEqualTo(b);
+    }
+
+    @Test
+    public void shouldReturnHashCodeForCities() {
+        City a = tokushima();
+        City b = tokushima();
+
+        assertThat(a.hashCode()).isEqualTo(b.hashCode());
+    }
+
+    private static City tokushima() {
         return new City(
                 "Tokushima",
                 "Tokushima",
                 266370,
                 191.39,
                 1392.0,
+                FOUNDED_AT
+        );
+    }
+
+    private static City nagoya() {
+        return new City(
+                "Nagoya",
+                "Aichi",
+                2_239_464,
+                326.45,
+                6_860.0,
                 FOUNDED_AT
         );
     }
