@@ -14,14 +14,11 @@
  * limitations under the License.
  */
 package io.github.carlomicieli.java8;
-
-import io.github.carlomicieli.java8.web.SparkApplication;
-
 /**
  * @author Carlo Micieli
  */
 public class MainClass {
     public static void main(String[] args) throws Exception {
-        SparkApplication.start();
+        System.out.println("Run ./gradlew check");
     }
 }
