@@ -7,12 +7,6 @@ Let's start cloning the repo:
 
     [carlo:~] $ git clone https://github.com/CarloMicieli/java8-for-hipsters.git
 
-To run the sample web application:
-    
-    [carlo:~] $ ./gradlew run
-
-The web server is listening at `http://localhost:4567`.
-
 To run the unit tests suite:
 
     [carlo:~] $ ./gradlew check
@@ -38,104 +32,7 @@ The data are used through Java `stream`s:
 The project depends on the following packages:
 
 * `Google GSON`
-* `Spark micro web framework`
-* `JUnit` and `Hamcrest` for testing
-
-## Everything is an API nowadays
-
-`GET /stadiums` --- the NFL stadiums list
-
-    [carlo:~] $ http http://localhost:4567/stadiums
-    HTTP/1.1 200 OK
-    Content-Length: 2020
-    Content-Type: application/json
-    Server: Jetty(9.0.2.v20130417)
-
-    [
-        {
-            "capacity": 75000, 
-            "id": 1, 
-            "location": "Santa Clara", 
-            "name": "Levis Stadium", 
-            "openedYear": 2014, 
-            "roofType": "Open", 
-            "state": "California", 
-            "surface": "419 Tifway Bermuda Grass", 
-            "teamNames": [
-                "San Francisco 49ers"
-            ]
-        }, 
-        ....
-    ]
-
-`GET /stadiums/:stadiumId` --- the information about the stadium with the `stadiumId`
-
-    [carlo:~] $ http http://localhost:4567/stadiums/1
-    HTTP/1.1 200 OK
-    Content-Length: 203
-    Content-Type: application/json
-    Server: Jetty(9.0.2.v20130417)
-
-    {
-        "capacity": 75000, 
-        "id": 1, 
-        "location": "Santa Clara", 
-        "name": "Levis Stadium", 
-        "openedYear": 2014, 
-        "roofType": "Open", 
-        "state": "California", 
-        "surface": "419 Tifway Bermuda Grass", 
-        "teamNames": [
-            "San Francisco 49ers"
-        ]
-    }
-
-`GET /teams/` --- the NFL teams list
-
-    [carlo:~] $ http http://localhost:4567/teams
-    HTTP/1.1 200 OK
-    Content-Length: 1067
-    Content-Type: application/json
-    Server: Jetty(9.0.2.v20130417)
-
-    [
-        {
-            "conference": "NFC", 
-            "division": "North", 
-            "foundedAt": 1900, 
-            "id": 1, 
-            "name": "Detroit Lions", 
-            "shortName": "DET"
-        }, 
-        {
-            "conference": "AFC", 
-            "division": "South", 
-            "foundedAt": 1900, 
-            "id": 2, 
-            "name": "Tennessee Titans", 
-            "shortName": "TEN"
-        }, 
-        ....
-    ]
-
-
-`GET /teams/:teamId` --- the information about the team with the `stadiumId`
-
-    [carlo:~] $ http http://localhost:4567/teams/1
-    HTTP/1.1 200 OK
-    Content-Length: 104
-    Content-Type: application/json
-    Server: Jetty(9.0.2.v20130417)
-
-    {
-        "conference": "NFC", 
-        "division": "North", 
-        "foundedAt": 1900, 
-        "id": 1, 
-        "name": "Detroit Lions", 
-        "shortName": "DET"
-    }
-
+* `JUnit`, `AssertJ` and `Hamcrest` for testing
 
 ## Functional programming
 
@@ -151,7 +48,7 @@ Even with this container class, it is still not safe to pass `null` around using
     Optional<String> none = Optional.ofNullable(null); // Optional.of(null) throws a NPE
     none.get(); // throws NoSuchElementException
 
-Monads? We don't need monads where we're going!! I'm no category theory guru, but thanks to the brand new `Optional` class is finally possible to get rid of all those ugly `null` checks in the code.
+Thanks to the brand new `Optional` class is finally possible to get rid of all those ugly `null` checks in the code.
 It looks something like this:
 
     Optional<Integer> someLen = Optional.of(1000L)
@@ -190,7 +87,24 @@ Time and data api has just got big time changes.
 
     LocalDate now = LocalDate.now();
 
+### CompletableFuture
 
+Since a long time the only abstraction we have for asynchronous computation was `Future<T>`, but the only actual
+functionality was to block waiting a result.
+Finally we have a nice abstraction in the new class `CompletableFuture<T>`.
+
+Creating a computation already completed (not much useful) is simple as:
+    
+    CompletableFuture<Integer> f1 = CompletableFuture.completedFuture(42);
+    
+In the more general use case we would like to pass a computation to be performed asynchronously. With lambda it something like this:
+
+    CompletableFuture<Integer> f1 = CompletableFuture.supplyAsync(() -> longRunningTask(42));
+    
+In this example the execution context is implicitly provided by a static method `ForkJoinPool.commonPool()`.
+
+
+    
 ## References
 * __Cay S. Horstmann__ (2014); `Java SE 8 for the Really Impatient`; Addison-Wesley Professional; 1st edition
 * __Raoul-Gabriel Urma, Mario Fusco, and Alan Mycroft__ (2014); `Java 8 in Action`; Manning Pubblishing; MEAP
@@ -200,3 +114,4 @@ Inspired by the following blog posts:
 * __Michael Scharhag__ [A deeper look into the Java 8 Date and Time API](http://www.mscharhag.com/2014/02/java-8-datetime-api.html "A deeper look into the Java 8 Date and Time API")
 * __Benjamin Winterberg__ [Java 8 tutorial](http://winterbe.com/posts/2014/03/16/java-8-tutorial "Java 8 tutorial")
 * __Justin Musgrove__ [IntStream examples](http://www.leveluplunch.com/java/examples/java-util-stream-intstream-example "IntStream examples")
+* __Tomasz Nurkiewicz__ [Java 8: Definitive guide to CompletableFuture](http://www.nurkiewicz.com/2013/05/java-8-definitive-guide-to.html)
