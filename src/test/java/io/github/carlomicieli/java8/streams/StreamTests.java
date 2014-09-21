@@ -18,6 +18,7 @@ package io.github.carlomicieli.java8.streams;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
@@ -25,6 +26,7 @@ import java.util.stream.Stream;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.Matchers.closeTo;
 import static org.hamcrest.collection.IsIterableContainingInOrder.contains;
 import static org.junit.Assert.assertThat;
 
@@ -59,6 +61,16 @@ public class StreamTests {
         List<Integer> values = s.collect(Collectors.toList());
         assertThat(values.size(), is(equalTo(8)));
         assertThat(values, contains(1, 2, 3, 4, 5, 6, 7, 8));
+    }
+
+    @Test
+    public void shouldCreateStreamsFromArrays() {
+        String[] words = new String[] {
+            "one", "two", "three", "four", "five"
+        };
+        Stream<String> wordsStream = Arrays.stream(words);
+
+        assertThat(wordsStream.toArray(String[]::new), is(equalTo(words)));
     }
 
     @Test
@@ -127,4 +139,19 @@ public class StreamTests {
 
         assertThat(nonNullCount, is(equalTo(3L)));
     }
+
+    @Test
+    public void shouldReturnSummaryStatistics() {
+        Stream<String> wordsStream = Stream.of("one", "two", "three", "four", "five", "six", "seven");
+
+        IntSummaryStatistics stats = wordsStream.collect(
+                Collectors.summarizingInt(String::length));
+
+        assertThat(stats.getMin(), is(equalTo(3)));
+        assertThat(stats.getMax(), is(equalTo(5)));
+        assertThat(stats.getCount(), is(equalTo(7L)));
+        assertThat(stats.getSum(), is(equalTo(27L)));
+        assertThat(stats.getAverage(), is(closeTo(3.857, 0.001)));
+    }
+
 }
